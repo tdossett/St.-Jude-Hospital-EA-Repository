@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Standards"
+    id="id-924e4a689627492092ddb6347dc6cba7"
+    documentation="In TOGAF, Standards refer to formalized specifications, guidelines, frameworks, or protocols that:&#xD;&#xA;&#xD;&#xA;•&#x9;Govern the design, development, and deployment of architecture components.&#xD;&#xA;•&#x9;Ensure interoperability, reusability, compliance, and integration.&#xD;&#xA;•&#x9;Support architectural governance and help manage technical debt.&#xD;&#xA;"/>

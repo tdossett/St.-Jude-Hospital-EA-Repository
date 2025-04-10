@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Guidelines"
+    id="id-efa6f73cae794abcb943b4f124cf1ea4"
+    documentation="Implementation Governance is about overseeing and guiding the implementation of architecture projects to ensure they conform to the approved architecture.&#xD;&#xA;&#xD;&#xA;In this context, guidelines are used to:&#xD;&#xA;&#xD;&#xA;•&#x9;Provide best practices and advisory material for solution development teams.&#xD;&#xA;•&#x9;Help projects stay within architectural boundaries.&#xD;&#xA;•&#x9;Guide decision-making where standards are silent or too rigid.&#xD;&#xA;•&#x9;Support compliance assessments during project checkpoints and reviews.&#xD;&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Locations"
+    id="id-226ebfdee86e4ab7b2a461dbeba21445"
+    documentation="A place where activities occur. Locations can be composed and decomposed."/>

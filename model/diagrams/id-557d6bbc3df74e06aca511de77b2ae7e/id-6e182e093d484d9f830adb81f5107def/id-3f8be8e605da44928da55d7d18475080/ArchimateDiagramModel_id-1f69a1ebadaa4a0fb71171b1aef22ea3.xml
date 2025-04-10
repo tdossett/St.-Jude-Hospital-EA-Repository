@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Processes"
+    id="id-1f69a1ebadaa4a0fb71171b1aef22ea3"
+    documentation="A process represents a sequence of activities that together achieve a specified outcome, can be decomposed into sub-processes, and can show operation of a business capability or service (at next level of detail).&#xD;&#xA;&#xD;&#xA;Processes may also be used to link organizations, business capabilities, services, and processes. A process may realize one service and/or orchestrate subordinate services."/>

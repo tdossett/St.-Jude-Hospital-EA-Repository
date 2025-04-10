@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Architecture Contracts"
+    id="id-eb42052df83f4cbcbe288ee5af8d2ebf"
+    documentation="An agreement between a consumer and a provider that establishes functional and non-functional parameters for interaction. This applies to all types of service interactions within the metamodel."/>
