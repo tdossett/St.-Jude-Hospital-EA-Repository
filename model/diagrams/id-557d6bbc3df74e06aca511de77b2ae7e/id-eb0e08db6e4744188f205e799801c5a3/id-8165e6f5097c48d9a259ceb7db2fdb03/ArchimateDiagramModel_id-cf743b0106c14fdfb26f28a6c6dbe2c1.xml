@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gaps"
+    id="id-cf743b0106c14fdfb26f28a6c6dbe2c1"
+    documentation="A statement of difference between two states. Used in the context of gap analysis, where the difference between the Baseline and Target Architecture is identified.&#xD;&#xA;&#xD;&#xA;Note:&#xD;&#xA;Gap analysis is described in the TOGAF Standard — ADM Techniques."/>

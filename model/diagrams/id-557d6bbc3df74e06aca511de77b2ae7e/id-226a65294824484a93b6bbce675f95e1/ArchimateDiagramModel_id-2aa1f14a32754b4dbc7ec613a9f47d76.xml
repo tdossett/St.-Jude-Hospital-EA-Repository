@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Architecture Principles"
+    id="id-2aa1f14a32754b4dbc7ec613a9f47d76"
+    documentation="A qualitative statement of intent that should be met by the architecture. It has at least a supporting rationale and a measure of importance.&#xD;&#xA;&#xD;&#xA;Note:&#xD;&#xA;A sample set of Architecture Principles is defined in the TOGAF Standard — ADM Techniques."/>

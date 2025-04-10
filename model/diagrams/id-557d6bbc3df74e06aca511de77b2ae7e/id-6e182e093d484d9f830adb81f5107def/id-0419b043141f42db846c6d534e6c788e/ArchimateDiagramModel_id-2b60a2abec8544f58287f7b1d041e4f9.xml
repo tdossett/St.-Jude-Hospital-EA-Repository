@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Services"
+    id="id-2b60a2abec8544f58287f7b1d041e4f9"
+    documentation="Supports the business by encapsulating a unique element of business behavior; a service offered external to the enterprise may be supported by business services."/>
