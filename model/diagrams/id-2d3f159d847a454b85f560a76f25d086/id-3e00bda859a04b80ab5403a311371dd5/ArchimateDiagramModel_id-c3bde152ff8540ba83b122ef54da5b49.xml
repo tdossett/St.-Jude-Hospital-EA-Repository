@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Architecture"
+    id="id-c3bde152ff8540ba83b122ef54da5b49"
+    documentation="Data Architecture (Cross-layer)&#xD;&#xA;&#xD;&#xA;Components:&#xD;&#xA;&#xD;&#xA;•&#x9;Data Entity (Data Object)&#xD;&#xA;•&#x9;Logical Data (Data Component)&#xD;&#xA;•&#x9;Physical Data (Artifact)&#xD;&#xA;•&#x9;Data Flow (Data Flow)&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Data Entity: Patient Record&#xD;&#xA;•&#x9;Logical Data: Clinical Notes&#xD;&#xA;•&#x9;Physical Data: Encrypted MRI scan file&#xD;&#xA;•&#x9;Data Flow: Transfer of vitals from bedside device to EHR&#xD;&#xA;"/>

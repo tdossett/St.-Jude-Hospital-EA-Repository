@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Interoperability Standards"
+    id="id-a851b3be56314bcea6e6e06db516ac9f"
+    documentation="Interoperability Standards (&lt;&lt;Standard>>)&#xD;&#xA;&#xD;&#xA;Description: Frameworks enabling systems to exchange and use information.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;FHIR standards implementation&#xD;&#xA;•&#x9;HL7 v2 and v3 messaging&#xD;&#xA;•&#x9;DICOM for imaging exchange&#xD;&#xA;•&#x9;NCPDP for pharmacy data&#xD;&#xA;•&#x9;IHE integration profiles&#xD;&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compliance Architecture"
+    id="id-332bbfb0f2a145cd91912b5083525efe"
+    documentation="Compliance Architecture (Requirement)&#xD;&#xA;&#xD;&#xA;•&#x9;HIPAA Compliance (Constraint)&#xD;&#xA;•&#x9;Data Protection (Requirement)&#xD;&#xA;•&#x9;Regulatory Standards (Standard)&#xD;&#xA;•&#x9;Audit Policies (Policy)&#xD;&#xA;&#xD;&#xA;Example: HIPAA encryption requirements for PHI.&#xD;&#xA;"/>

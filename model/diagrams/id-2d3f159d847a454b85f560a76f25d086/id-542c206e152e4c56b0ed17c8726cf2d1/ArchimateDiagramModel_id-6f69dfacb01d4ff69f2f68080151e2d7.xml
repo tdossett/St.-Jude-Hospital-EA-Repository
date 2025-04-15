@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Security Architecture"
+    id="id-6f69dfacb01d4ff69f2f68080151e2d7"
+    documentation="Security Architecture (&lt;&lt;Requirement>>)&#xD;&#xA;&#xD;&#xA;Description: Protective measures for systems, data, and infrastructure.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Identity and access management&#xD;&#xA;•&#x9;Network security controls&#xD;&#xA;•&#x9;Endpoint protection&#xD;&#xA;•&#x9;Security monitoring systems&#xD;&#xA;•&#x9;Incident response procedures&#xD;&#xA;"/>
