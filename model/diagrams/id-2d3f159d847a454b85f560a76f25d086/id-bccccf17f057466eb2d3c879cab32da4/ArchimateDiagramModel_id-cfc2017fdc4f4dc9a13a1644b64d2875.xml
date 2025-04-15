@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Medical Device Integration"
+    id="id-cfc2017fdc4f4dc9a13a1644b64d2875"
+    documentation="Medical Device Integration (&lt;&lt;Technology Interface>>)&#xD;&#xA;&#xD;&#xA;Description: Connectivity between medical devices and clinical systems.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Patient monitoring device integration&#xD;&#xA;•&#x9;Smart pump connectivity&#xD;&#xA;•&#x9;Ventilator data acquisition&#xD;&#xA;•&#x9;Point-of-care testing devices&#xD;&#xA;•&#x9;Medical IoT device management&#xD;&#xA;"/>

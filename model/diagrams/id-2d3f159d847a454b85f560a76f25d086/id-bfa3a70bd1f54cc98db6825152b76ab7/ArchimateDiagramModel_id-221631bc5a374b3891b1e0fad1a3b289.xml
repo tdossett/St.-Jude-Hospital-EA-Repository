@@ -1,4 +1,5 @@
 <archimate:ArchimateDiagramModel
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Implementation Governance View"
-    id="id-221631bc5a374b3891b1e0fad1a3b289"/>
+    name="Implementation &amp; Migration"
+    id="id-221631bc5a374b3891b1e0fad1a3b289"
+    documentation="Implementation &amp; Migration (Work Package)&#xD;&#xA;&#xD;&#xA;•&#x9;Transition Architecture (Plateau)&#xD;&#xA;•&#x9;Migration Plan (Work Package)&#xD;&#xA;•&#x9;Implementation Project (Deliverable)&#xD;&#xA;•&#x9;Gap Analysis (Gap)&#xD;&#xA;&#xD;&#xA;Example: Migrating from on-premise to AWS.&#xD;&#xA;"/>

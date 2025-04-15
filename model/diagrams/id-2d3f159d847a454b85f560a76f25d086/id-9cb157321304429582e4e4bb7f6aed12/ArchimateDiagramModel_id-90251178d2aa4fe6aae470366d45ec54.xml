@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Clinical Architecture"
+    id="id-90251178d2aa4fe6aae470366d45ec54"
+    documentation="Clinical Architecture (&lt;&lt;Business Service>>)&#xD;&#xA;&#xD;&#xA;Description: Healthcare-specific business capabilities and processes.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Care pathways&#xD;&#xA;•&#x9;Clinical workflows&#xD;&#xA;•&#x9;Order sets&#xD;&#xA;•&#x9;Clinical protocols&#xD;&#xA;•&#x9;Patient care models&#xD;&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Health Information Exchange"
+    id="id-3bf3833b89074b31a428f1da9a9a726a"
+    documentation="Health Information Exchange (&lt;&lt;Application Collaboration>>)&#xD;&#xA;&#xD;&#xA;Description: Infrastructure for sharing patient data across organizations.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Regional HIE networks&#xD;&#xA;•&#x9;Direct Secure Messaging&#xD;&#xA;•&#x9;Consolidated Clinical Document Architecture (C-CDA) exchange&#xD;&#xA;•&#x9;Query-based document exchange&#xD;&#xA;•&#x9;Patient record locator services&#xD;&#xA;"/>

@@ -1,4 +1,5 @@
 <archimate:ArchimateDiagramModel
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Motivation View"
-    id="id-a532ef9d31a34363a8de75b03d29b662"/>
+    name="Integration Architecture"
+    id="id-a532ef9d31a34363a8de75b03d29b662"
+    documentation="Integration Architecture (Application Services)&#xD;&#xA;&#xD;&#xA;•&#x9;HL7/FHIR Integration (Application Interface)&#xD;&#xA;•&#x9;API Gateway (Application Service)&#xD;&#xA;•&#x9;ETL Services (Application Function)&#xD;&#xA;•&#x9;Data Exchange (Application Collaboration)&#xD;&#xA;&#xD;&#xA;Example: Secure data exchange using FHIR.&#xD;&#xA;"/>
