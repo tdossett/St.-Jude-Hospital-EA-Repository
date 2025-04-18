@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Platform"
+    id="id-0d89ee145ed342e3b12c8a1727937cf6"
+    documentation="Platform (&lt;&lt;System Software>>)&#xD;&#xA;&#xD;&#xA;Description: Foundational software environments that host applications.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Operating systems&#xD;&#xA;•&#x9;Virtualization platforms&#xD;&#xA;•&#x9;Database management systems&#xD;&#xA;•&#x9;Container orchestration platforms&#xD;&#xA;•&#x9;Application servers"/>

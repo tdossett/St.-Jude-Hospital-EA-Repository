@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Network"
+    id="id-2dde6f253e9649bf950be89674769504"
+    documentation="Network (&lt;&lt;Communication Path>>)&#xD;&#xA;&#xD;&#xA;Description: Communication infrastructure connecting systems.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Hospital Wi-Fi networks&#xD;&#xA;•&#x9;Secure clinical networks&#xD;&#xA;•&#x9;Remote site connectivity&#xD;&#xA;•&#x9;Telemedicine networking&#xD;&#xA;•&#x9;Internet of Medical Things (IoMT) networks"/>
