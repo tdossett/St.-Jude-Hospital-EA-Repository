@@ -1,0 +1,5 @@
+<archimate:ArchimateDiagramModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Technology Service"
+    id="id-12a0c9391652405e94ddfe6d2a81be31"
+    documentation="Technology Service (&lt;&lt;Technology Service>>)&#xD;&#xA;&#xD;&#xA;Description: Technical capabilities provided by the infrastructure.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Data backup services&#xD;&#xA;•&#x9;Load balancing&#xD;&#xA;•&#x9;Disaster recovery&#xD;&#xA;•&#x9;Authentication services&#xD;&#xA;•&#x9;High-availability clustering"/>

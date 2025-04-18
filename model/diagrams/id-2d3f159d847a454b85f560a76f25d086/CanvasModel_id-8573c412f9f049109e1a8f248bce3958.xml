@@ -3,7 +3,74 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     xmlns:canvas="http://www.archimatetool.com/archimate/canvas"
     name="Enterprise Architecture View"
-    id="id-8573c412f9f049109e1a8f248bce3958">
+    id="id-8573c412f9f049109e1a8f248bce3958"
+    documentation="St. Jude Hosptial Enterprise Architecture has adpated the TOGAF (The Open Group Architecture Framework) Content Framework in which is a crucial part of the TOGAF standard, working in tandem with the Architecture Development Method (ADM). The ADM provides the process for developing an enterprise architecture, while the Content Framework defines what the architecture should look like, ensuring consistency and completeness of the work products generated during the ADM process. &#xD;&#xA;&#xD;&#xA;Here's a breakdown of the TOGAF Content Framework and the ADM phases:&#xD;&#xA;&#xD;&#xA;1. TOGAF Content Framework:&#xD;&#xA;&#xD;&#xA;Purpose: Provides a structured metamodel for architectural artifacts and a conceptual outline of architecture deliverables. &#xD;&#xA;&#xD;&#xA;Key Elements:&#xD;&#xA;&#xD;&#xA;•&#x9;Deliverables: Contractually specified work products formally reviewed and approved by stakeholders.&#xD;&#xA;•&#x9;Artifacts: Architectural work products describing an aspect of the architecture, such as diagrams, matrices, and catalogs.&#xD;&#xA;•&#x9;Building Blocks: Potentially reusable components of business, IT, or architectural capability. &#xD;&#xA;&#xD;&#xA;2. TOGAF Architecture Development Method (ADM) Phases:&#xD;&#xA;&#xD;&#xA;The ADM is an iterative, cyclical approach for developing an enterprise architecture.&#xD;&#xA;">
+  <children
+      xsi:type="canvas:CanvasModelBlock"
+      id="id-603c21ad6a60446b9ea44efbc40023b0"
+      textAlignment="1"
+      borderColor="#000000">
+    <bounds
+        x="39"
+        width="970"
+        height="373"/>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-17cc660b8c7d4fbc8f9e3320c9933ab0"
+        fontColor="#ffffff"
+        fillColor="#8000ff">
+      <bounds
+          x="587"
+          y="300"
+          width="181"
+          height="61"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-190ff404b1bc4b5c94b90546e7613b84.xml#id-190ff404b1bc4b5c94b90546e7613b84"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-d8b9b0f24db045ca9cf2f703d1a5aedd"
+        fontColor="#ffffff"
+        fillColor="#008040">
+      <bounds
+          x="392"
+          y="229"
+          width="181"
+          height="61"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-fef198fada0b456b930d331373eede88.xml#id-fef198fada0b456b930d331373eede88"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-79040ddb44e045a48a543f4a4309484c"
+        fontColor="#ffffff"
+        fillColor="#008040">
+      <bounds
+          x="586"
+          y="229"
+          width="181"
+          height="61"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-cfc2017fdc4f4dc9a13a1644b64d2875.xml#id-cfc2017fdc4f4dc9a13a1644b64d2875"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-07c1e4298a1443a0b2bd20ca40558c12"
+        fontColor="#ffffff"
+        fillColor="#8000ff">
+      <bounds
+          x="392"
+          y="300"
+          width="181"
+          height="61"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-d3198db2951646348c007f3edef91492.xml#id-d3198db2951646348c007f3edef91492"/>
+    </children>
+  </children>
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-10ec2db67fc9491fb330361e3b9951c0"
@@ -72,20 +139,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelReference"
-      id="id-d8b9b0f24db045ca9cf2f703d1a5aedd"
-      fontColor="#ffffff"
-      fillColor="#008040">
-    <bounds
-        x="624"
-        y="300"
-        width="181"
-        height="61"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-fef198fada0b456b930d331373eede88.xml#id-fef198fada0b456b930d331373eede88"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelReference"
       id="id-defccb092f09457399888ae2837dcb32"
       fontColor="#ffffff"
       fillColor="#ff0000">
@@ -114,20 +167,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelReference"
-      id="id-17cc660b8c7d4fbc8f9e3320c9933ab0"
-      fontColor="#ffffff"
-      fillColor="#8000ff">
-    <bounds
-        x="432"
-        y="228"
-        width="181"
-        height="61"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-190ff404b1bc4b5c94b90546e7613b84.xml#id-190ff404b1bc4b5c94b90546e7613b84"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelReference"
       id="id-c01c6f359e0641788d7e771448a09404"
       fontColor="#ffffff"
       fillColor="#0080ff">
@@ -139,20 +178,6 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-a532ef9d31a34363a8de75b03d29b662.xml#id-a532ef9d31a34363a8de75b03d29b662"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelReference"
-      id="id-07c1e4298a1443a0b2bd20ca40558c12"
-      fontColor="#ffffff"
-      fillColor="#8000ff">
-    <bounds
-        x="624"
-        y="228"
-        width="181"
-        height="61"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-d3198db2951646348c007f3edef91492.xml#id-d3198db2951646348c007f3edef91492"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelReference"
@@ -223,20 +248,6 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-a851b3be56314bcea6e6e06db516ac9f.xml#id-a851b3be56314bcea6e6e06db516ac9f"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelReference"
-      id="id-79040ddb44e045a48a543f4a4309484c"
-      fontColor="#ffffff"
-      fillColor="#008080">
-    <bounds
-        x="432"
-        y="300"
-        width="181"
-        height="61"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-cfc2017fdc4f4dc9a13a1644b64d2875.xml#id-cfc2017fdc4f4dc9a13a1644b64d2875"/>
   </children>
   <children
       xsi:type="canvas:CanvasModelSticky"

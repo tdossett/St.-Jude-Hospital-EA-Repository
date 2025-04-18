@@ -3,16 +3,89 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Technology Architecture"
     id="id-fef198fada0b456b930d331373eede88"
-    documentation="Technology Architecture (Technology Layer)&#xD;&#xA;&#xD;&#xA;Components:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure (Node)&#xD;&#xA;•&#x9;Platform (System Software)&#xD;&#xA;•&#x9;Network (Communication Path)&#xD;&#xA;•&#x9;Technology Service (Technology Service)&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure: Cloud VM hosting EHR&#xD;&#xA;•&#x9;Platform: AWS Lambda&#xD;&#xA;•&#x9;Network: Secure VPN&#xD;&#xA;•&#x9;Technology Service: Storage as a Service&#xD;&#xA;">
+    documentation="The technology architecture describes the hardware, software, and network infrastructure needed to support the deployment of applications.&#xD;&#xA;&#xD;&#xA;Infrastructure (&lt;&lt;Node>>)&#xD;&#xA;&#xD;&#xA;Description: Physical computing and network resources.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Hospital data centers&#xD;&#xA;•&#x9;Server clusters&#xD;&#xA;•&#x9;Cloud infrastructure&#xD;&#xA;•&#x9;Network hardware&#xD;&#xA;•&#x9;Mobile device infrastructure&#xD;&#xA;&#xD;&#xA;Platform (&lt;&lt;System Software>>)&#xD;&#xA;&#xD;&#xA;Description: Foundational software environments that host applications.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Operating systems&#xD;&#xA;•&#x9;Virtualization platforms&#xD;&#xA;•&#x9;Database management systems&#xD;&#xA;•&#x9;Container orchestration platforms&#xD;&#xA;•&#x9;Application servers&#xD;&#xA;&#xD;&#xA;Network (&lt;&lt;Communication Path>>)&#xD;&#xA;&#xD;&#xA;Description: Communication infrastructure connecting systems.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Hospital Wi-Fi networks&#xD;&#xA;•&#x9;Secure clinical networks&#xD;&#xA;•&#x9;Remote site connectivity&#xD;&#xA;•&#x9;Telemedicine networking&#xD;&#xA;•&#x9;Internet of Medical Things (IoMT) networks&#xD;&#xA;&#xD;&#xA;Technology Service (&lt;&lt;Technology Service>>)&#xD;&#xA;&#xD;&#xA;Description: Technical capabilities provided by the infrastructure.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Data backup services&#xD;&#xA;•&#x9;Load balancing&#xD;&#xA;•&#x9;Disaster recovery&#xD;&#xA;•&#x9;Authentication services&#xD;&#xA;•&#x9;High-availability clustering&#xD;&#xA;&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-f118ca8bee3a4648ae1d9372a581d575"
       name="Tecnology Architecture View"
-      textAlignment="1">
+      fontColor="#ffffff"
+      textAlignment="1"
+      fillColor="#008040"
+      documentation="Technology Architecture (Technology Layer)&#xD;&#xA;&#xD;&#xA;Components:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure (Node)&#xD;&#xA;•&#x9;Platform (System Software)&#xD;&#xA;•&#x9;Network (Communication Path)&#xD;&#xA;•&#x9;Technology Service (Technology Service)&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure: Cloud VM hosting EHR&#xD;&#xA;•&#x9;Platform: AWS Lambda&#xD;&#xA;•&#x9;Network: Secure VPN&#xD;&#xA;•&#x9;Technology Service: Storage as a Service">
     <bounds
         x="36"
         y="12"
-        width="400"
-        height="140"/>
+        width="580"
+        height="181"/>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-cb468dc55a77480daf689c2da20017ba"
+        fontColor="#ffffff"
+        fillColor="#00ae00">
+      <bounds
+          x="24"
+          y="36"
+          width="157"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-b410663a3ccb4de28a99314243aa6ed4.xml#id-b410663a3ccb4de28a99314243aa6ed4"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-cdd09bc84fc5468bb066d1e45e638e0d"
+        fontColor="#ffffff"
+        fillColor="#00b700">
+      <bounds
+          x="24"
+          y="108"
+          width="157"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-2dde6f253e9649bf950be89674769504.xml#id-2dde6f253e9649bf950be89674769504"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-e57d3c27e2f8412a86ea0d8145d2ef2d"
+        fontColor="#ffffff"
+        fillColor="#00b700">
+      <bounds
+          x="192"
+          y="36"
+          width="157"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-0d89ee145ed342e3b12c8a1727937cf6.xml#id-0d89ee145ed342e3b12c8a1727937cf6"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-e7a668d25069409991ab226633059703"
+        fontColor="#ffffff"
+        fillColor="#00b700">
+      <bounds
+          x="192"
+          y="108"
+          width="157"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-12a0c9391652405e94ddfe6d2a81be31.xml#id-12a0c9391652405e94ddfe6d2a81be31"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-6d1c727eeab0450ea4bab38baba7cc6b"
+        fontColor="#ffffff"
+        fillColor="#00b700">
+      <bounds
+          x="361"
+          y="36"
+          width="157"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-cdce107871da4017ab28241d579058ce.xml#id-cdce107871da4017ab28241d579058ce"/>
+    </children>
   </children>
 </archimate:ArchimateDiagramModel>
