@@ -1,0 +1,7 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Physiotherapy"
+    id="id-819e5bcd856544628024216d2fe87030">
+  <profiles
+      href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
+</archimate:BusinessActor>

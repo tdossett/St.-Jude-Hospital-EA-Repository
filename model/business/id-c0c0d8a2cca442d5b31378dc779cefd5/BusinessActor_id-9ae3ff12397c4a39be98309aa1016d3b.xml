@@ -1,0 +1,7 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Surgical"
+    id="id-9ae3ff12397c4a39be98309aa1016d3b">
+  <profiles
+      href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
+</archimate:BusinessActor>

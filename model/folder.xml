@@ -2,4 +2,10 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="St. Jude Hospital Enterprise Architecture"
     id="id-fb31af1b852d4b45be9ccbb6071792d5"
-    version="5.0.0"/>
+    version="5.0.0">
+  <profiles
+      name="Department"
+      id="id-8c35347b413241649dea8137ae2cf6a2"
+      imagePath="images/_cWMbsCFWEfCS4_dITMlUWA.png"
+      conceptType="BusinessActor"/>
+</archimate:ArchimateModel>

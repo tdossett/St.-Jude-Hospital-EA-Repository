@@ -1,0 +1,7 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Security and Ambulance"
+    id="id-3f9953982edb4a6494d423535512a738">
+  <profiles
+      href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
+</archimate:BusinessActor>

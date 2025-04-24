@@ -1,0 +1,7 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Paediactrics"
+    id="id-ec8e956782094db2848e7d55d162d605">
+  <profiles
+      href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
+</archimate:BusinessActor>

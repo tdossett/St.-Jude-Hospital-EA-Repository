@@ -1,0 +1,7 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OPC"
+    id="id-077df6ba4c6a42d2b7beedbaf0a92259">
+  <profiles
+      href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
+</archimate:BusinessActor>
