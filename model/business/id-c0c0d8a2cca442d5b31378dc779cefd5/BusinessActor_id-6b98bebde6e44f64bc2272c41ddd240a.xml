@@ -1,7 +1,7 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Emergency Room"
-    id="id-4c8cd5c8618449cc85deb73140e0d47b">
+    name="Hospital Campas Departments"
+    id="id-6b98bebde6e44f64bc2272c41ddd240a">
   <profiles
       href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
 </archimate:BusinessActor>

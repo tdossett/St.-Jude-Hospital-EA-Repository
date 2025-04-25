@@ -58,7 +58,7 @@
             target="id-b6d74af1490e4f4ea314a39f2fe7e6f9">
           <features
               name="labelExpression"
-              value="host    "/>
+              value="hosts    "/>
           <archimateRelationship
               xsi:type="archimate:CompositionRelationship"
               href="CompositionRelationship_id-98ab96a14b6f467692b7958fd202fe0c.xml#id-98ab96a14b6f467692b7958fd202fe0c"/>
