@@ -1,4 +1,5 @@
 <archimate:Device
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Mobile Devices"
-    id="id-ce4e8eb234d8499a8b4d739af18ed0d9"/>
+    id="id-ce4e8eb234d8499a8b4d739af18ed0d9"
+    documentation="Mobile Devices &#xD;&#xA;&#xD;&#xA;Function: Portable computing for clinical staff&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connect via → Wireless Networks: For mobility&#xD;&#xA;&#x9;Access → Telehealth Platform, EHR: For remote work&#xD;&#xA;&#x9;Protected by → Mobile Device Management: For security controls&#xD;&#xA;&#x9;Secured via → Data Encryption: For data protection&#xD;&#xA;"/>

@@ -1,7 +1,8 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Radiology"
-    id="id-4dfd3eb74bc74b77be3cc1b4e64e5ad8">
+    id="id-4dfd3eb74bc74b77be3cc1b4e64e5ad8"
+    documentation="Radiology Department">
   <profiles
       href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
 </archimate:BusinessActor>

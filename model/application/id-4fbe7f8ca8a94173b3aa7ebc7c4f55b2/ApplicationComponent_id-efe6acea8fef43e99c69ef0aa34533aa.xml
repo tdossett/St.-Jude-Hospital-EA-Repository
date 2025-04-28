@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RIS System"
+    id="id-efe6acea8fef43e99c69ef0aa34533aa"
+    documentation="Radiology Information System (RIS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages radiology workflows, scheduling, reporting&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → EHR: Shares radiology reports with patient records&#xD;&#xA;o&#x9;Integrates with → PACS: For image workflow management&#xD;&#xA;o&#x9;Used by → Radiology Department: Primary users of the system&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: For reliability and performance"/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PACS System"
+    id="id-d7865e6bd771436fae2c4ac2bb84fe4b"
+    documentation="Picture Archiving and Communication System (PACS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Stores, retrieves, presents, and shares medical images&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Stores data in → Storage SAN: Requires large storage capacity for images&#xD;&#xA;o&#x9;Integrates with → EHR: Makes images available in patient records&#xD;&#xA;o&#x9;Used by → Radiology Department: Primary system for radiologists&#xD;&#xA;o&#x9;Requires → High Bandwidth Network: For transferring large image files&#xD;&#xA;"/>

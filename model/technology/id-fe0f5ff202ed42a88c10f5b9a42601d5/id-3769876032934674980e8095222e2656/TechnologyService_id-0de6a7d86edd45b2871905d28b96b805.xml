@@ -1,4 +1,5 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Indentity Management"
-    id="id-0de6a7d86edd45b2871905d28b96b805"/>
+    id="id-0de6a7d86edd45b2871905d28b96b805"
+    documentation="Identity Management &#xD;&#xA;&#xD;&#xA;Function: Manages user identities, authentication, authorization&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Provides → Authentication Services: For all systems and applications&#xD;&#xA;&#x9;Integrates with → Access Control: For permission enforcement&#xD;&#xA;&#x9;Enforces → Multi-Factor Authentication: For sensitive systems&#xD;&#xA;&#x9;Syncs with → HR Systems: For employment status verification"/>

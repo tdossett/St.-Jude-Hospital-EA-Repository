@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Backup System"
-    id="id-898d60f2081c48038e9f1ff9708596f7"/>
+    id="id-898d60f2081c48038e9f1ff9708596f7"
+    documentation="Backup System &#xD;&#xA;Function: Creates and manages data backups&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Backs up → EHR, Critical Data: For disaster recovery&#xD;&#xA;&#x9;Replicates to → Disaster Recovery: For off-site protection&#xD;&#xA;&#x9;Implements → Retention Policies: For compliance requirements&#xD;&#xA;&#x9;Monitored by → Backup Management: For success verification&#xD;&#xA;"/>

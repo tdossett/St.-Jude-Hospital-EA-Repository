@@ -1,4 +1,5 @@
 <archimate:CommunicationNetwork
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Access Layer"
-    id="id-6275d195cfc546b19363688bc9a7096f"/>
+    id="id-6275d195cfc546b19363688bc9a7096f"
+    documentation="Access Layer&#xD;&#xA;&#xD;&#xA;•&#x9;Access Switches &#xD;&#xA;&#xD;&#xA;Function: Provides connectivity to end devices and users&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Distribution Layer: Uplink at 1/10 Gbps&#xD;&#xA;&#x9;Connects to → Clinical Workstations, Medical Devices: User connectivity&#xD;&#xA;&#x9;Enforced by → Network Access Control: For device authentication&#xD;&#xA;&#xD;&#xA;•&#x9;PoE Switches &#xD;&#xA;&#xD;&#xA;Function: Provides Power over Ethernet for devices&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Powers → Wireless Access Points, IP Phones, Security Cameras&#xD;&#xA;&#x9;Connects to → Distribution Layer: For network access&#xD;&#xA;&#xD;&#xA;•&#x9;Edge Computing Nodes &#xD;&#xA;&#xD;&#xA;Function: Provides localized computing resources near data sources&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → IoT Devices: For local data processing&#xD;&#xA;&#x9;Connects to → Access Layer: For network connectivity&#xD;&#xA;&#x9;Feeds data to → Analytics Platform: For further processing&#xD;&#xA;"/>

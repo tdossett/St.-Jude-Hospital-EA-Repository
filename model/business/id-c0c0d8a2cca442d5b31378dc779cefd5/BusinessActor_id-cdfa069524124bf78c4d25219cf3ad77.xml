@@ -1,7 +1,8 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Admin 2"
-    id="id-cdfa069524124bf78c4d25219cf3ad77">
+    id="id-cdfa069524124bf78c4d25219cf3ad77"
+    documentation="Admin Department">
   <profiles
       href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
 </archimate:BusinessActor>

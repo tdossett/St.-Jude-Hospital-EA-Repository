@@ -1,4 +1,5 @@
 <archimate:CommunicationNetwork
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Internet Gateway"
-    id="id-d92d1762b527480c952279bd22a3a851"/>
+    id="id-d92d1762b527480c952279bd22a3a851"
+    documentation="Internet Gateway &#xD;&#xA;&#xD;&#xA;Function: Provides controlled access to/from the internet&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Core Network: For internal access to external resources&#xD;&#xA;&#x9;Controlled by → Firewalls: For security enforcement&#xD;&#xA;&#x9;Monitored by → IDS/IPS: For threat detection&#xD;&#xA;"/>

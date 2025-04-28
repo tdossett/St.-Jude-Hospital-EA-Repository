@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Hypervisor"
-    id="id-f74e856b1dde4ab7a712e84f125fd444"/>
+    name="Hypervisor Platform"
+    id="id-f74e856b1dde4ab7a712e84f125fd444"
+    documentation="Hypervisor Platform &#xD;&#xA;&#xD;&#xA;Function: Virtualization layer managing virtual machines&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Manages → Virtual Machines, Containers&#xD;&#xA;&#x9;Implements → High Availability: For critical applications&#xD;&#xA;&#x9;Enables → Resource Allocation: Based on application needs&#xD;&#xA;&#x9;Runs on → VM Host Cluster: Physical hardware layer&#xD;&#xA;"/>

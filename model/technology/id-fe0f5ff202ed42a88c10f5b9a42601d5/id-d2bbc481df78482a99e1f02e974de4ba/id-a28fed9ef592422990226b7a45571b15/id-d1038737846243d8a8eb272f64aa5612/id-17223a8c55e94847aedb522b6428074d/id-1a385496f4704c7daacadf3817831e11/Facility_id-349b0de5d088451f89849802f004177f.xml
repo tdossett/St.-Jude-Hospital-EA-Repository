@@ -1,4 +1,5 @@
 <archimate:Facility
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Main Hospital Building"
-    id="id-349b0de5d088451f89849802f004177f"/>
+    id="id-349b0de5d088451f89849802f004177f"
+    documentation="Main Hospital Building&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Primary facility housing most departments and services&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Houses → Data Center: Contains the central IT infrastructure that powers all hospital operations&#xD;&#xA;&#xD;&#xA;o&#x9;Contains → Various departments including Emergency and Radiology"/>
