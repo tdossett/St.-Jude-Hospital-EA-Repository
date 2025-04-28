@@ -1,4 +1,5 @@
 <archimate:Device
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Workstations"
-    id="id-135169f619ac4dbb94845eac43957b0c"/>
+    name="Clinical Workstations "
+    id="id-135169f619ac4dbb94845eac43957b0c"
+    documentation="Clinical Workstations &#xD;&#xA;&#xD;&#xA;Function: Primary computing devices for clinical staff&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Used by → Nurse Stations, Clinical Areas&#xD;&#xA;&#x9;Access → EHR: Primary clinical application&#xD;&#xA;&#x9;Connected to → Access Layer: For network connectivity&#xD;&#xA;&#x9;Protected by → Endpoint Protection: For security&#xD;&#xA;&#x9;Managed via → Centralized Management: For updates and configuration&#xD;&#xA;"/>

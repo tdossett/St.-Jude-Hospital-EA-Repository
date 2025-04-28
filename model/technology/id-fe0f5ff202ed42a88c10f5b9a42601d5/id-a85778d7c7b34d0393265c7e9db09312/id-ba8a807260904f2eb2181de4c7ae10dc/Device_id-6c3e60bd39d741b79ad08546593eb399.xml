@@ -1,4 +1,5 @@
 <archimate:Device
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Medical Devices"
-    id="id-6c3e60bd39d741b79ad08546593eb399"/>
+    id="id-6c3e60bd39d741b79ad08546593eb399"
+    documentation="Medical Devices &#xD;&#xA;&#xD;&#xA;Function: Specialized equipment for diagnostics and treatment&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Isolated in → Medical Device VLAN: For security and reliability&#xD;&#xA;&#x9;Connected to → Medical Device WiFi: For wireless devices&#xD;&#xA;&#x9;Monitored by → Device Management System: For status and alerts&#xD;&#xA;&#x9;Send data to → EHR: For patient record integration&#xD;&#xA;"/>

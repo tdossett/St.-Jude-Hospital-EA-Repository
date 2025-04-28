@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Billing System"
+    id="id-74c95e1ccd3c49a0a627848ed01fd595"
+    documentation="Billing System&#xD;&#xA;•&#x9;Function: Manages patient billing, insurance claims, payments&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;o&#x9;Integrates with → EHR: Receives service information for billing&#xD;&#xA;o&#x9;Requires → Data Encryption: For financial data protection&#xD;&#xA;o&#x9;Protected by → Data Loss Prevention: To prevent leakage of sensitive financial information&#xD;&#xA;"/>

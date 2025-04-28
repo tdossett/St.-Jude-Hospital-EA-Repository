@@ -1,4 +1,5 @@
 <archimate:ApplicationService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EHR System"
-    id="id-12772538e77d4bec9296ffe0e4ba7e5d"/>
+    id="id-12772538e77d4bec9296ffe0e4ba7e5d"
+    documentation="Electronic Health Record (EHR) System&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Central repository for patient medical records and clinical documentation&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → PACS: For embedding medical images in patient records&#xD;&#xA;o&#x9;Integrates with → RIS: For radiology reports and workflow&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: Virtualized for high availability&#xD;&#xA;o&#x9;Backed up by → Backup System: For data protection and compliance&#xD;&#xA;o&#x9;Accessed by → Clinical Workstations: Primary user interface for clinicians&#xD;&#xA;o&#x9;Receives data from → Bedside Monitors: Automated integration of patient vitals&#xD;&#xA;o&#x9;Secured by → Identity Management: For proper access control&#xD;&#xA;o&#x9;Protected by → Data Encryption: For PHI security compliance&#xD;&#xA;"/>

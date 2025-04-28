@@ -11,98 +11,13 @@
       fontColor="#ffffff"
       textAlignment="1"
       fillColor="#008000"
+      documentation="Technology Layer&#xD;&#xA;&#xD;&#xA;Network Infrastructure&#xD;&#xA;&#xD;&#xA;Local Area Network (LAN)&#xD;&#xA;&#xD;&#xA;Core Network&#xD;&#xA;&#xD;&#xA;•&#x9;Core Switches &#xD;&#xA;&#xD;&#xA;o&#x9;Function: High-capacity, high-performance network backbone&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Distribution Layer: At 10/40 Gbps&#xD;&#xA;&#x9;Connects to → Data Center Infrastructure: At 40/100 Gbps&#xD;&#xA;&#x9;Connects to → WAN: At 10/40 Gbps&#xD;&#xA;&#x9;Secured by → Firewalls: For network segmentation and security&#xD;&#xA;&#x9;Monitored by → IDS/IPS: For threat detection and prevention&#xD;&#xA;&#xD;&#xA;•&#x9;Router Cluster &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Manages traffic between network segments, provides redundancy&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Core Switches: For internal routing&#xD;&#xA;&#x9;Connects to → Internet Gateway: For external traffic routing&#xD;&#xA;&#x9;Protected by → Firewalls: For security enforcement&#xD;&#xA;&#xD;&#xA;•&#x9;DC Interconnect &#xD;&#xA;&#xD;&#xA;o&#x9;Function: High-speed connectivity between data centers (main and DR)&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#x9;Connects → Core Switches to Disaster Recovery: Ensures data replication path&#xD;&#xA;&#x9;Requires → Data Encryption: For secure data transfer between sites&#xD;&#xA;&#xD;&#xA;Distribution Layer&#xD;&#xA;&#xD;&#xA;•&#x9;Distribution Switches &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Aggregates connections from access layer, applies policies&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Core Network: Uplink at 10/40 Gbps&#xD;&#xA;&#x9;Connects to → Access Layer: Downlink at 1/10 Gbps&#xD;&#xA;&#x9;Implements → L3 Routing: For inter-VLAN routing&#xD;&#xA;&#x9;Connects to → Medical Network: Dedicated path at 10 Gbps&#xD;&#xA;&#xD;&#xA;•&#x9;L3 Routing &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Handles routing between VLANs and network segments&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Implemented on → Distribution Switches: For efficient traffic management&#xD;&#xA;&#x9;Protected by → Access Control Lists: For traffic filtering&#xD;&#xA;&#xD;&#xA;Access Layer&#xD;&#xA;&#xD;&#xA;•&#x9;Access Switches &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Provides connectivity to end devices and users&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Distribution Layer: Uplink at 1/10 Gbps&#xD;&#xA;&#x9;Connects to → Clinical Workstations, Medical Devices: User connectivity&#xD;&#xA;&#x9;Enforced by → Network Access Control: For device authentication&#xD;&#xA;&#xD;&#xA;•&#x9;PoE Switches &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Provides Power over Ethernet for devices&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Powers → Wireless Access Points, IP Phones, Security Cameras&#xD;&#xA;&#x9;Connects to → Distribution Layer: For network access&#xD;&#xA;&#xD;&#xA;•&#x9;Edge Computing Nodes &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Provides localized computing resources near data sources&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → IoT Devices: For local data processing&#xD;&#xA;&#x9;Connects to → Access Layer: For network connectivity&#xD;&#xA;&#x9;Feeds data to → Analytics Platform: For further processing&#xD;&#xA;&#xD;&#xA;Medical Device Network&#xD;&#xA;&#xD;&#xA;•&#x9;Medical Device VLAN &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Isolated network segment for medical equipment&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Isolates → Medical Devices: For security and reliability&#xD;&#xA;&#x9;Connected to → Distribution Layer: Via dedicated 10 Gbps links&#xD;&#xA;&#x9;Protected by → Firewalls: For strict access control&#xD;&#xA;&#x9;Monitored by → IDS: For anomalous behavior detection&#xD;&#xA;&#xD;&#xA;•&#x9;Isolation Zones &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Additional network segmentation for critical medical systems&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Contains → Life-critical systems: Extra protection for most sensitive devices&#xD;&#xA;&#x9;Protected by → Specialized Firewalls: With medical device protocols awareness&#xD;&#xA;&#x9;Monitored by → SIEM: For compliance and security monitoring&#xD;&#xA;&#xD;&#xA;Wide Area Network (WAN)&#xD;&#xA;&#xD;&#xA;•&#x9;Internet Gateway &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Provides controlled access to/from the internet&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Core Network: For internal access to external resources&#xD;&#xA;&#x9;Controlled by → Firewalls: For security enforcement&#xD;&#xA;&#x9;Monitored by → IDS/IPS: For threat detection&#xD;&#xA;&#xD;&#xA;•&#x9;MPLS Network &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Carrier-provided secure, reliable WAN connectivity&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects → Main Hospital to Remote Clinics: Primary WAN connectivity&#xD;&#xA;&#x9;Protected by → Carrier Security: For data in transit protection&#xD;&#xA;&#x9;Monitored by → Performance Monitoring: For SLA enforcement&#xD;&#xA;&#xD;&#xA;•&#x9;SD-WAN Controllers &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Software-defined WAN management for intelligent traffic routing&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Manages → WAN connectivity: Optimizes traffic based on application needs&#xD;&#xA;&#x9;Provides → Failover: Secondary path if MPLS fails&#xD;&#xA;&#x9;Connects → Remote Clinics: Alternative connection method&#xD;&#xA;&#x9;Integrates with → Core Network: For seamless failover&#xD;&#xA;&#xD;&#xA;•&#x9;Internet Service Provider &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Provides internet connectivity&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Connects to → Internet Gateway: Primary external connectivity&#xD;&#xA;&#x9;Provides → Bandwidth for external services: Web access, cloud services&#xD;&#xA;&#x9;Monitored by → Performance Monitoring: For SLA enforcement&#xD;&#xA;&#xD;&#xA;•&#x9;Remote Access &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Enables secure connections for remote workers&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Secured by → VPN Services: For encrypted connections&#xD;&#xA;&#x9;Authenticated by → Identity Management: For user verification&#xD;&#xA;&#x9;Monitored by → SIEM: For suspicious activity detection&#xD;&#xA;&#xD;&#xA;Wireless LAN (WLAN)&#xD;&#xA;&#xD;&#xA;•&#x9;Wireless Controllers &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Centralized management of wireless access points&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Manages → Access Points throughout facility&#xD;&#xA;&#x9;Connected to → Core Network: For management&#xD;&#xA;&#x9;Implements → Wireless Security Policies: For different wireless networks&#xD;&#xA;&#xD;&#xA;•&#x9;Access Point Management &#xD;&#xA;&#xD;&#xA;o&#x9;Function: Configuration, monitoring, security of wireless infrastructure&#xD;&#xA;&#xD;&#xA;o&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Controls → Access Points: For consistent configuration&#xD;&#xA;&#x9;Integrates with → Network Access Control: For device authentication&#xD;&#xA;&#x9;Monitored by → SIEM: For rogue AP detection&#xD;&#xA;&#xD;&#xA;•&#x9;Wireless Networks &#xD;&#xA;&#xD;&#xA;o&#x9;Staff WiFi &#xD;&#xA;&#xD;&#xA;&#x9;Function: Secure wireless access for hospital staff&#xD;&#xA;&#xD;&#xA;&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Used by → Clinical Staff, Administrative Staff&#xD;&#xA;&#x9;Secured by → WPA3-Enterprise, 802.1X Authentication&#xD;&#xA;&#x9;Connects to → Internal Resources: Via access control&#xD;&#xA;&#xD;&#xA;o&#x9;Guest WiFi &#xD;&#xA;&#xD;&#xA;&#x9;Function: Internet access for patients and visitors&#xD;&#xA;&#xD;&#xA;&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Used by → Patients, Visitors&#xD;&#xA;&#x9;Isolated from → Internal Networks: For security&#xD;&#xA;&#x9;Limited to → Internet Access Only: No internal resource access&#xD;&#xA;&#xD;&#xA;o&#x9;Medical Device WiFi &#xD;&#xA;&#xD;&#xA;&#x9;Function: Dedicated wireless network for medical equipment&#xD;&#xA;&#xD;&#xA;&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Used by → Mobile Medical Devices, Bedside Monitors&#xD;&#xA;&#x9;Connects to → Medical Device VLAN: For isolation&#xD;&#xA;&#x9;Prioritized for → Critical Medical Traffic: QoS implementation&#xD;&#xA;&#xD;&#xA;o&#x9;IoT WiFi &#xD;&#xA;&#xD;&#xA;&#x9;Function: Network for connected non-medical devices&#xD;&#xA;&#xD;&#xA;&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Used by → Building Automation, Environmental Monitoring&#xD;&#xA;&#x9;Isolated from → Clinical Networks: For security&#xD;&#xA;&#x9;Connects to → IoT Management Platform: For device management&#xD;&#xA;"
       borderType="1">
     <bounds
-        x="30"
-        y="258"
+        x="55"
+        y="365"
         width="989"
         height="487"/>
-    <children
-        xsi:type="archimate:DiagramModelGroup"
-        id="id-8513d8b7ad324911a18b31db7523a218"
-        name="Enpoint Devices"
-        fontColor="#ffffff"
-        fillColor="#00ae00"
-        borderType="1">
-      <bounds
-          x="769"
-          y="214"
-          width="191"
-          height="239"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-6213c5b5ba4846a1bd728ef14462b1d2">
-        <bounds
-            x="31"
-            y="29"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:Device"
-            href="Device_id-135169f619ac4dbb94845eac43957b0c.xml#id-135169f619ac4dbb94845eac43957b0c"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-6d118ff40ffa48b88b40d32e78cb38f7">
-        <bounds
-            x="31"
-            y="96"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:Device"
-            href="Device_id-6c3e60bd39d741b79ad08546593eb399.xml#id-6c3e60bd39d741b79ad08546593eb399"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-377ce66bb3234efb913bfb2434897090">
-        <bounds
-            x="31"
-            y="165"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:Device"
-            href="Device_id-ce4e8eb234d8499a8b4d739af18ed0d9.xml#id-ce4e8eb234d8499a8b4d739af18ed0d9"/>
-      </children>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelGroup"
-        id="id-0d22c3f6fb9c4ab89992eb5d023b786c"
-        name="Security Services"
-        fontColor="#ffffff"
-        fillColor="#00ae00"
-        borderType="1">
-      <bounds
-          x="769"
-          y="35"
-          width="191"
-          height="168"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-6d99ea070b17476aacdbe6d430dc941a">
-        <bounds
-            x="32"
-            y="29"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:TechnologyService"
-            href="TechnologyService_id-0de6a7d86edd45b2871905d28b96b805.xml#id-0de6a7d86edd45b2871905d28b96b805"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-25074d47eb7a48dfa05bb01906b45848">
-        <bounds
-            x="32"
-            y="94"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:SystemSoftware"
-            href="SystemSoftware_id-45acc0721b3b402a819996870647cd99.xml#id-45acc0721b3b402a819996870647cd99"/>
-      </children>
-    </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-101d2f4e400b42b3aa631df6ac227b65"
@@ -148,82 +63,9 @@
           href="Facility_id-349b0de5d088451f89849802f004177f.xml#id-349b0de5d088451f89849802f004177f"/>
     </children>
     <children
-        xsi:type="archimate:DiagramModelGroup"
-        id="id-3b65236fa90349a9bf3d355bec72febb"
-        name="Network Infrastructure"
-        fontColor="#ffffff"
-        fillColor="#00ae00"
-        borderType="1">
-      <bounds
-          x="535"
-          y="35"
-          width="194"
-          height="418"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-198da98555594c9bbd50935773516b45"
-          targetConnections="id-5ca2a678e69e422483c28209f98a2e3e id-57df2eb08bfe42ccbb264e17e2f72053">
-        <bounds
-            x="37"
-            y="31"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:CommunicationNetwork"
-            href="CommunicationNetwork_id-ff45757ab4c94a6db34917ad47db7bdd.xml#id-ff45757ab4c94a6db34917ad47db7bdd"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-4230371e55ca42e6a982cfa2b93972a9">
-        <bounds
-            x="37"
-            y="98"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:CommunicationNetwork"
-            href="CommunicationNetwork_id-c4f9edc8acb14afaac1d95aa6c481ab4.xml#id-c4f9edc8acb14afaac1d95aa6c481ab4"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-bd3d1fc307ae47fab3d90bb765fe5d45">
-        <bounds
-            x="37"
-            y="164"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:CommunicationNetwork"
-            href="CommunicationNetwork_id-6275d195cfc546b19363688bc9a7096f.xml#id-6275d195cfc546b19363688bc9a7096f"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-9a4a89326cca4e81a70567d33c6fe143">
-        <bounds
-            x="37"
-            y="233"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:Node"
-            href="Node_id-85ae328e218942fdb16a3fccff84f334.xml#id-85ae328e218942fdb16a3fccff84f334"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-405356d17b2a41c486c87b4642408b29">
-        <bounds
-            x="37"
-            y="300"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:CommunicationNetwork"
-            href="CommunicationNetwork_id-d92d1762b527480c952279bd22a3a851.xml#id-d92d1762b527480c952279bd22a3a851"/>
-      </children>
-    </children>
-    <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3126ab0d6d1a4a188af72c187360ddd8"
+        targetConnections="id-7d2e3ef4887a4f03aacda3a28de80b3a"
         fontColor="#ffffff"
         fillColor="#00ae00">
       <sourceConnections
@@ -285,7 +127,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-5fdfe382658449799cee62e22d98acca"
-          targetConnections="id-0e69f604d1b7470c80131da756685691 id-beba45a626d54fe3a2dc71e6ff5f6e9a id-0623c922163246b0b800036bdf8b52f6 id-a978e754fe46475db9f0d48886d82dfc">
+          targetConnections="id-0e69f604d1b7470c80131da756685691 id-e3a474a63c0a4b27b8235acaeb2daaf4 id-c90d1462de96425baa2e02fc3028e342">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-5ca2a678e69e422483c28209f98a2e3e"
@@ -363,31 +205,342 @@
             xsi:type="archimate:SystemSoftware"
             href="SystemSoftware_id-898d60f2081c48038e9f1ff9708596f7.xml#id-898d60f2081c48038e9f1ff9708596f7"/>
       </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-6ef33f29e820480e9c33485760a57d4d">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-7d2e3ef4887a4f03aacda3a28de80b3a"
+            source="id-6ef33f29e820480e9c33485760a57d4d"
+            target="id-3126ab0d6d1a4a188af72c187360ddd8">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-06fb9b80d5ec44ee837a6017eaaf1e74.xml#id-06fb9b80d5ec44ee837a6017eaaf1e74"/>
+        </sourceConnections>
+        <bounds
+            x="36"
+            y="312"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:TechnologyCollaboration"
+            href="TechnologyCollaboration_id-34982f6491084dfb89665424d06d8f73.xml#id-34982f6491084dfb89665424d06d8f73"/>
+      </children>
       <archimateElement
           xsi:type="archimate:Facility"
           href="Facility_id-e7f9ea7838ba420ab35d7d2c2adff363.xml#id-e7f9ea7838ba420ab35d7d2c2adff363"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-9e71ac2f42a241ff89db18e8ad7c57b6"
+        targetConnections="id-8f79145d7503443a844c557be43b876f id-a9fd5e3e55184f0cab89779dcc33692b id-2a92338e9ff04972a4af33e3935b6ea0 id-c81f26efaaa64355a53e66a606d04913 id-2271f8db0d8046098f63de3cd45f41a7"
+        fontColor="#ffffff"
+        fillColor="#00ae00">
+      <bounds
+          x="525"
+          y="35"
+          width="194"
+          height="418"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-405356d17b2a41c486c87b4642408b29">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-c81f26efaaa64355a53e66a606d04913"
+            source="id-405356d17b2a41c486c87b4642408b29"
+            target="id-9e71ac2f42a241ff89db18e8ad7c57b6">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-c84e2741c3ec48a592992c5fc2451e0f.xml#id-c84e2741c3ec48a592992c5fc2451e0f"/>
+        </sourceConnections>
+        <bounds
+            x="37"
+            y="310"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:CommunicationNetwork"
+            href="CommunicationNetwork_id-d92d1762b527480c952279bd22a3a851.xml#id-d92d1762b527480c952279bd22a3a851"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-9a4a89326cca4e81a70567d33c6fe143">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-2a92338e9ff04972a4af33e3935b6ea0"
+            source="id-9a4a89326cca4e81a70567d33c6fe143"
+            target="id-9e71ac2f42a241ff89db18e8ad7c57b6">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-da716b2b98f049b8887c63f3baf575fb.xml#id-da716b2b98f049b8887c63f3baf575fb"/>
+        </sourceConnections>
+        <bounds
+            x="37"
+            y="242"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:Node"
+            href="Node_id-85ae328e218942fdb16a3fccff84f334.xml#id-85ae328e218942fdb16a3fccff84f334"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-4230371e55ca42e6a982cfa2b93972a9">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-8f79145d7503443a844c557be43b876f"
+            source="id-4230371e55ca42e6a982cfa2b93972a9"
+            target="id-9e71ac2f42a241ff89db18e8ad7c57b6">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-f5685a1604fd448296cb6f87d54489f6.xml#id-f5685a1604fd448296cb6f87d54489f6"/>
+        </sourceConnections>
+        <bounds
+            x="37"
+            y="172"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:CommunicationNetwork"
+            href="CommunicationNetwork_id-c4f9edc8acb14afaac1d95aa6c481ab4.xml#id-c4f9edc8acb14afaac1d95aa6c481ab4"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-bd3d1fc307ae47fab3d90bb765fe5d45"
+          targetConnections="id-6c744f6f68db4b3daf426fc8bd4d70f7">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-a9fd5e3e55184f0cab89779dcc33692b"
+            source="id-bd3d1fc307ae47fab3d90bb765fe5d45"
+            target="id-9e71ac2f42a241ff89db18e8ad7c57b6">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-f7372a6e64614c3cb0bb2ea809e94ce0.xml#id-f7372a6e64614c3cb0bb2ea809e94ce0"/>
+        </sourceConnections>
+        <bounds
+            x="37"
+            y="103"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:CommunicationNetwork"
+            href="CommunicationNetwork_id-6275d195cfc546b19363688bc9a7096f.xml#id-6275d195cfc546b19363688bc9a7096f"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-198da98555594c9bbd50935773516b45"
+          targetConnections="id-5ca2a678e69e422483c28209f98a2e3e id-57df2eb08bfe42ccbb264e17e2f72053 id-b9f77627cceb4105bdffa4ad8e6b87c1">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-2271f8db0d8046098f63de3cd45f41a7"
+            source="id-198da98555594c9bbd50935773516b45"
+            target="id-9e71ac2f42a241ff89db18e8ad7c57b6">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-e4baaacfad334f2daf1222dfdd6ae6d2.xml#id-e4baaacfad334f2daf1222dfdd6ae6d2"/>
+        </sourceConnections>
+        <bounds
+            x="37"
+            y="31"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:CommunicationNetwork"
+            href="CommunicationNetwork_id-ff45757ab4c94a6db34917ad47db7bdd.xml#id-ff45757ab4c94a6db34917ad47db7bdd"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_id-280738e0228e4bd0981472aa93bf7115.xml#id-280738e0228e4bd0981472aa93bf7115"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-84f7df5fdccd4733964e4a0a20fa490f"
+        fontColor="#ffffff"
+        fillColor="#00ae00">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-be618d44f44b4a0684c7330df2da72a9"
+          source="id-84f7df5fdccd4733964e4a0a20fa490f"
+          target="id-6d99ea070b17476aacdbe6d430dc941a">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-302688dd0ccd4129b84cd6bda7cd9b83.xml#id-302688dd0ccd4129b84cd6bda7cd9b83"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-862fd0a3d5b9427186764e0c9286e958"
+          source="id-84f7df5fdccd4733964e4a0a20fa490f"
+          target="id-25074d47eb7a48dfa05bb01906b45848">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-cc1fac7ded9448269a23b5cd335874f0.xml#id-cc1fac7ded9448269a23b5cd335874f0"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b9f77627cceb4105bdffa4ad8e6b87c1"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          textPosition="0"
+          source="id-84f7df5fdccd4733964e4a0a20fa490f"
+          target="id-198da98555594c9bbd50935773516b45">
+        <features
+            name="labelExpression"
+            value="protects"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-992372bf47494b1e86a0e9b801f89133.xml#id-992372bf47494b1e86a0e9b801f89133"/>
+      </sourceConnections>
+      <bounds
+          x="769"
+          y="35"
+          width="191"
+          height="168"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-6d99ea070b17476aacdbe6d430dc941a"
+          targetConnections="id-be618d44f44b4a0684c7330df2da72a9">
+        <bounds
+            x="36"
+            y="33"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:TechnologyService"
+            href="TechnologyService_id-0de6a7d86edd45b2871905d28b96b805.xml#id-0de6a7d86edd45b2871905d28b96b805"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-25074d47eb7a48dfa05bb01906b45848"
+          targetConnections="id-862fd0a3d5b9427186764e0c9286e958">
+        <bounds
+            x="36"
+            y="100"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_id-45acc0721b3b402a819996870647cd99.xml#id-45acc0721b3b402a819996870647cd99"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_id-6d47567a3d904101883ec717dc55f68e.xml#id-6d47567a3d904101883ec717dc55f68e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5c8f6ed7c92b42e6b6c83dcf3ec431af"
+        fontColor="#ffffff"
+        fillColor="#00ae00">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-35ad8bd37a52407db949b270c9dca800"
+          source="id-5c8f6ed7c92b42e6b6c83dcf3ec431af"
+          target="id-6213c5b5ba4846a1bd728ef14462b1d2">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-2e27dc6ab3844480aa909b3dfb6abab9.xml#id-2e27dc6ab3844480aa909b3dfb6abab9"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ba206d290e0b482bbf05ca3091ad71e2"
+          source="id-5c8f6ed7c92b42e6b6c83dcf3ec431af"
+          target="id-6d118ff40ffa48b88b40d32e78cb38f7">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-1bbfb8792db04780b5294293294ca278.xml#id-1bbfb8792db04780b5294293294ca278"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6368ba4ad8fa4cbd8ab6bf63dc988a63"
+          source="id-5c8f6ed7c92b42e6b6c83dcf3ec431af"
+          target="id-377ce66bb3234efb913bfb2434897090">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-8ed0f03fd3aa45e09a74033fa65d9cf2.xml#id-8ed0f03fd3aa45e09a74033fa65d9cf2"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6c744f6f68db4b3daf426fc8bd4d70f7"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          source="id-5c8f6ed7c92b42e6b6c83dcf3ec431af"
+          target="id-bd3d1fc307ae47fab3d90bb765fe5d45">
+        <features
+            name="labelExpression"
+            value="connected"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-928a032c0fa5403692a17db1ade64a19.xml#id-928a032c0fa5403692a17db1ade64a19"/>
+      </sourceConnections>
+      <bounds
+          x="769"
+          y="214"
+          width="191"
+          height="239"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-6213c5b5ba4846a1bd728ef14462b1d2"
+          targetConnections="id-35ad8bd37a52407db949b270c9dca800">
+        <bounds
+            x="40"
+            y="33"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:Device"
+            href="Device_id-135169f619ac4dbb94845eac43957b0c.xml#id-135169f619ac4dbb94845eac43957b0c"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-6d118ff40ffa48b88b40d32e78cb38f7"
+          targetConnections="id-ba206d290e0b482bbf05ca3091ad71e2">
+        <bounds
+            x="40"
+            y="98"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:Device"
+            href="Device_id-6c3e60bd39d741b79ad08546593eb399.xml#id-6c3e60bd39d741b79ad08546593eb399"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-377ce66bb3234efb913bfb2434897090"
+          targetConnections="id-6368ba4ad8fa4cbd8ab6bf63dc988a63">
+        <bounds
+            x="40"
+            y="167"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:Device"
+            href="Device_id-ce4e8eb234d8499a8b4d739af18ed0d9.xml#id-ce4e8eb234d8499a8b4d739af18ed0d9"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_id-a86284bfa2354bb9951238c4f7c4c5fd.xml#id-a86284bfa2354bb9951238c4f7c4c5fd"/>
     </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-cd1752c1ed4c421b95badcf866a3b2e5"
-      name="Hospital Campas Departments"
+      name="Business Layer"
       fontColor="#000000"
       textAlignment="1"
       fillColor="#ffff00"
+      documentation="Hospital Campas Departments (Business Layer)&#xD;&#xA;&#xD;&#xA;Hospital Campus (Physical)&#xD;&#xA;&#xD;&#xA;The physical organization structure where healthcare services are delivered.&#xD;&#xA;&#xD;&#xA;Main Hospital Building (Physical)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Primary facility housing most departments and services&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Houses → Data Center: Contains the central IT infrastructure that powers all hospital operations&#xD;&#xA;o&#x9;Contains → Various departments including Emergency and Radiology&#xD;&#xA;&#xD;&#xA;Emergency Department (Floor 1)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Provides urgent and emergency care services&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Served by → Emergency Management System (EMS): Uses specialized applications for patient tracking, triage, and emergency response management&#xD;&#xA;o&#x9;Connected to → Core Network: Critical network infrastructure ensures high availability for emergency systems&#xD;&#xA;&#xD;&#xA;Radiology Department&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Performs diagnostic imaging services&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Uses → Picture Archiving and Communication System (PACS): For storing, retrieving, and sharing medical images&#xD;&#xA;o&#x9;Uses → Radiology Information System (RIS): For scheduling, reporting, and workflow management&#xD;&#xA;o&#x9;Connected to → Distribution Layer: Requires high bandwidth for transferring large image files&#xD;&#xA;&#xD;&#xA;Admin Department&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Provides administrative functions and services for hospital.&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Uses → Picture Archiving and Communication System (PACS): For storing, retrieving, and sharing medical images&#xD;&#xA;o&#x9;Uses → Radiology Information System (RIS): For scheduling, reporting, and workflow management&#xD;&#xA;o&#x9;Connected to → Distribution Layer: Requires high bandwidth for transferring large image files&#xD;&#xA;"
       borderType="1">
     <bounds
-        x="30"
-        y="27"
+        x="55"
+        y="14"
         width="989"
-        height="93"/>
+        height="213"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ba74e497dc044c89898faf882cd91dac"
-        targetConnections="id-4588bd72f01e4f59914777c2ecdabe26">
+        targetConnections="id-1679840f4b3c42bb9f39b9dd8aa47a8f id-e615769cd79b4ef780fac320bd10a889">
       <bounds
-          x="22"
-          y="24"
+          x="197"
+          y="115"
           width="120"
           height="55"/>
       <archimateElement
@@ -397,10 +550,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-bc0bf4af54734ea9997b4e18aadeba9b"
-        targetConnections="id-5f57aafa38344375a713bd1db3d2e09e">
+        targetConnections="id-2e0bab666f404627b4b98da53cf62a55 id-1cd6a4046218483192a001a884fa0392 id-ca9c3a22f3204a0fa6fb4d01dc0ea64f">
       <bounds
-          x="215"
-          y="24"
+          x="396"
+          y="115"
           width="120"
           height="55"/>
       <archimateElement
@@ -410,15 +563,54 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0c3ccd3b5a5540af9e975594bd58a1e0"
-        targetConnections="id-b8416a46e87f43ef9010ec7fdc60fd2c">
+        targetConnections="id-034e27dbff1641a2b649da3a543e7209 id-ef800833d5254c4aa1d1ebbdedcd4ce4">
       <bounds
-          x="416"
-          y="24"
+          x="611"
+          y="115"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessActor"
           href="BusinessActor_id-cdfa069524124bf78c4d25219cf3ad77.xml#id-cdfa069524124bf78c4d25219cf3ad77"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4f017bb45dbe47dd8f3c265051e16b01">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ef800833d5254c4aa1d1ebbdedcd4ce4"
+          source="id-4f017bb45dbe47dd8f3c265051e16b01"
+          target="id-0c3ccd3b5a5540af9e975594bd58a1e0">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-701f7bfa3a434f79b7533d1d702f86aa.xml#id-701f7bfa3a434f79b7533d1d702f86aa"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e615769cd79b4ef780fac320bd10a889"
+          source="id-4f017bb45dbe47dd8f3c265051e16b01"
+          target="id-ba74e497dc044c89898faf882cd91dac">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-b4d2da49728b4a1fbe34f8c66296ca54.xml#id-b4d2da49728b4a1fbe34f8c66296ca54"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ca9c3a22f3204a0fa6fb4d01dc0ea64f"
+          source="id-4f017bb45dbe47dd8f3c265051e16b01"
+          target="id-bc0bf4af54734ea9997b4e18aadeba9b">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-0add2d8c25bf4daab72d13f1b35f1da2.xml#id-0add2d8c25bf4daab72d13f1b35f1da2"/>
+      </sourceConnections>
+      <bounds
+          x="395"
+          y="18"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessActor"
+          href="BusinessActor_id-6b98bebde6e44f64bc2272c41ddd240a.xml#id-6b98bebde6e44f64bc2272c41ddd240a"/>
     </children>
   </children>
   <children
@@ -428,184 +620,17 @@
       fontColor="#ffffff"
       textAlignment="1"
       fillColor="#0080ff"
+      documentation="Application Layer&#xD;&#xA;&#xD;&#xA;Clinical Applications&#xD;&#xA;&#xD;&#xA;Electronic Health Record (EHR) System&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Central repository for patient medical records and clinical documentation&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → PACS: For embedding medical images in patient records&#xD;&#xA;o&#x9;Integrates with → RIS: For radiology reports and workflow&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: Virtualized for high availability&#xD;&#xA;o&#x9;Backed up by → Backup System: For data protection and compliance&#xD;&#xA;o&#x9;Accessed by → Clinical Workstations: Primary user interface for clinicians&#xD;&#xA;o&#x9;Receives data from → Bedside Monitors: Automated integration of patient vitals&#xD;&#xA;o&#x9;Secured by → Identity Management: For proper access control&#xD;&#xA;o&#x9;Protected by → Data Encryption: For PHI security compliance&#xD;&#xA;&#xD;&#xA;Radiology Information System (RIS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages radiology workflows, scheduling, reporting&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → EHR: Shares radiology reports with patient records&#xD;&#xA;o&#x9;Integrates with → PACS: For image workflow management&#xD;&#xA;o&#x9;Used by → Radiology Department: Primary users of the system&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: For reliability and performance&#xD;&#xA;&#xD;&#xA;Picture Archiving and Communication System (PACS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Stores, retrieves, presents, and shares medical images&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Stores data in → Storage SAN: Requires large storage capacity for images&#xD;&#xA;o&#x9;Integrates with → EHR: Makes images available in patient records&#xD;&#xA;o&#x9;Used by → Radiology Department: Primary system for radiologists&#xD;&#xA;o&#x9;Requires → High Bandwidth Network: For transferring large image files&#xD;&#xA;&#xD;&#xA;Emergency Management System (EMS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages emergency department workflows, triage, bed tracking&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Serves → Emergency Department: Tailored for ED operations&#xD;&#xA;o&#x9;Integrates with → EHR: Shares patient data&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: For high availability&#xD;&#xA;o&#x9;Requires → Low-latency network: For real-time updates&#xD;&#xA;&#xD;&#xA;Telehealth Platform&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Enables virtual patient consultations and remote care&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Accessed by → Mobile Devices: For healthcare provider remote access&#xD;&#xA;o&#x9;Integrates with → EHR: For patient record access during telehealth visits&#xD;&#xA;o&#x9;Requires → WAN connectivity: For remote access from various locations&#xD;&#xA;o&#x9;Protected by → Security Services: For compliance with healthcare privacy regulations&#xD;&#xA;&#xD;&#xA;Administrative Applications&#xD;&#xA;&#xD;&#xA;Hospital Information System (HIS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages administrative aspects of hospital operations&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → EHR: Shares administrative patient data&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: For reliability&#xD;&#xA;o&#x9;Used by → Administrative staff&#xD;&#xA;&#xD;&#xA;Billing System&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages patient billing, insurance claims, payments&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → EHR: Receives service information for billing&#xD;&#xA;o&#x9;Requires → Data Encryption: For financial data protection&#xD;&#xA;o&#x9;Protected by → Data Loss Prevention: To prevent leakage of sensitive financial information&#xD;&#xA;&#xD;&#xA;Scheduling System&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages appointments, staff scheduling, resource allocation&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Integrates with → EHR: For patient appointment management&#xD;&#xA;o&#x9;Used by → Clinical and administrative staff&#xD;&#xA;o&#x9;Accessible via → Mobile Devices: For on-the-go schedule management&#xD;&#xA;&#xD;&#xA;Analytics Platform&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Provides business intelligence, clinical analytics, reporting&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Accesses → EHR, HIS: For data analysis&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: For processing power&#xD;&#xA;o&#x9;Protected by → Access Control: For sensitive data protection&#xD;&#xA;&#xD;&#xA;API Gateway&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Centralizes API management, provides unified interface to applications&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Accessed via → Core Network: Central access point&#xD;&#xA;o&#x9;Integrates with → Clinical Applications, Administrative Applications&#xD;&#xA;o&#x9;Protected by → Firewalls, Access Control: Securing API endpoints&#xD;&#xA;o&#x9;Monitored by → Security Information &amp; Event Management: For suspicious activity detection&#xD;&#xA;"
       borderType="1">
     <bounds
-        x="30"
-        y="131"
+        x="55"
+        y="238"
         width="989"
         height="116"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-9ff1cc0de23246c4a34def10ef7c50a6">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-6b6e995d9ae64697a769e840c227f98d"
-          fontColor="#ffffff"
-          lineColor="#ffffff"
-          textPosition="2"
-          source="id-9ff1cc0de23246c4a34def10ef7c50a6"
-          target="id-38da3b63d2c940689682e40903bc7bb9">
-        <features
-            name="labelExpression"
-            value="integrates"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-014581492d7b470785a3d8342d76d090.xml#id-014581492d7b470785a3d8342d76d090"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-4588bd72f01e4f59914777c2ecdabe26"
-          fontColor="#ffffff"
-          lineColor="#000000"
-          textPosition="0"
-          source="id-9ff1cc0de23246c4a34def10ef7c50a6"
-          target="id-ba74e497dc044c89898faf882cd91dac">
-        <features
-            name="labelExpression"
-            value="served by"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-f64fbb04dc6047c096cd92ae8a54df39.xml#id-f64fbb04dc6047c096cd92ae8a54df39"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-beba45a626d54fe3a2dc71e6ff5f6e9a"
-          fontColor="#ffffff"
-          lineColor="#ffffff"
-          source="id-9ff1cc0de23246c4a34def10ef7c50a6"
-          target="id-5fdfe382658449799cee62e22d98acca">
-        <features
-            name="labelExpression"
-            value="realized by"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-c762573dd8264dadb3c4f8ad20fd14dd.xml#id-c762573dd8264dadb3c4f8ad20fd14dd"/>
-      </sourceConnections>
-      <bounds
-          x="18"
-          y="37"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationService"
-          href="ApplicationService_id-12772538e77d4bec9296ffe0e4ba7e5d.xml#id-12772538e77d4bec9296ffe0e4ba7e5d"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-38da3b63d2c940689682e40903bc7bb9"
-        targetConnections="id-6b6e995d9ae64697a769e840c227f98d">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-3fffcd6904e54c1393a4087777a9db58"
-          fontColor="#ffffff"
-          lineColor="#ffffff"
-          textPosition="2"
-          source="id-38da3b63d2c940689682e40903bc7bb9"
-          target="id-4698aa9aaa8e41809efbae18a5994b97">
-        <features
-            name="labelExpression"
-            value="integrates"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-73e50ecbcbef4480837fa37f79426ac7.xml#id-73e50ecbcbef4480837fa37f79426ac7"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-5f57aafa38344375a713bd1db3d2e09e"
-          fontColor="#ffffff"
-          lineColor="#000000"
-          source="id-38da3b63d2c940689682e40903bc7bb9"
-          target="id-bc0bf4af54734ea9997b4e18aadeba9b">
-        <features
-            name="labelExpression"
-            value="served by"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-3716609d40dd423f811895344e6f77ca.xml#id-3716609d40dd423f811895344e6f77ca"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-0623c922163246b0b800036bdf8b52f6"
-          fontColor="#ffffff"
-          lineColor="#ffffff"
-          source="id-38da3b63d2c940689682e40903bc7bb9"
-          target="id-5fdfe382658449799cee62e22d98acca">
-        <features
-            name="labelExpression"
-            value="realized by"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-36b9794e8bf249d4b419b620a484df5e.xml#id-36b9794e8bf249d4b419b620a484df5e"/>
-      </sourceConnections>
-      <bounds
-          x="212"
-          y="37"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationService"
-          href="ApplicationService_id-48e0ee73f6314e38b232bce062092824.xml#id-48e0ee73f6314e38b232bce062092824"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-4698aa9aaa8e41809efbae18a5994b97"
-        targetConnections="id-3fffcd6904e54c1393a4087777a9db58">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-12deedac8d49468eabed3932cf0cb2e0"
-          fontColor="#ffffff"
-          lineColor="#ffffff"
-          textPosition="2"
-          source="id-4698aa9aaa8e41809efbae18a5994b97"
-          target="id-ae1a563a9df64ca69430006ac2ca6e1f">
-        <features
-            name="labelExpression"
-            value="integrates"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-f2c8946c0c72432c864d7f6db358d83a.xml#id-f2c8946c0c72432c864d7f6db358d83a"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-b8416a46e87f43ef9010ec7fdc60fd2c"
-          fontColor="#ffffff"
-          lineColor="#000000"
-          source="id-4698aa9aaa8e41809efbae18a5994b97"
-          target="id-0c3ccd3b5a5540af9e975594bd58a1e0">
-        <features
-            name="labelExpression"
-            value="served by"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-5917ec8f31b248ee870b216eb82014bb.xml#id-5917ec8f31b248ee870b216eb82014bb"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-a978e754fe46475db9f0d48886d82dfc"
-          fontColor="#ffffff"
-          lineColor="#ffffff"
-          source="id-4698aa9aaa8e41809efbae18a5994b97"
-          target="id-5fdfe382658449799cee62e22d98acca">
-        <features
-            name="labelExpression"
-            value="realized by"/>
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-54b4905bcc2d4a719c7ec1436bd46765.xml#id-54b4905bcc2d4a719c7ec1436bd46765"/>
-      </sourceConnections>
-      <bounds
-          x="415"
-          y="37"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationService"
-          href="ApplicationService_id-cc9ad4619bbd4999b24bf15211b1958f.xml#id-cc9ad4619bbd4999b24bf15211b1958f"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ae1a563a9df64ca69430006ac2ca6e1f"
-        targetConnections="id-12deedac8d49468eabed3932cf0cb2e0">
+        targetConnections="id-2e323654af93455aaae774dbe6f0b8bb id-51194d68ad17447994d09604a876d880">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-57df2eb08bfe42ccbb264e17e2f72053"
@@ -622,13 +647,210 @@
             href="ServingRelationship_id-a13a2e29a2f248ea9a07c7273f35cfc3.xml#id-a13a2e29a2f248ea9a07c7273f35cfc3"/>
       </sourceConnections>
       <bounds
-          x="611"
+          x="613"
           y="37"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationInterface"
           href="ApplicationInterface_id-741a1d929eb0434bbc3f19b65cff9a48.xml#id-741a1d929eb0434bbc3f19b65cff9a48"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c0edfdb7c43c411abd913a59a7173b17">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-22504e44cce1488e9dbfa116da4c0ccd"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          textPosition="2"
+          source="id-c0edfdb7c43c411abd913a59a7173b17"
+          target="id-1b507f7cd07245a8a7d817bdbe53fc90">
+        <features
+            name="labelExpression"
+            value="integrates"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-9171f34fc20a4d31a613b218481b4367.xml#id-9171f34fc20a4d31a613b218481b4367"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e3a474a63c0a4b27b8235acaeb2daaf4"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          source="id-c0edfdb7c43c411abd913a59a7173b17"
+          target="id-5fdfe382658449799cee62e22d98acca">
+        <features
+            name="labelExpression"
+            value="realized by"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-464409135a654a9b94d4ebdc51150966.xml#id-464409135a654a9b94d4ebdc51150966"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1679840f4b3c42bb9f39b9dd8aa47a8f"
+          fontColor="#000000"
+          lineColor="#000000"
+          textPosition="2"
+          source="id-c0edfdb7c43c411abd913a59a7173b17"
+          target="id-ba74e497dc044c89898faf882cd91dac">
+        <features
+            name="labelExpression"
+            value="served by"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-080e29cb66cf44b9a7be0f39945a3f2d.xml#id-080e29cb66cf44b9a7be0f39945a3f2d"/>
+      </sourceConnections>
+      <bounds
+          x="21"
+          y="37"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-474f97e314fd41968430eae19732ac12.xml#id-474f97e314fd41968430eae19732ac12"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1b507f7cd07245a8a7d817bdbe53fc90"
+        targetConnections="id-22504e44cce1488e9dbfa116da4c0ccd">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-c90d1462de96425baa2e02fc3028e342"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          source="id-1b507f7cd07245a8a7d817bdbe53fc90"
+          target="id-5fdfe382658449799cee62e22d98acca">
+        <features
+            name="labelExpression"
+            value="realized by"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-6c552a2daba746769372fd3d0af8b146.xml#id-6c552a2daba746769372fd3d0af8b146"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2e0bab666f404627b4b98da53cf62a55"
+          fontColor="#000000"
+          lineColor="#000000"
+          textPosition="2"
+          source="id-1b507f7cd07245a8a7d817bdbe53fc90"
+          target="id-bc0bf4af54734ea9997b4e18aadeba9b">
+        <features
+            name="labelExpression"
+            value="served by"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-3d7c081e58f248359c6cf12cb06950be.xml#id-3d7c081e58f248359c6cf12cb06950be"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1822a37fca934d6c9477c1da352e319c"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          textPosition="2"
+          source="id-1b507f7cd07245a8a7d817bdbe53fc90"
+          target="id-26e5d79186e6411c9c26d51f5ae44957">
+        <features
+            name="labelExpression"
+            value="integrates"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-e5648628847247c383eb90e50e66f214.xml#id-e5648628847247c383eb90e50e66f214"/>
+      </sourceConnections>
+      <bounds
+          x="215"
+          y="37"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-efe6acea8fef43e99c69ef0aa34533aa.xml#id-efe6acea8fef43e99c69ef0aa34533aa"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-26e5d79186e6411c9c26d51f5ae44957"
+        targetConnections="id-1822a37fca934d6c9477c1da352e319c">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1cd6a4046218483192a001a884fa0392"
+          fontColor="#000000"
+          lineColor="#000000"
+          textPosition="2"
+          source="id-26e5d79186e6411c9c26d51f5ae44957"
+          target="id-bc0bf4af54734ea9997b4e18aadeba9b">
+        <features
+            name="labelExpression"
+            value="served by"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-5275fd0e45ce4eb68a428ba9af9bc6f2.xml#id-5275fd0e45ce4eb68a428ba9af9bc6f2"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2e323654af93455aaae774dbe6f0b8bb"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          textPosition="2"
+          source="id-26e5d79186e6411c9c26d51f5ae44957"
+          target="id-ae1a563a9df64ca69430006ac2ca6e1f">
+        <features
+            name="labelExpression"
+            value="integrates"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-845065080ad041999321d7b774ef9ef7.xml#id-845065080ad041999321d7b774ef9ef7"/>
+      </sourceConnections>
+      <bounds
+          x="413"
+          y="37"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-d7865e6bd771436fae2c4ac2bb84fe4b.xml#id-d7865e6bd771436fae2c4ac2bb84fe4b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d115d9d8c8f3480188b9cd4b06128962">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-034e27dbff1641a2b649da3a543e7209"
+          fontColor="#000000"
+          lineColor="#000000"
+          textPosition="2"
+          source="id-d115d9d8c8f3480188b9cd4b06128962"
+          target="id-0c3ccd3b5a5540af9e975594bd58a1e0">
+        <features
+            name="labelExpression"
+            value="served by"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-c29bd2e3984e4091ab628ea269d06bae.xml#id-c29bd2e3984e4091ab628ea269d06bae"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-51194d68ad17447994d09604a876d880"
+          fontColor="#ffffff"
+          lineColor="#ffffff"
+          source="id-d115d9d8c8f3480188b9cd4b06128962"
+          target="id-ae1a563a9df64ca69430006ac2ca6e1f">
+        <features
+            name="labelExpression"
+            value="integrates"/>
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-765076d87b8c43cb9f6ca139f7676567.xml#id-765076d87b8c43cb9f6ca139f7676567"/>
+      </sourceConnections>
+      <bounds
+          x="816"
+          y="37"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-9fd84d0d1cb840cf9c08e0707e524c1e.xml#id-9fd84d0d1cb840cf9c08e0707e524c1e"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -1,5 +1,5 @@
-<archimate:ApplicationService
+<archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EM System"
-    id="id-cc9ad4619bbd4999b24bf15211b1958f"
+    id="id-80393cf122c64bacaeb928326dc715af"
     documentation="Emergency Management System (EMS)&#xD;&#xA;&#xD;&#xA;•&#x9;Function: Manages emergency department workflows, triage, bed tracking&#xD;&#xA;&#xD;&#xA;•&#x9;Relationships: &#xD;&#xA;&#xD;&#xA;o&#x9;Serves → Emergency Department: Tailored for ED operations&#xD;&#xA;o&#x9;Integrates with → EHR: Shares patient data&#xD;&#xA;o&#x9;Runs on → VM Host Cluster: For high availability&#xD;&#xA;o&#x9;Requires → Low-latency network: For real-time updates&#xD;&#xA;"/>

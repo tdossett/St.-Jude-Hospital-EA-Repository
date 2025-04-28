@@ -1,4 +1,5 @@
 <archimate:Facility
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Data Center"
-    id="id-e7f9ea7838ba420ab35d7d2c2adff363"/>
+    name="Data Center Infrastructure"
+    id="id-e7f9ea7838ba420ab35d7d2c2adff363"
+    documentation="Data Center Infrastructure  (Node)&#xD;&#xA;&#xD;&#xA;•&#x9;The physical building that houses all data center components&#xD;&#xA;•&#x9;Serves as the top-level container for the entire data center infrastructure&#xD;&#xA;•&#x9;Provides physical protection, security boundaries, and environmental controls&#xD;&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:TechnologyCollaboration
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disaster Recovery"
+    id="id-34982f6491084dfb89665424d06d8f73"
+    documentation="Disaster Recovery&#xD;&#xA;&#xD;&#xA;Function: Secondary systems and data for business continuity&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Receives replication from → Backup System: For data currency&#xD;&#xA;&#x9;Connected via → DC Interconnect: For high-speed replication&#xD;&#xA;&#x9;Activated during → Disaster Scenarios: For continuity&#xD;&#xA;&#x9;Tested regularly → DR Drills: For readiness verification&#xD;&#xA;"/>
