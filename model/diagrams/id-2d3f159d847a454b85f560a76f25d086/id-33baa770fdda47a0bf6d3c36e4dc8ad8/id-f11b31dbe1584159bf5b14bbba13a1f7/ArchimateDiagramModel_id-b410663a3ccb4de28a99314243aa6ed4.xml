@@ -1,5 +1,5 @@
 <archimate:ArchimateDiagramModel
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Infrastructure"
+    name="Network Infrastructure"
     id="id-b410663a3ccb4de28a99314243aa6ed4"
-    documentation="Infrastructure (&lt;&lt;Node>>)&#xD;&#xA;&#xD;&#xA;Description: Physical computing and network resources.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Hospital data centers&#xD;&#xA;•&#x9;Server clusters&#xD;&#xA;•&#x9;Cloud infrastructure&#xD;&#xA;•&#x9;Network hardware&#xD;&#xA;•&#x9;Mobile device infrastructure"/>
+    documentation="Network Infrastructure (&lt;&lt;Node>>)&#xD;&#xA;&#xD;&#xA;Description: Physical computing and network resources.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Hospital data centers&#xD;&#xA;•&#x9;Server clusters&#xD;&#xA;•&#x9;Cloud infrastructure&#xD;&#xA;•&#x9;Network hardware&#xD;&#xA;•&#x9;Mobile device infrastructure"/>
