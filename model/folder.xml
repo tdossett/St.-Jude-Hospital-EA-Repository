@@ -8,4 +8,9 @@
       id="id-8c35347b413241649dea8137ae2cf6a2"
       imagePath="images/_cWMbsCFWEfCS4_dITMlUWA.png"
       conceptType="BusinessActor"/>
+  <profiles
+      name="Device"
+      id="id-3b084da8c5d8489b86b77d695fa8eaa0"
+      imagePath="images/_8SO6MCUqEfCJrecxcKFEGw.png"
+      conceptType="Device"/>
 </archimate:ArchimateModel>
