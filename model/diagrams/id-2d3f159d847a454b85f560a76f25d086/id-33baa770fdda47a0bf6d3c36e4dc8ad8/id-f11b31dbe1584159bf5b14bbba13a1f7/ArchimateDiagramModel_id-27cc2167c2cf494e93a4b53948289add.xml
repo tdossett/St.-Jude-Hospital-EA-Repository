@@ -1,4 +1,61 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data Center Infrastructure"
-    id="id-27cc2167c2cf494e93a4b53948289add"/>
+    id="id-27cc2167c2cf494e93a4b53948289add">
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-a47066595eee42e2ad8d9c069906cca1"
+      name="Physical Infrastructure Layer"
+      textAlignment="1">
+    <bounds
+        x="46"
+        y="217"
+        width="391"
+        height="184"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-b916f822c06741f8a36c10ee46eba12a"
+      name="Facility Layer"
+      textAlignment="1">
+    <bounds
+        x="52"
+        y="15"
+        width="385"
+        height="171"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-d00d6da5a2ed4dd183c456a283a6ea48"
+      name="System Software Layer"
+      textAlignment="1">
+    <bounds
+        x="466"
+        y="225"
+        width="400"
+        height="176"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-715f63db49bd46a8bbc952e3985e3716"
+      name="Network Infrastructure Layer"
+      textAlignment="1">
+    <bounds
+        x="466"
+        y="35"
+        width="400"
+        height="162"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-6982c076691245a09a9a0e61d1bdc552"
+      name="Technology Service Layer "
+      textAlignment="1">
+    <bounds
+        x="45"
+        y="429"
+        width="400"
+        height="140"/>
+  </children>
+</archimate:ArchimateDiagramModel>
