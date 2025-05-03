@@ -1,0 +1,5 @@
+<archimate:SystemSoftware
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Hypervisor"
+    id="id-9e64fdf963e04112b5bbe39a2b3bd92f"
+    documentation="Hypervisor (System Software)&#xD;&#xA;&#xD;&#xA;•&#x9;Assigned to ComputeServer1 and ComputeServer2 respectively&#xD;&#xA;•&#x9;Realize ComputeService&#xD;&#xA;"/>

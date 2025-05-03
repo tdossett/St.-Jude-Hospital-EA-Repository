@@ -1,0 +1,5 @@
+<archimate:DistributionNetwork
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Center LAN"
+    id="id-0d157da06f1243a5aa362dac2564c17d"
+    documentation="DataCenterLAN (Network)&#xD;&#xA;&#xD;&#xA;•&#x9;Realized by CoreSwitch&#xD;&#xA;•&#x9;Connected to StorageAreaNetwork, ManagementNetwork, and DMZNetwork via communication path relationships&#xD;&#xA;•&#x9;Accessed by NetworkInterfaces&#xD;&#xA;"/>

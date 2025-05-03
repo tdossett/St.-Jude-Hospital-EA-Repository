@@ -1,0 +1,5 @@
+<archimate:SystemSoftware
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SAN Mangement Software"
+    id="id-9dd6797ece8a4d0f832a1cebca694001"
+    documentation="SAN_Management (System Software)&#xD;&#xA;&#xD;&#xA;•&#x9;Assigned Storage Sand (i.e. StorageArray1 and StorageArray2)&#xD;&#xA;•&#x9;Realizes StorageService and BackupService&#xD;&#xA;"/>

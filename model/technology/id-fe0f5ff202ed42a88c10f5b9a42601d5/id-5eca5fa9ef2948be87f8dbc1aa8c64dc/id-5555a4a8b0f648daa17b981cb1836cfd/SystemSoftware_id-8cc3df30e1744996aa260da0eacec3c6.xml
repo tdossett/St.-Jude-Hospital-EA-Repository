@@ -1,0 +1,5 @@
+<archimate:SystemSoftware
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Network OS"
+    id="id-8cc3df30e1744996aa260da0eacec3c6"
+    documentation="NetworkOS (System Software)&#xD;&#xA;&#xD;&#xA;•&#x9;Assigned to CoreSwitch&#xD;&#xA;•&#x9;Realizes NetworkService&#xD;&#xA;"/>

@@ -1,5 +1,5 @@
-<archimate:Node
+<archimate:Device
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Firewall"
-    id="id-85ae328e218942fdb16a3fccff84f334"
+    id="id-2204b2022cfc42b1b14f397faaea4382"
     documentation="Firewall&#xD;&#xA;&#xD;&#xA;•&#x9;Next-Gen Firewalls &#xD;&#xA;&#xD;&#xA;Function: Advanced traffic filtering and inspection&#xD;&#xA;&#xD;&#xA;Relationships: &#xD;&#xA;&#xD;&#xA;&#x9;Protects → Core Network, WAN Connections&#xD;&#xA;&#x9;Controls → Internet Gateway: For external traffic filtering&#xD;&#xA;&#x9;Integrates with → IDS/IPS: For comprehensive threat protection&#xD;&#xA;&#x9;Reports to → SIEM: For security event correlation&#xD;&#xA;"/>

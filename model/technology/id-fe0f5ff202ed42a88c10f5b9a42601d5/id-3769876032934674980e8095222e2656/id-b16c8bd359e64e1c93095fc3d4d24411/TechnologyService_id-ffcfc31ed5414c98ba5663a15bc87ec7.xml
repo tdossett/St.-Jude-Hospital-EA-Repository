@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compute Service"
+    id="id-ffcfc31ed5414c98ba5663a15bc87ec7"
+    documentation="ComputeService (Technology Service)&#xD;&#xA;&#xD;&#xA;•&#x9;Realized by Hypervisor&#xD;&#xA;"/>
