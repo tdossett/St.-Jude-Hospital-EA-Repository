@@ -1,0 +1,5 @@
+<archimate:DistributionNetwork
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Medical Device Network"
+    id="id-2b6fcfa0bd7b4da7880a37c5be04f7e8"
+    documentation="Medical Device Network&#xD;&#xA;&#xD;&#xA;•&#x9;Model Medical Device VLAN as a Network element&#xD;&#xA;•&#x9;Show Isolation Zones as Network sub-elements&#xD;&#xA;•&#x9;Connect medical devices using Association relationships&#xD;&#xA;•&#x9;Apply security services using Serving relationships&#xD;&#xA;"/>

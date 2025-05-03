@@ -1,0 +1,5 @@
+<archimate:TechnologyInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Network Interfaces"
+    id="id-a87e1cdbd2954a25ac01d2dac122e18b"
+    documentation="NetworkInterfaces (Technology Interface)&#xD;&#xA;&#xD;&#xA;•&#x9;Associated with ComputeServer1 and ComputeServer2&#xD;&#xA;•&#x9;Access DataCenterLAN and ManagementNetwork&#xD;&#xA;"/>

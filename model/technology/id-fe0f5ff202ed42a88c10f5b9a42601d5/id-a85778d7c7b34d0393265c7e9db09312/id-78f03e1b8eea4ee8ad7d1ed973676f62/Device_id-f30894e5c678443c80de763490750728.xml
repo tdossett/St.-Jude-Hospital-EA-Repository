@@ -1,0 +1,5 @@
+<archimate:Device
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Power Distribution Unit (PDU)"
+    id="id-f30894e5c678443c80de763490750728"
+    documentation="PDU (Power Distribution Unit) (Device)&#xD;&#xA;&#xD;&#xA;•&#x9;Connected to ServerRack, NetworkRack, and StorageRack via serving relationships&#xD;&#xA;•&#x9;Receives power from UPS&#xD;&#xA;•&#x9;Located within PowerRoom (aggregation relationship)&#xD;&#xA;"/>

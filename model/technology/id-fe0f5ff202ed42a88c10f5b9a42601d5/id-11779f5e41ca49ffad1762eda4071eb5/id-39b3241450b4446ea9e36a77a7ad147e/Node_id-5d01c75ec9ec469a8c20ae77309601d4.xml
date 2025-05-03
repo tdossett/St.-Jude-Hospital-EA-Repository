@@ -1,0 +1,5 @@
+<archimate:Node
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Network Rack"
+    id="id-5d01c75ec9ec469a8c20ae77309601d4"
+    documentation="NetworkRack (Node)&#xD;&#xA;&#xD;&#xA;•&#x9;Connected to CoreSwitch, EdgeRouter, and Firewall via composition relationships&#xD;&#xA;•&#x9;Receives power from PDU&#xD;&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:Device
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="HVAC System"
+    id="id-b54ff555056448109303026ec6d43e69"
+    documentation="HVAC System (Device)&#xD;&#xA;&#xD;&#xA;•&#x9;Connected to ServerRoom via serving relationship (provides cooling)&#xD;&#xA;•&#x9;Located within CoolingRoom (aggregation relationship)&#xD;&#xA;"/>

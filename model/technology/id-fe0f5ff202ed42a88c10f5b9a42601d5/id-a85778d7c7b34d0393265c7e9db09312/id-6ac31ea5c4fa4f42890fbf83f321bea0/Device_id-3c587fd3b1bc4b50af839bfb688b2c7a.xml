@@ -1,0 +1,5 @@
+<archimate:Device
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Edge Router"
+    id="id-3c587fd3b1bc4b50af839bfb688b2c7a"
+    documentation="EdgeRouter (Device)&#xD;&#xA;&#xD;&#xA;•&#x9;Connected to DMZNetwork via realization relationship&#xD;&#xA;•&#x9;Mounted within NetworkRack (composition relationship)&#xD;&#xA;"/>
