@@ -2,16 +2,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     xmlns:canvas="http://www.archimatetool.com/archimate/canvas"
-    name="Enterprise Architecture View"
+    name="St. Jude Hospital Enterprise Architecture View"
     id="id-8573c412f9f049109e1a8f248bce3958"
-    documentation="St. Jude Hosptial Enterprise Architecture has adpated the TOGAF (The Open Group Architecture Framework) Content Framework in which is a crucial part of the TOGAF standard, working in tandem with the Architecture Development Method (ADM). The ADM provides the process for developing an enterprise architecture, while the Content Framework defines what the architecture should look like, ensuring consistency and completeness of the work products generated during the ADM process. &#xD;&#xA;&#xD;&#xA;Here's a breakdown of the TOGAF Content Framework and the ADM phases:&#xD;&#xA;&#xD;&#xA;1. TOGAF Content Framework:&#xD;&#xA;&#xD;&#xA;Purpose: Provides a structured metamodel for architectural artifacts and a conceptual outline of architecture deliverables. &#xD;&#xA;&#xD;&#xA;Key Elements:&#xD;&#xA;&#xD;&#xA;•&#x9;Deliverables: Contractually specified work products formally reviewed and approved by stakeholders.&#xD;&#xA;•&#x9;Artifacts: Architectural work products describing an aspect of the architecture, such as diagrams, matrices, and catalogs.&#xD;&#xA;•&#x9;Building Blocks: Potentially reusable components of business, IT, or architectural capability. &#xD;&#xA;&#xD;&#xA;2. TOGAF Architecture Development Method (ADM) Phases:&#xD;&#xA;&#xD;&#xA;The ADM is an iterative, cyclical approach for developing an enterprise architecture.&#xD;&#xA;">
+    documentation="St. Jude Hospital Enterprise Architecture has adapted the TOGAF (The Open Group Architecture Framework) Content Framework in which is a crucial part of the TOGAF standard, working in tandem with the Architecture Development Method (ADM). The ADM provides the process for developing an enterprise architecture, while the Content Framework defines what the architecture should look like, ensuring consistency and completeness of the work products generated during the ADM process. &#xD;&#xA;&#xD;&#xA;Here's a breakdown of the TOGAF Content Framework and the ADM phases:&#xD;&#xA;&#xD;&#xA;1. TOGAF Content Framework:&#xD;&#xA;&#xD;&#xA;Purpose: Provides a structured metamodel for architectural artifacts and a conceptual outline of architecture deliverables. &#xD;&#xA;&#xD;&#xA;Key Elements:&#xD;&#xA;&#xD;&#xA;•&#x9;Deliverables: Contractually specified work products formally reviewed and approved by stakeholders.&#xD;&#xA;•&#x9;Artifacts: Architectural work products describing an aspect of the architecture, such as diagrams, matrices, and catalogs.&#xD;&#xA;•&#x9;Building Blocks: Potentially reusable components of business, IT, or architectural capability. &#xD;&#xA;&#xD;&#xA;2. TOGAF Architecture Development Method (ADM) Phases:&#xD;&#xA;&#xD;&#xA;The ADM is an iterative, cyclical approach for developing an enterprise architecture.&#xD;&#xA;">
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="id-603c21ad6a60446b9ea44efbc40023b0"
       textAlignment="1"
       borderColor="#000000">
     <bounds
-        x="39"
+        x="41"
+        y="16"
         width="970"
         height="373"/>
     <children
@@ -77,8 +78,8 @@
       fontColor="#ffffff"
       fillColor="#ff8040">
     <bounds
-        x="48"
-        y="12"
+        x="50"
+        y="28"
         width="757"
         height="61"/>
     <referencedModel
@@ -90,8 +91,8 @@
       id="id-65557ccc01544801a50acd20400af25c"
       imagePath="images/_UBFZIBF3EfC2ud7qghEnLg.jpg">
     <bounds
-        x="60"
-        y="21"
+        x="62"
+        y="37"
         width="49"
         height="43"/>
   </children>
@@ -101,8 +102,8 @@
       fontColor="#ffffff"
       fillColor="#ff8040">
     <bounds
-        x="48"
-        y="84"
+        x="50"
+        y="100"
         width="181"
         height="61"/>
     <referencedModel
@@ -115,8 +116,8 @@
       fontColor="#ffffff"
       fillColor="#0080ff">
     <bounds
-        x="432"
-        y="84"
+        x="434"
+        y="100"
         width="181"
         height="61"/>
     <referencedModel
@@ -129,8 +130,8 @@
       fontColor="#ffffff"
       fillColor="#0080ff">
     <bounds
-        x="624"
-        y="84"
+        x="626"
+        y="100"
         width="181"
         height="61"/>
     <referencedModel
@@ -143,8 +144,8 @@
       fontColor="#ffffff"
       fillColor="#ff0000">
     <bounds
-        x="48"
-        y="156"
+        x="50"
+        y="172"
         width="181"
         height="61"/>
     <referencedModel
@@ -157,8 +158,8 @@
       fontColor="#ffffff"
       fillColor="#ff0000">
     <bounds
-        x="240"
-        y="156"
+        x="242"
+        y="172"
         width="181"
         height="61"/>
     <referencedModel
@@ -171,8 +172,8 @@
       fontColor="#ffffff"
       fillColor="#0080ff">
     <bounds
-        x="432"
-        y="156"
+        x="434"
+        y="172"
         width="181"
         height="61"/>
     <referencedModel
@@ -185,8 +186,8 @@
       fontColor="#ffffff"
       fillColor="#ff0000">
     <bounds
-        x="48"
-        y="300"
+        x="50"
+        y="316"
         width="373"
         height="61"/>
     <referencedModel
@@ -199,8 +200,8 @@
       fontColor="#ffffff"
       fillColor="#ff8040">
     <bounds
-        x="240"
-        y="84"
+        x="242"
+        y="100"
         width="181"
         height="61"/>
     <referencedModel
@@ -213,8 +214,8 @@
       fontColor="#ffffff"
       fillColor="#0080ff">
     <bounds
-        x="624"
-        y="156"
+        x="626"
+        y="172"
         width="181"
         height="61"/>
     <referencedModel
@@ -227,8 +228,8 @@
       fontColor="#ffffff"
       fillColor="#ff0000">
     <bounds
-        x="48"
-        y="228"
+        x="50"
+        y="244"
         width="181"
         height="61"/>
     <referencedModel
@@ -241,8 +242,8 @@
       fontColor="#ffffff"
       fillColor="#ff0000">
     <bounds
-        x="240"
-        y="228"
+        x="242"
+        y="244"
         width="181"
         height="61"/>
     <referencedModel
@@ -256,8 +257,8 @@
       content="Legend"
       borderColor="#808080">
     <bounds
-        x="828"
-        y="12"
+        x="830"
+        y="28"
         width="169"
         height="157"/>
   </children>
@@ -268,8 +269,8 @@
       borderColor="#C0C0C0"
       textPosition="1">
     <bounds
-        x="846"
-        y="44"
+        x="848"
+        y="60"
         width="16"
         height="15"/>
   </children>
@@ -280,8 +281,8 @@
       borderColor="#C0C0C0"
       textPosition="1">
     <bounds
-        x="846"
-        y="68"
+        x="848"
+        y="84"
         width="16"
         height="15"/>
   </children>
@@ -292,8 +293,8 @@
       borderColor="#C0C0C0"
       textPosition="1">
     <bounds
-        x="846"
-        y="92"
+        x="848"
+        y="108"
         width="16"
         height="15"/>
   </children>
@@ -304,8 +305,8 @@
       borderColor="#C0C0C0"
       textPosition="1">
     <bounds
-        x="846"
-        y="116"
+        x="848"
+        y="132"
         width="16"
         height="15"/>
   </children>
@@ -316,8 +317,8 @@
       borderColor="#C0C0C0"
       textPosition="1">
     <bounds
-        x="846"
-        y="140"
+        x="848"
+        y="156"
         width="16"
         height="15"/>
   </children>
@@ -328,8 +329,8 @@
       fillColor="#ffffff"
       content="Business Layer">
     <bounds
-        x="870"
-        y="39"
+        x="872"
+        y="55"
         width="121"
         height="25"/>
   </children>
@@ -341,8 +342,8 @@
       content="Application Layer"
       textPosition="1">
     <bounds
-        x="870"
-        y="63"
+        x="872"
+        y="79"
         width="121"
         height="25"/>
   </children>
@@ -354,8 +355,8 @@
       content="Technology Layer"
       textPosition="1">
     <bounds
-        x="870"
-        y="87"
+        x="872"
+        y="103"
         width="121"
         height="25"/>
   </children>
@@ -367,8 +368,8 @@
       content="Cross-Layer Elements"
       textPosition="1">
     <bounds
-        x="870"
-        y="111"
+        x="872"
+        y="127"
         width="121"
         height="25"/>
   </children>
@@ -380,8 +381,8 @@
       content="Governance"
       textPosition="1">
     <bounds
-        x="870"
-        y="135"
+        x="872"
+        y="151"
         width="121"
         height="25"/>
   </children>
