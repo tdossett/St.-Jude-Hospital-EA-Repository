@@ -1,6 +1,6 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="ICU"
+    name="Intensive Care Unit"
     id="id-8d62a199687741aba41bed15a62c112d">
   <profiles
       href="folder.xml#id-8c35347b413241649dea8137ae2cf6a2"/>
