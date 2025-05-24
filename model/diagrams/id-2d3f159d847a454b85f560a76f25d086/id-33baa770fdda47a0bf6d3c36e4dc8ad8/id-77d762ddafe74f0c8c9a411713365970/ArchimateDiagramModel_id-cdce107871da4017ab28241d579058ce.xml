@@ -13,7 +13,7 @@
     <bounds
         x="34"
         y="15"
-        width="947"
+        width="818"
         height="186"/>
     <children
         xsi:type="archimate:DiagramModelReference"
@@ -105,27 +105,13 @@
         fontColor="#ffffff"
         fillColor="#00ae00">
       <bounds
-          x="806"
-          y="35"
-          width="120"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-39c9981960a54c02a5fbbc77268f0dd9.xml#id-39c9981960a54c02a5fbbc77268f0dd9"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-b3523566f05e45e68f4c01dd7c9e0f67"
-        fontColor="#ffffff"
-        fillColor="#00ae00">
-      <bounds
-          x="19"
+          x="18"
           y="99"
           width="120"
           height="55"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-43455e49538c4b9a8b1372524946b3b5.xml#id-43455e49538c4b9a8b1372524946b3b5"/>
+          href="ArchimateDiagramModel_id-39c9981960a54c02a5fbbc77268f0dd9.xml#id-39c9981960a54c02a5fbbc77268f0dd9"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
