@@ -1330,11 +1330,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-b9242df0fac24f03b703ec34b0b34d02"
       textAlignment="1"
-      content="SJH: Data Center and Network Infrastructure&#xD;&#xA;&#xD;&#xA;Author: Timothy Dossett">
+      content="Author: Timothy Dossett&#xD;&#xA;Date: 06/01/2025">
     <bounds
         x="68"
         y="39"
         width="185"
-        height="80"/>
+        height="49"/>
   </children>
 </archimate:ArchimateDiagramModel>
