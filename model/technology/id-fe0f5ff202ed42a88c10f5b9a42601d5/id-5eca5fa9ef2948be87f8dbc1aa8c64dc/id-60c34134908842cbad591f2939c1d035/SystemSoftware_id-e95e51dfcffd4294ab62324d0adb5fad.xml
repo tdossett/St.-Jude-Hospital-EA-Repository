@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Business Rules Engine"
-    id="id-e95e51dfcffd4294ab62324d0adb5fad"/>
+    id="id-e95e51dfcffd4294ab62324d0adb5fad"
+    documentation="Business Rules Engine (BRE) &#xD;&#xA;&#xD;&#xA;A software component that separates business logic from application code by managing and executing business rules in a centralized, configurable way."/>

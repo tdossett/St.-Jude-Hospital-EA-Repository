@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Clinical Data Repository"
+    id="id-d6becc4c10fb44dfbfe8d4e2000830c2"
+    documentation="Clinical Data Repository (CDR)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Centralized, normalized storage of clinical data from multiple source systems&#xD;&#xA;&#xD;&#xA;•&#x9;Data Sources: EHR, EMR, LIMS, RIS, PACS, HIS, external systems&#xD;&#xA;•&#x9;Data Types: Structured clinical data, unstructured documents, images, signals&#xD;&#xA;•&#x9;Architecture: Relational databases, NoSQL databases, document stores, time-series databases&#xD;&#xA;•&#x9;Processing: Real-time data ingestion, data validation, normalization, enrichment&#xD;&#xA;•&#x9;Access: APIs for application access, query interfaces, data export capabilities&#xD;&#xA;•&#x9;Benefits: Single source of truth, improved data quality, enhanced analytics&#xD;&#xA;"/>

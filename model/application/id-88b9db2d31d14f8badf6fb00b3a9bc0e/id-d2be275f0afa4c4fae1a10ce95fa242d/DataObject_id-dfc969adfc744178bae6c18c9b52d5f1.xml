@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Backup Storage"
-    id="id-dfc969adfc744178bae6c18c9b52d5f1"/>
+    id="id-dfc969adfc744178bae6c18c9b52d5f1"
+    documentation="Backup Storage&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Data protection, long-term retention, and disaster recovery&#xD;&#xA;•&#x9;Backup Types: Full backups, incremental backups, differential backups, snapshot backups&#xD;&#xA;•&#x9;Storage: On-premises storage, cloud storage, hybrid solutions, tape storage&#xD;&#xA;•&#x9;Retention: Legal requirements, regulatory compliance, business needs, cost optimization&#xD;&#xA;•&#x9;Recovery: Recovery time objectives (RTO), recovery point objectives (RPO), testing procedures&#xD;&#xA;"/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Instrument Interface"
-    id="id-a5c5e05fc690491d8e63a162170e63bf"/>
+    id="id-a5c5e05fc690491d8e63a162170e63bf"
+    documentation="Instrument Interface&#xD;&#xA;&#xD;&#xA;Direct integration with lab analyzers and equipment"/>

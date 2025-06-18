@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Business Intelligence"
-    id="id-29b9ac5eaacc4d27bd7334a49ac850c0"/>
+    id="id-29b9ac5eaacc4d27bd7334a49ac850c0"
+    documentation="Business Intelligence (BI)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Transform data into actionable insights for decision-making&#xD;&#xA;•&#x9;Capabilities: Reporting, dashboards, data visualization, trend analysis&#xD;&#xA;•&#x9;Data Sources: Data warehouse, operational systems, external data&#xD;&#xA;•&#x9;Tools: Tableau, Power BI, QlikView, custom reporting solutions&#xD;&#xA;•&#x9;Users: Executives, managers, analysts, clinical quality teams&#xD;&#xA;•&#x9;Content: Financial reports, operational metrics, quality indicators, regulatory reports&#xD;&#xA;•&#x9;Benefits: Data-driven decisions, performance monitoring, strategic planning&#xD;&#xA;"/>

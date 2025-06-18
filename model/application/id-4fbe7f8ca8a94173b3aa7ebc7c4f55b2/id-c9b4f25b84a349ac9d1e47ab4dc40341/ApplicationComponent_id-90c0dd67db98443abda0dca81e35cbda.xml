@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Laboratory Management"
-    id="id-90c0dd67db98443abda0dca81e35cbda"/>
+    id="id-90c0dd67db98443abda0dca81e35cbda"
+    documentation="Laboratory Management&#xD;&#xA;&#xD;&#xA;Test ordering and workflow management"/>

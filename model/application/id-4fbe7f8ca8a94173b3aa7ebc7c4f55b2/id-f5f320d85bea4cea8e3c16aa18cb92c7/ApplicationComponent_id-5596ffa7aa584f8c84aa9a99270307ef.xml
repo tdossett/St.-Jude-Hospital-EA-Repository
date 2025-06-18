@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Electronic Medical Records"
-    id="id-5596ffa7aa584f8c84aa9a99270307ef"/>
+    id="id-5596ffa7aa584f8c84aa9a99270307ef"
+    documentation="Electronic Medical Records (EMR)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Digital version of paper charts within a single healthcare organization&#xD;&#xA;&#xD;&#xA;•&#x9;Core Functions: &#xD;&#xA;&#xD;&#xA;o&#x9;Real-time clinical data entry and documentation&#xD;&#xA;o&#x9;Progress notes and clinical observations&#xD;&#xA;o&#x9;Treatment plans and care protocols&#xD;&#xA;o&#x9;Digital prescriptions and medication orders&#xD;&#xA;o&#x9;Clinical alerts and reminders&#xD;&#xA;&#xD;&#xA;•&#x9;Data Scope: Organization-specific, encounter-based records&#xD;&#xA;•&#x9;Workflow Integration: Physician order entry, nursing documentation, clinical pathways&#xD;&#xA;•&#x9;Decision Support: Drug interaction checking, allergy alerts, evidence-based guidelines&#xD;&#xA;•&#x9;Benefits: Improved documentation, enhanced patient safety, clinical efficiency&#xD;&#xA;"/>

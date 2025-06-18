@@ -1,4 +1,5 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API Gateway"
-    id="id-4cc73adf887a4b2497a462572c96f1a4"/>
+    id="id-4cc73adf887a4b2497a462572c96f1a4"
+    documentation="API Gateway&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Single entry point for all API requests with centralized management&#xD;&#xA;•&#x9;Functions: Request routing, load balancing, API versioning, request/response transformation&#xD;&#xA;•&#x9;Features: Protocol translation (REST to SOAP), caching, throttling, circuit breakers&#xD;&#xA;•&#x9;Technology: Kong, AWS API Gateway, Azure API Management, or custom solutions&#xD;&#xA;•&#x9;Benefits: Simplified client integration, centralized policy enforcement, reduced complexity"/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Mobile Apps"
-    id="id-9c3dc43b4b7346fc87aa02db1d4889bd"/>
+    id="id-9c3dc43b4b7346fc87aa02db1d4889bd"
+    documentation="Mobile Apps&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Native mobile apps for on-the-go access to healthcare systems&#xD;&#xA;•&#x9;Users: Physicians, nurses, mobile workforce&#xD;&#xA;•&#x9;Features: Patient lookup, critical alerts, secure messaging, barcode scanning&#xD;&#xA;•&#x9;Technology: Native iOS/Android apps, offline capabilities, push notifications&#xD;&#xA;•&#x9;Security: Mobile device management, biometric authentication, encrypted storage&#xD;&#xA;"/>

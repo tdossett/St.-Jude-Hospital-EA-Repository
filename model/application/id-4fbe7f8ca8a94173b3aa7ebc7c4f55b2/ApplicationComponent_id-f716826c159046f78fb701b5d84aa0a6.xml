@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Web Portal"
-    id="id-f716826c159046f78fb701b5d84aa0a6"/>
+    id="id-f716826c159046f78fb701b5d84aa0a6"
+    documentation="Web Portal&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Browser-based interfaces for clinical and administrative users&#xD;&#xA;•&#x9;Users: Clinicians, administrators, support staff&#xD;&#xA;•&#x9;Features: Patient charts, order entry, scheduling, reporting, configuration management&#xD;&#xA;•&#x9;Technology: Single-page applications (React/Angular), responsive design, real-time updates&#xD;&#xA;•&#x9;Security: Session management, role-based access, audit logging&#xD;&#xA;"/>

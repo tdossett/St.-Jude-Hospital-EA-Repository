@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Picture Archiving System"
-    id="id-a56a85f413a2465e9a594a836baafa98"/>
+    id="id-a56a85f413a2465e9a594a836baafa98"
+    documentation="Picture Archiving &amp; Communication System (PACS)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Medical image storage, retrieval, and distribution system&#xD;&#xA;&#xD;&#xA;•&#x9;Core Functions: &#xD;&#xA;&#xD;&#xA;o&#x9;DICOM image storage and management&#xD;&#xA;o&#x9;Image viewing and manipulation tools&#xD;&#xA;o&#x9;Long-term archival and retrieval&#xD;&#xA;o&#x9;Image distribution to referring physicians&#xD;&#xA;o&#x9;Backup and disaster recovery&#xD;&#xA;&#xD;&#xA;•&#x9;Integration: RIS for workflow, EHR for image access, modalities for image acquisition&#xD;&#xA;•&#x9;Standards: DICOM for image storage and communication, IHE profiles for integration&#xD;&#xA;•&#x9;Architecture: Central storage, distributed viewing, cloud/hybrid options&#xD;&#xA;•&#x9;Benefits: Filmless operation, improved image access, reduced storage costs&#xD;&#xA;"/>

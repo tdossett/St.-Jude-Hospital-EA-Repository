@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Electronic Health Records"
-    id="id-c5f17ce82a0248d791ca823792ddc575"/>
+    id="id-c5f17ce82a0248d791ca823792ddc575"
+    documentation="Electronic Health Records (EHR)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Longitudinal patient health record spanning multiple care episodes and providers&#xD;&#xA;&#xD;&#xA;•&#x9;Core Functions: &#xD;&#xA;&#xD;&#xA;o&#x9;Comprehensive patient medical history&#xD;&#xA;o&#x9;Clinical documentation and care planning&#xD;&#xA;o&#x9;Medication management and allergy tracking&#xD;&#xA;o&#x9;Problem lists and clinical decision support&#xD;&#xA;o&#x9;Care coordination and referral management&#xD;&#xA;&#xD;&#xA;•&#x9;Data Scope: Multi-provider, multi-location, lifetime health record&#xD;&#xA;•&#x9;Interoperability: HL7 FHIR, C-CDA documents, Direct Secure Messaging&#xD;&#xA;•&#x9;Compliance: Meaningful Use/Promoting Interoperability, HIPAA, state regulations&#xD;&#xA;•&#x9;Benefits: Improved care coordination, reduced medical errors, better outcomes&#xD;&#xA;&#xD;&#xA;"/>

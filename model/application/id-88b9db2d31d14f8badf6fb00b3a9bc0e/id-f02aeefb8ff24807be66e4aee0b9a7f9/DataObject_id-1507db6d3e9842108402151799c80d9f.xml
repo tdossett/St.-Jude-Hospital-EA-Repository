@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Archive Storage"
-    id="id-1507db6d3e9842108402151799c80d9f"/>
+    id="id-1507db6d3e9842108402151799c80d9f"
+    documentation="Archive Storage&#xD;&#xA;&#xD;&#xA;•&#x9;Archive: Long-term storage, data lifecycle management, compliance requirements&#xD;&#xA;•&#x9;Benefits: Data protection, business continuity, regulatory compliance, cost management"/>

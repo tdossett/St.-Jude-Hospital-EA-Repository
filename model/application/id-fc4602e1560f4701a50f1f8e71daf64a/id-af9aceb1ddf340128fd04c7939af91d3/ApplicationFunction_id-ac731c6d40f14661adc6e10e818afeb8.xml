@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Clinical Documentation"
-    id="id-ac731c6d40f14661adc6e10e818afeb8"/>
+    id="id-ac731c6d40f14661adc6e10e818afeb8"
+    documentation="Clinical Documentation&#xD;&#xA;&#xD;&#xA;SOAP notes, care plans, and clinical workflows"/>

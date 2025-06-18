@@ -1,4 +1,5 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Insurance Providers"
-    id="id-11e0639dd02c4a2398957de42d65a9df"/>
+    id="id-11e0639dd02c4a2398957de42d65a9df"
+    documentation="Insurance Providers&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Integration with health insurance companies for eligibility verification, prior authorization, and claims processing&#xD;&#xA;•&#x9;Data Exchange: Patient coverage details, copay information, authorization status, claims submissions, and payment notifications&#xD;&#xA;•&#x9;Integration Methods: EDI transactions (837, 835, 270/271), REST APIs, batch file transfers&#xD;&#xA;•&#x9;Critical Functions: Real-time eligibility checks, automated claims submission, payment posting, denial management&#xD;&#xA;"/>

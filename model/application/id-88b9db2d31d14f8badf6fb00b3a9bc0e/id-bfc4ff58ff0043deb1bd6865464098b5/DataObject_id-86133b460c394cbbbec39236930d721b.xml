@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="RIS Database"
-    id="id-86133b460c394cbbbec39236930d721b"/>
+    id="id-86133b460c394cbbbec39236930d721b"
+    documentation="RIS Database&#xD;&#xA;&#xD;&#xA;Centralized database that supports Radiology Information System"/>

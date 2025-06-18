@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Training Management"
-    id="id-b5791eb98558462c91b98a22a9276653"/>
+    id="id-b5791eb98558462c91b98a22a9276653"
+    documentation="Training Management &#xD;&#xA;&#xD;&#xA;Is the module (or set of capabilities) dedicated to planning, delivering, tracking and reporting on all workforce learning and compliance activities. Because healthcare organizations are subject to numerous regulatory and accreditation requirements, an integrated Training Management system is critical for both clinical and non-clinical staff."/>

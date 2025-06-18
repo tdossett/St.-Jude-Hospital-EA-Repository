@@ -1,4 +1,5 @@
 <archimate:TechnologyFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Rate Limiting"
-    id="id-9dd00bf8731348df815259583107a8b3"/>
+    id="id-9dd00bf8731348df815259583107a8b3"
+    documentation="Rate Limiting&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Prevent system overload and ensure fair resource utilization&#xD;&#xA;•&#x9;Methods: Request throttling, quota management, priority-based limiting&#xD;&#xA;•&#x9;Features: Per-client limits, burst handling, graceful degradation, spike protection&#xD;&#xA;•&#x9;Configuration: Different limits for different API endpoints and user types&#xD;&#xA;•&#x9;Monitoring: Real-time usage tracking, threshold alerts, capacity planning&#xD;&#xA;"/>

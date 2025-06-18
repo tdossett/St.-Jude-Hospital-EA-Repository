@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Alerting System"
-    id="id-92a36854dd084276bc4927dae953c0c3"/>
+    id="id-92a36854dd084276bc4927dae953c0c3"
+    documentation="Alerting System&#xD;&#xA;&#xD;&#xA;Uses Multi-channel alerting, escalation procedures, alert correlation, noise reduction in Monitoring &amp; Operations. "/>

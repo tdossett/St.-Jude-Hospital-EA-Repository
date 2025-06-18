@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Distributed Cache"
-    id="id-26024c61945549c4a2c53a6c2d808975"/>
+    id="id-26024c61945549c4a2c53a6c2d808975"
+    documentation="Distributed Cache&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: High-performance caching layer to reduce database load and improve response times&#xD;&#xA;•&#x9;Types: In-memory cache, distributed cache, application cache, database cache&#xD;&#xA;•&#x9;Data: Frequently accessed patient data, lookup tables, session data, computed results&#xD;&#xA;•&#x9;Technology: Redis, Memcached, Hazelcast, application-level caching&#xD;&#xA;•&#x9;Patterns: Cache-aside, write-through, write-behind, refresh-ahead&#xD;&#xA;•&#x9;Benefits: Reduced latency, improved scalability, decreased database load, better user experience&#xD;&#xA;"/>

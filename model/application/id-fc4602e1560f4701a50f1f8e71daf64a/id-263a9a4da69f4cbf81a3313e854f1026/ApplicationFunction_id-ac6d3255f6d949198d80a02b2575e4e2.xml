@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Payroll Management"
-    id="id-ac6d3255f6d949198d80a02b2575e4e2"/>
+    id="id-ac6d3255f6d949198d80a02b2575e4e2"
+    documentation="Payroll Management&#xD;&#xA;&#xD;&#xA;Compensation and benefits administration"/>

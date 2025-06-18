@@ -1,4 +1,5 @@
 <archimate:TechnologyFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Change Data Capture"
-    id="id-a30fee5a8f9949d081d4d46d2460fbd7"/>
+    id="id-a30fee5a8f9949d081d4d46d2460fbd7"
+    documentation="Change Data Capture (CDC)&#xD;&#xA;&#xD;&#xA;Real-time data synchronization across systems."/>

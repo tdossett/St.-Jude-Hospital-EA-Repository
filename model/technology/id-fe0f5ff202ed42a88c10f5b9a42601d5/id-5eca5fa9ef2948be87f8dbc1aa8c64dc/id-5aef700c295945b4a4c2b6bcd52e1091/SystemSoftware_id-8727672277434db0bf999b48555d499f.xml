@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API Manager"
-    id="id-8727672277434db0bf999b48555d499f"/>
+    id="id-8727672277434db0bf999b48555d499f"
+    documentation="API Manager&#xD;&#xA;&#xD;&#xA;Is a comprehensive platform that provides centralized governance, lifecycle management, and operational control over APIs, while an API Gateway is typically one component within that broader management ecosystem."/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Reporting Service"
-    id="id-4ad89d487609455fb21b098840568254"/>
+    id="id-4ad89d487609455fb21b098840568254"
+    documentation="Reporting Services&#xD;&#xA;&#xD;&#xA;Provides real-time reporting services for Business Intelligence."/>
