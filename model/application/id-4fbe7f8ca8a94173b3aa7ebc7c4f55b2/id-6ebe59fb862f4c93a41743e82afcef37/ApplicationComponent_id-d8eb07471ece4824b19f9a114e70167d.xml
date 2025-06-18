@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="DICOM Server"
-    id="id-d8eb07471ece4824b19f9a114e70167d"/>
+    id="id-d8eb07471ece4824b19f9a114e70167d"
+    documentation="DICOM Server&#xD;&#xA;&#xD;&#xA;Medical software used in imaging communication standards."/>

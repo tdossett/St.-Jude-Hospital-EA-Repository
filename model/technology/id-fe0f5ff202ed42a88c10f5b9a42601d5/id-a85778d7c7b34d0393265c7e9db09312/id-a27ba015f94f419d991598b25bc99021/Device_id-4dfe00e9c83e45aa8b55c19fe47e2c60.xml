@@ -1,4 +1,5 @@
 <archimate:Device
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Security Infrastructure"
-    id="id-4dfe00e9c83e45aa8b55c19fe47e2c60"/>
+    id="id-4dfe00e9c83e45aa8b55c19fe47e2c60"
+    documentation="Security Infrastructure&#xD;&#xA;This encompasses all the tools, policies, and systems that protect your computing environment:&#xD;&#xA;Cloud Security Infrastructure:&#xD;&#xA;&#xD;&#xA;Identity and Access Management (IAM) services&#xD;&#xA;Network security groups and firewalls&#xD;&#xA;Encryption services for data at rest and in transit&#xD;&#xA;Security monitoring and logging services&#xD;&#xA;Compliance frameworks and audit tools&#xD;&#xA;Managed security services (WAF, DDoS protection)&#xD;&#xA;Shared responsibility model with cloud provider&#xD;&#xA;&#xD;&#xA;On-Premise Security Infrastructure:&#xD;&#xA;&#xD;&#xA;Physical security controls (data center access, surveillance)&#xD;&#xA;Network firewalls, intrusion detection/prevention systems&#xD;&#xA;Endpoint protection and antivirus solutions&#xD;&#xA;Identity management systems (Active Directory)&#xD;&#xA;Backup and disaster recovery systems&#xD;&#xA;Full responsibility for all security layers"/>

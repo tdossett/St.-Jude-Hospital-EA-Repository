@@ -1,4 +1,5 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Pharmacy Networks"
-    id="id-dd9f95233c314196a2eaa4bdb19fd543"/>
+    id="id-dd9f95233c314196a2eaa4bdb19fd543"
+    documentation="Pharmacy Networks&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Electronic prescribing and medication management integration&#xD;&#xA;•&#x9;Data Exchange: Prescription orders, medication history, drug interactions, formulary information&#xD;&#xA;•&#x9;Integration Methods: NCPDP SCRIPT standard, Surescripts network, pharmacy benefit manager APIs&#xD;&#xA;•&#x9;Critical Functions: E-prescribing, medication reconciliation, drug interaction checking, prior authorization&#xD;&#xA;"/>

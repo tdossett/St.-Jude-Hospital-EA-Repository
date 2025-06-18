@@ -1,4 +1,5 @@
 <archimate:TechnologyFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API Monitoring"
-    id="id-7f43ac3b9773487ababb1c06b5a993c9"/>
+    id="id-7f43ac3b9773487ababb1c06b5a993c9"
+    documentation="API Monitoring&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Comprehensive observability for API performance and health&#xD;&#xA;•&#x9;Metrics: Response times, error rates, throughput, availability, security events&#xD;&#xA;•&#x9;Features: Real-time alerting, SLA monitoring, trend analysis, anomaly detection&#xD;&#xA;•&#x9;Tools: Application performance monitoring (APM), log aggregation, custom dashboards&#xD;&#xA;•&#x9;Benefits: Proactive issue detection, performance optimization, compliance reporting&#xD;&#xA;"/>

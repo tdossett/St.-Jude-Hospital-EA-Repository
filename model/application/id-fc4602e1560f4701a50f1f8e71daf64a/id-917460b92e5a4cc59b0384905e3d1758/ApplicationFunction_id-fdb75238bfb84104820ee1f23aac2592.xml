@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Results Management"
-    id="id-fdb75238bfb84104820ee1f23aac2592"/>
+    id="id-fdb75238bfb84104820ee1f23aac2592"
+    documentation="Results Management&#xD;&#xA;&#xD;&#xA;Automated result reporting and critical value alerts"/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Specimen Tracking"
-    id="id-b3080c96659f48afb6d6f3de37972ce2"/>
+    id="id-b3080c96659f48afb6d6f3de37972ce2"
+    documentation="Specimen Tracking&#xD;&#xA;&#xD;&#xA;Chain of custody and sample lifecycle"/>

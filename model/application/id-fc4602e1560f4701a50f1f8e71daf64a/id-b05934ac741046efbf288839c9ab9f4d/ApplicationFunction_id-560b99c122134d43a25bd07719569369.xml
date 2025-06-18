@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Asset Management"
-    id="id-560b99c122134d43a25bd07719569369"/>
+    id="id-560b99c122134d43a25bd07719569369"
+    documentation="Asset Management&#xD;&#xA;&#xD;&#xA;Supports Asset Management and maintenance within ERP System"/>

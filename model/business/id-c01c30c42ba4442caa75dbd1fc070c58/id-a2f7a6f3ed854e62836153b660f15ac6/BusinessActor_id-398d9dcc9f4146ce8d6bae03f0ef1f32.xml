@@ -1,4 +1,5 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Government Health Agencies"
-    id="id-398d9dcc9f4146ce8d6bae03f0ef1f32"/>
+    id="id-398d9dcc9f4146ce8d6bae03f0ef1f32"
+    documentation="Government Health Agencies&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Compliance reporting and data exchange with regulatory bodies (CDC, CMS, state health departments)&#xD;&#xA;•&#x9;Data Exchange: Quality measures, adverse events, public health reporting, regulatory compliance data&#xD;&#xA;•&#x9;Integration Methods: HL7 FHIR, direct secure messaging, file uploads to government portals&#xD;&#xA;•&#x9;Critical Functions: Meaningful use reporting, quality measure submission, outbreak notification, immunization registries&#xD;&#xA;"/>

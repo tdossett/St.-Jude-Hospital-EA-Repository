@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Workflow Engine"
-    id="id-af37ad0d1dda4296b415f9e7e40cd31d"/>
+    id="id-af37ad0d1dda4296b415f9e7e40cd31d"
+    documentation="Workflow Engine&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Orchestrate complex business processes spanning multiple systems&#xD;&#xA;•&#x9;Capabilities: Process definition, task management, human workflow, system automation&#xD;&#xA;•&#x9;Patterns: Sequential workflows, parallel processing, conditional logic, error handling&#xD;&#xA;•&#x9;Examples: Patient admission workflow, clinical order processing, insurance authorization&#xD;&#xA;•&#x9;Technology: Apache Airflow, Camunda, Microsoft Workflow Foundation, custom engines&#xD;&#xA;•&#x9;Benefits: Process standardization, automation, visibility, compliance, efficiency&#xD;&#xA;"/>

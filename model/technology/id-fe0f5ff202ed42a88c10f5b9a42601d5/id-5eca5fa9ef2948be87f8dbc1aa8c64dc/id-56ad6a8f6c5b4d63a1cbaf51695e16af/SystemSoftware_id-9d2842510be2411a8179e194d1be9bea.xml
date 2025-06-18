@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Logging System"
-    id="id-9d2842510be2411a8179e194d1be9bea"/>
+    id="id-9d2842510be2411a8179e194d1be9bea"
+    documentation="Logging System&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Comprehensive log collection, storage, and analysis&#xD;&#xA;•&#x9;Sources: Applications, systems, network devices, security tools&#xD;&#xA;•&#x9;Processing: Log parsing, normalization, enrichment, correlation&#xD;&#xA;•&#x9;Storage: Time-series databases, search engines, data lakes&#xD;&#xA;•&#x9;Analysis: Search and query capabilities, alerting, visualization, reporting&#xD;&#xA;•&#x9;Retention: Compliance requirements, storage optimization, archival policies&#xD;&#xA;•&#x9;Benefits: Troubleshooting, security monitoring, compliance, operational insights&#xD;&#xA;"/>

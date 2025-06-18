@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Radiology Information System"
-    id="id-62fd5228e085455d82bb5cd55bb3f567"/>
+    id="id-62fd5228e085455d82bb5cd55bb3f567"
+    documentation="Radiology Information System (RIS)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Radiology department workflow and information management&#xD;&#xA;&#xD;&#xA;•&#x9;Core Functions: &#xD;&#xA;&#xD;&#xA;o&#x9;Imaging order management and scheduling&#xD;&#xA;o&#x9;Patient preparation and workflow tracking&#xD;&#xA;o&#x9;Radiologist reporting and dictation&#xD;&#xA;o&#x9;Image distribution and communication&#xD;&#xA;o&#x9;Department resource management&#xD;&#xA;&#xD;&#xA;•&#x9;Integration: PACS for image management, EHR for orders and results, billing systems&#xD;&#xA;•&#x9;Standards: HL7 for orders and results, DICOM for image metadata&#xD;&#xA;•&#x9;Workflow: Exam scheduling, patient tracking, reporting workflows, quality assurance&#xD;&#xA;•&#x9;Benefits: Streamlined radiology operations, improved reporting efficiency, better patient care&#xD;&#xA;"/>

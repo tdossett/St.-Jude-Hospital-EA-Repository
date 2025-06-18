@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data Lake"
-    id="id-304adec668a64c2aab1b5b185a04b3db"/>
+    id="id-304adec668a64c2aab1b5b185a04b3db"
+    documentation="Data Lake&#xD;&#xA;&#xD;&#xA;Unstructured data storage for advanced analytics and machine learning"/>

@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OAuth 2.0 Server"
-    id="id-4507951a25fd4a4a94dd39f8a453d7c7"/>
+    id="id-4507951a25fd4a4a94dd39f8a453d7c7"
+    documentation="OAuth 2.0 Server&#xD;&#xA;&#xD;&#xA;Authentication method used in Authentcation Service"/>

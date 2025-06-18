@@ -1,4 +1,5 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Authentication Service"
-    id="id-a9f592e796794f4fab06006f60371d61"/>
+    id="id-a9f592e796794f4fab06006f60371d61"
+    documentation="Authentication Service&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Centralized identity verification for all system access&#xD;&#xA;•&#x9;Methods: Username/password, multi-factor authentication, single sign-on (SSO), SAML, OAuth 2.0&#xD;&#xA;•&#x9;Features: Password policies, account lockout, session management, identity federation&#xD;&#xA;•&#x9;Integration: Active Directory, LDAP, cloud identity providers (Azure AD, Okta)&#xD;&#xA;•&#x9;Compliance: HIPAA authentication requirements, audit logging, password complexity&#xD;&#xA;"/>

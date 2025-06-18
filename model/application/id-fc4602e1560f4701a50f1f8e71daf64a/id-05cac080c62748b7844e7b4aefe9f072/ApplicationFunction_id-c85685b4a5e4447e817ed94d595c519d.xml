@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Staff Scheduling"
-    id="id-c85685b4a5e4447e817ed94d595c519d"/>
+    id="id-c85685b4a5e4447e817ed94d595c519d"
+    documentation="Staff Scheduling&#xD;&#xA;&#xD;&#xA;Shift management and credentialing tracking"/>

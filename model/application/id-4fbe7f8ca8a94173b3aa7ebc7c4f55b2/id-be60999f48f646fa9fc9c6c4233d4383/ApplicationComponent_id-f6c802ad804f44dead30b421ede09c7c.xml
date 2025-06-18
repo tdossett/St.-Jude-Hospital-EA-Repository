@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Image Viewer"
-    id="id-f6c802ad804f44dead30b421ede09c7c"/>
+    id="id-f6c802ad804f44dead30b421ede09c7c"
+    documentation="Image Viewer&#xD;&#xA;&#xD;&#xA;Web-based diagnostic viewing with advanced tools"/>

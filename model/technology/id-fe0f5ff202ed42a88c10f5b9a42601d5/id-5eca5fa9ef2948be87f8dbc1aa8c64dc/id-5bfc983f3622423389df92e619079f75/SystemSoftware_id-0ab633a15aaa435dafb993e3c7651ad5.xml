@@ -1,4 +1,5 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Message Queue System"
-    id="id-0ab633a15aaa435dafb993e3c7651ad5"/>
+    id="id-0ab633a15aaa435dafb993e3c7651ad5"
+    documentation="Message Queue System&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Ordered message storage and delivery for reliable communication&#xD;&#xA;•&#x9;Types: FIFO queues, priority queues, dead letter queues, delay queues&#xD;&#xA;•&#x9;Features: Message durability, automatic retry, poison message handling, monitoring&#xD;&#xA;•&#x9;Implementation: Queue-based workflows, batch processing, load leveling&#xD;&#xA;•&#x9;Monitoring: Queue depth, processing rates, error rates, consumer lag&#xD;&#xA;•&#x9;Benefits: Reliability, order preservation, error handling, performance optimization&#xD;&#xA;"/>

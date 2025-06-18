@@ -1,4 +1,5 @@
 <archimate:TechnologyFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data Sychronization"
-    id="id-d2e02545e8eb4bad85cde5c76b7faef3"/>
+    id="id-d2e02545e8eb4bad85cde5c76b7faef3"
+    documentation="Data Sychronization&#xD;&#xA;&#xD;&#xA;Provides Real-time data synchronization accross integrated services."/>

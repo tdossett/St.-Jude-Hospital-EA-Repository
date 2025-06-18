@@ -1,4 +1,5 @@
 <archimate:TechnologyFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Version Control"
-    id="id-91afdcb8a2af4bdb9503140958b4d0ba"/>
+    id="id-91afdcb8a2af4bdb9503140958b4d0ba"
+    documentation="Version Control &#xD;&#xA;&#xD;&#xA;For API Gateway is crucial for managing API evolution, ensuring backward compatibility, and maintaining service reliability across different client applications."/>

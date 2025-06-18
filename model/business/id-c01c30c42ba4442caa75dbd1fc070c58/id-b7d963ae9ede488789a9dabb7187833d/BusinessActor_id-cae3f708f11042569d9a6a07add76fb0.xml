@@ -1,4 +1,5 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Medical Device Vendors"
-    id="id-cae3f708f11042569d9a6a07add76fb0"/>
+    id="id-cae3f708f11042569d9a6a07add76fb0"
+    documentation="Medical Device Vendors&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Integration with medical device manufacturers for device data, maintenance, and software updates&#xD;&#xA;•&#x9;Data Exchange: Device performance data, maintenance schedules, software updates, warranty information&#xD;&#xA;•&#x9;Integration Methods: Device-specific APIs, IoT protocols, vendor-specific interfaces&#xD;&#xA;•&#x9;Critical Functions: Remote monitoring, predictive maintenance, compliance tracking, inventory management&#xD;&#xA;"/>

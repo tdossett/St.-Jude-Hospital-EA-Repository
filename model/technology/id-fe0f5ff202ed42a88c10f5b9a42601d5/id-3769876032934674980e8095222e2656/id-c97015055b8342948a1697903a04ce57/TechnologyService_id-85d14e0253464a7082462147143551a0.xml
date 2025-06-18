@@ -1,4 +1,5 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Master Data Management"
-    id="id-85d14e0253464a7082462147143551a0"/>
+    id="id-85d14e0253464a7082462147143551a0"
+    documentation="Master Data Management (MDM)&#xD;&#xA;&#xD;&#xA;Maintains consistent patient, provider, and reference data"/>

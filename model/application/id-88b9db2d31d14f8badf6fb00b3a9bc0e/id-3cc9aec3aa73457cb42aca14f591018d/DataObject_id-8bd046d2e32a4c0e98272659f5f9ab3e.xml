@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="LIMS Database"
-    id="id-8bd046d2e32a4c0e98272659f5f9ab3e"/>
+    id="id-8bd046d2e32a4c0e98272659f5f9ab3e"
+    documentation="LIMS Database&#xD;&#xA;&#xD;&#xA;Centralized database that supports Laboratory Management in LIMS Systems"/>

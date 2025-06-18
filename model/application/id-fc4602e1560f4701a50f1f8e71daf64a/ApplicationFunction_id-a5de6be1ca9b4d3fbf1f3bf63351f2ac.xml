@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Dashboards"
-    id="id-a5de6be1ca9b4d3fbf1f3bf63351f2ac"/>
+    id="id-a5de6be1ca9b4d3fbf1f3bf63351f2ac"
+    documentation="Dashboards&#xD;&#xA;&#xD;&#xA;Provide insight into important data and KPI's used in Business Intelligence.&#xD;&#xA;Tools: Power BI, Tableau"/>

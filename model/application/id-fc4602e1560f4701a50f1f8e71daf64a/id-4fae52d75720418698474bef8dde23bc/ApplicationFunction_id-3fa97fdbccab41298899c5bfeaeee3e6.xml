@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Inventory Management"
-    id="id-3fa97fdbccab41298899c5bfeaeee3e6"/>
+    id="id-3fa97fdbccab41298899c5bfeaeee3e6"
+    documentation="Inventory Management&#xD;&#xA;&#xD;&#xA;Real-time stock tracking and automated reordering"/>

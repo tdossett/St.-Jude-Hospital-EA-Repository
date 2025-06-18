@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EMR Database"
-    id="id-88abca8eec144e498c978e99a9cbb4e6"/>
+    id="id-88abca8eec144e498c978e99a9cbb4e6"
+    documentation="EMR Database&#xD;&#xA;&#xD;&#xA;Centralized database that supports EMR in EMR System"/>

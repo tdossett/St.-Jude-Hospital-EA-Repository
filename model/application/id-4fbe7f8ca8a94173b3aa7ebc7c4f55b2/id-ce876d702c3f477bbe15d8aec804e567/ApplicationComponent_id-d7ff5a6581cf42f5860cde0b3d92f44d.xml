@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Financial Management"
-    id="id-d7ff5a6581cf42f5860cde0b3d92f44d"/>
+    id="id-d7ff5a6581cf42f5860cde0b3d92f44d"
+    documentation="Financial Management&#xD;&#xA;&#xD;&#xA;General ledger, accounts payable/receivable"/>

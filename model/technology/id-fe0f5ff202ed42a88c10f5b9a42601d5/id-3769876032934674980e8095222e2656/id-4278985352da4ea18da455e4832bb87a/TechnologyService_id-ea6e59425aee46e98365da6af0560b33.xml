@@ -1,4 +1,5 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Authorization Service"
-    id="id-ea6e59425aee46e98365da6af0560b33"/>
+    id="id-ea6e59425aee46e98365da6af0560b33"
+    documentation="Authorization Service&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Fine-grained access control based on user roles and permissions&#xD;&#xA;•&#x9;Methods: Role-based access control (RBAC), attribute-based access control (ABAC)&#xD;&#xA;•&#x9;Features: Dynamic permissions, resource-level security, delegation, break-glass access&#xD;&#xA;•&#x9;Integration: Healthcare role hierarchies, department-based access, patient consent management&#xD;&#xA;•&#x9;Compliance: Minimum necessary access, segregation of duties, regular access reviews&#xD;&#xA;"/>

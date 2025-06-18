@@ -1,4 +1,5 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Enterprise Service Bus"
-    id="id-d99b1e3233664ed4b8b194eeb685cfd2"/>
+    id="id-d99b1e3233664ed4b8b194eeb685cfd2"
+    documentation="Enterprise Service Bus (ESB)&#xD;&#xA;&#xD;&#xA;•&#x9;Purpose: Central integration backbone enabling communication between disparate systems&#xD;&#xA;•&#x9;Capabilities: Message routing, transformation, orchestration, error handling, transaction management&#xD;&#xA;•&#x9;Patterns: Point-to-point, publish-subscribe, request-reply, fire-and-forget&#xD;&#xA;•&#x9;Standards: HL7 v2/v3, HL7 FHIR, DICOM, X12 EDI, custom formats&#xD;&#xA;•&#x9;Technology: MuleSoft, IBM Integration Bus, Microsoft BizTalk, Apache Camel&#xD;&#xA;•&#x9;Benefits: Loose coupling, reusability, centralized management, protocol mediation&#xD;&#xA;"/>

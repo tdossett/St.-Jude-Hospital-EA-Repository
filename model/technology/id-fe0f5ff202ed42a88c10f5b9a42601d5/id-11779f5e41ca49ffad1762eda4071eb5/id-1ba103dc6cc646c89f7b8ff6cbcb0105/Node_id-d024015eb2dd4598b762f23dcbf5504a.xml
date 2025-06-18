@@ -1,4 +1,5 @@
 <archimate:Node
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Compute Resources"
-    id="id-d024015eb2dd4598b762f23dcbf5504a"/>
+    id="id-d024015eb2dd4598b762f23dcbf5504a"
+    documentation="Compute Resources&#xD;&#xA;&#xD;&#xA;These are the processing and computational capabilities that run your applications and workloads:&#xD;&#xA;Cloud Compute Resources:&#xD;&#xA;&#xD;&#xA;Virtual machines (VMs) with configurable CPU, memory, and storage&#xD;&#xA;Container services (like AWS ECS, Azure Container Instances, Google Cloud Run)&#xD;&#xA;Serverless functions (AWS Lambda, Azure Functions, Google Cloud Functions)&#xD;&#xA;Managed Kubernetes clusters&#xD;&#xA;Auto-scaling capabilities that adjust resources based on demand&#xD;&#xA;Pay-per-use pricing models&#xD;&#xA;&#xD;&#xA;On-Premise Compute Resources:&#xD;&#xA;&#xD;&#xA;Physical servers with dedicated hardware&#xD;&#xA;Virtualization platforms (VMware, Hyper-V) running multiple VMs&#xD;&#xA;Bare-metal servers for high-performance workloads&#xD;&#xA;Local container orchestration platforms&#xD;&#xA;Fixed capacity that requires upfront hardware investment&#xD;&#xA;Direct control over hardware specifications and performance"/>

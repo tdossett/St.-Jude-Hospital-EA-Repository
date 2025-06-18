@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="HRIS Database"
-    id="id-2c62c51923524ec484c2ab2040aea789"/>
+    id="id-2c62c51923524ec484c2ab2040aea789"
+    documentation="Centralized database that supports HRIS in HRIS System"/>
