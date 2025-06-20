@@ -1,0 +1,32 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="EHR Data Architecture"
+    id="id-0cc7c21de8f240a09f2356089da31a69">
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-48476f57fe2f4c63bae8afa8cdf052e4"
+      name="EHR Data Architecture (Logical)"
+      lineWidth="2"
+      textAlignment="1"
+      fillColor="#ffffff"
+      borderType="1">
+    <bounds
+        x="14"
+        y="14"
+        width="1214"
+        height="768"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e1042e50e4694d8a8c5b732790912d64">
+      <bounds
+          x="18"
+          y="35"
+          width="1170"
+          height="535"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_id-643d23b150d2447c80a57d51807e1c08.xml#id-643d23b150d2447c80a57d51807e1c08"/>
+    </children>
+  </children>
+</archimate:ArchimateDiagramModel>
