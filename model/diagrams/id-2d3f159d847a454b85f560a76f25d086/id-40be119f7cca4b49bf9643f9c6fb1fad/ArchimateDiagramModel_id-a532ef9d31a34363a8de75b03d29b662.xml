@@ -20,6 +20,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-1a77cf5f3131494a8159b89dfeed3500"
         name="Integration &amp; Middleware Layer"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -32,6 +33,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-3001c78f3a784a1d9580648e4fb3ce5f"
           name="API Management"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -124,6 +126,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-76bb0b410b9740a4bd18900461fa7ac2"
           name="Data Integration Services"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -225,15 +228,6 @@
             <archimateRelationship
                 xsi:type="archimate:AccessRelationship"
                 href="AccessRelationship_id-43d0209a92dd4d728ccbdcdaf2970d0d.xml#id-43d0209a92dd4d728ccbdcdaf2970d0d"/>
-          </sourceConnections>
-          <sourceConnections
-              xsi:type="archimate:DiagramModelArchimateConnection"
-              id="id-5b4de01e71614b84b71ab22999b16688"
-              source="id-5649b5a1cdcd4d94a34efd6bde6cd9f8"
-              target="id-0c55066ea0414a269193e62ee29ed24a">
-            <archimateRelationship
-                xsi:type="archimate:AccessRelationship"
-                href="AccessRelationship_id-a8c57ba05e0e46b88d19c9f62b94cbe0.xml#id-a8c57ba05e0e46b88d19c9f62b94cbe0"/>
           </sourceConnections>
           <sourceConnections
               xsi:type="archimate:DiagramModelArchimateConnection"
@@ -438,15 +432,6 @@
         </sourceConnections>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-fa69dcd77ed842fbbc6ad9be5fda9fe9"
-            source="id-5bca6c5d25c945e190ee5e264c19cf10"
-            target="id-90163a75ce244c3890be20eec0f2bbf2">
-          <archimateRelationship
-              xsi:type="archimate:ServingRelationship"
-              href="ServingRelationship_id-c5dbc2269cf440ac978534370caf15df.xml#id-c5dbc2269cf440ac978534370caf15df"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-baa1e869b53843baba725f33aa66d9d7"
             source="id-5bca6c5d25c945e190ee5e264c19cf10"
             target="id-8917bb41e83746529812fe89b4788edd">
@@ -477,6 +462,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-4360a5f6d1aa453e8dc32a19331f6956"
         name="Infrastructure &amp; Platform"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -489,6 +475,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-984b518b10824215804837f062edd6b9"
           name="Monitoring &amp; Operations"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -579,13 +566,14 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-bd1e813a655a475888796cc3897beef2"
           name="Cloud/On-Premise"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
         <bounds
             x="43"
             y="76"
-            width="209"
+            width="206"
             height="333"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
@@ -641,6 +629,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-19b7907fe8e9467bbe4149cc6407cb51"
         name="External Systems"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -706,6 +695,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-05882a5a31454b2ea39fbac702ee7b31"
         name="Core Healthcare Systems"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -718,6 +708,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-8394a6f97bee480ab5625adac866ff65"
           name="RIS/PACS Systems"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -814,6 +805,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-93f13ab5720e431281248d9003a7d486"
           name="LIMS System"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -905,7 +897,8 @@
       <children
           xsi:type="archimate:DiagramModelGroup"
           id="id-cb83121709f34937ac51944a6d909a81"
-          name="HIS/EHR,EMR System"
+          name="HIS/EHR System"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -914,28 +907,6 @@
             y="186"
             width="609"
             height="256"/>
-        <children
-            xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-90163a75ce244c3890be20eec0f2bbf2"
-            targetConnections="id-fa69dcd77ed842fbbc6ad9be5fda9fe9">
-          <sourceConnections
-              xsi:type="archimate:DiagramModelArchimateConnection"
-              id="id-af3b212685c6417b9c6b5871eb3a43d1"
-              source="id-90163a75ce244c3890be20eec0f2bbf2"
-              target="id-0c55066ea0414a269193e62ee29ed24a">
-            <archimateRelationship
-                xsi:type="archimate:AccessRelationship"
-                href="AccessRelationship_id-01e52be829ef40cf8cef248e233f4334.xml#id-01e52be829ef40cf8cef248e233f4334"/>
-          </sourceConnections>
-          <bounds
-              x="416"
-              y="162"
-              width="120"
-              height="55"/>
-          <archimateElement
-              xsi:type="archimate:ApplicationComponent"
-              href="ApplicationComponent_id-5596ffa7aa584f8c84aa9a99270307ef.xml#id-5596ffa7aa584f8c84aa9a99270307ef"/>
-        </children>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-7be1d2774ad94d2481afef6e3a12e771"
@@ -1069,6 +1040,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-861c54f71c96426187b5646eb70a0c44"
           name="HRIS System"
+          lineWidth="3"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -1161,6 +1133,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-8de2e737634941ba9d2aa32619ed1eb7"
           name="ERP System"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -1255,6 +1228,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-b80f5aece5c64976806341d1a5c783ff"
         name="Presentation Layer"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -1320,6 +1294,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-bdb233b196af4a838035c9efaa4e7e2c"
         name="API Gateway &amp; Security"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -1356,8 +1331,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-81f2c31bdbe84ababad97529a948086a"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-f8f6bd2870a948fc978d60fb33e1e734">
+          <features
+              name="labelExpression"
+              value="Device/APIs"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-11ad30aed41e4a8eaa5c604982f95f1a.xml#id-11ad30aed41e4a8eaa5c604982f95f1a"/>
@@ -1365,8 +1344,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-b32ee604d2d94d14baee708de7845e8a"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-cb594d1f15d3443d87439feb6b99ce08">
+          <features
+              name="labelExpression"
+              value="EDI/X12"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-28c3f3cd31354b669d0f31702c04cb2b.xml#id-28c3f3cd31354b669d0f31702c04cb2b"/>
@@ -1374,8 +1357,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-c49feefbea9942aa823e0e61630a5327"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-900abd4187954699a6470ed7a7274dd3">
+          <features
+              name="labelExpression"
+              value="HL7 FHIR"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-6ad6f52e67c54925b315d41d0fdb27dc.xml#id-6ad6f52e67c54925b315d41d0fdb27dc"/>
@@ -1383,8 +1370,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-cf53f842efcc449eadc7d29b23bc9353"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-2be2cdd5545049539920ff16b919511a">
+          <features
+              name="labelExpression"
+              value="REST API"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-8c246d1470784a64b77295283f18dd3b.xml#id-8c246d1470784a64b77295283f18dd3b"/>
@@ -1419,8 +1410,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-faecdbb96aa04993b0ceef56e62bc24d"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-d755b7b00d044774af0c8818a01d0a8f">
+          <features
+              name="labelExpression"
+              value="SOAP/REST"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-d7279f9b09b6451d9d15d98ee32c8cb8.xml#id-d7279f9b09b6451d9d15d98ee32c8cb8"/>
@@ -1428,8 +1423,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-9284cdfef2464b0a9b7681e8834280d8"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-69c825786fc54ea3a81beb750e672221">
+          <features
+              name="labelExpression"
+              value="Rest API"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-e25e0e551d944014b67501aa746d79fa.xml#id-e25e0e551d944014b67501aa746d79fa"/>
@@ -1437,8 +1436,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-f9b7651e299a458abd0d20f2cb1f5c0d"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-977c317afd7947f4bdf3dab4c0d76c99">
+          <features
+              name="labelExpression"
+              value="HTTPS/GraphQL"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-296528da2e724cd5b579116db22851e8.xml#id-296528da2e724cd5b579116db22851e8"/>
@@ -1446,8 +1449,12 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-23b03a92f077436eb64f1916e53ad477"
+            textPosition="2"
             source="id-5e70f111cfd949919f91cc9735afe3ff"
             target="id-78130651d10a4101a0dfa64420738c6c">
+          <features
+              name="labelExpression"
+              value="HTTPS/REST"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-9a2b582927a34ad79c8a41c41f42b211.xml#id-9a2b582927a34ad79c8a41c41f42b211"/>
@@ -1523,6 +1530,7 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-f7071405acc0444c9c2a9ad2567ac05c"
         name="Data Management Layer"
+        lineWidth="2"
         textAlignment="1"
         fillColor="#ffffff"
         borderType="1">
@@ -1535,6 +1543,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-62d3930d322f408daba938f1bec7cb44"
           name="Analytics &amp; Reporting"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -1635,6 +1644,7 @@
           xsi:type="archimate:DiagramModelGroup"
           id="id-f01bec101182480cac1d983bd19befb2"
           name="Shared Data Services"
+          lineWidth="2"
           textAlignment="1"
           fillColor="#ffffff"
           borderType="1">
@@ -1848,19 +1858,6 @@
         <archimateElement
             xsi:type="archimate:DataObject"
             href="DataObject_id-2c62c51923524ec484c2ab2040aea789.xml#id-2c62c51923524ec484c2ab2040aea789"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-0c55066ea0414a269193e62ee29ed24a"
-          targetConnections="id-af3b212685c6417b9c6b5871eb3a43d1 id-5b4de01e71614b84b71ab22999b16688">
-        <bounds
-            x="3654"
-            y="42"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:DataObject"
-            href="DataObject_id-88abca8eec144e498c978e99a9cbb4e6.xml#id-88abca8eec144e498c978e99a9cbb4e6"/>
       </children>
     </children>
     <children
