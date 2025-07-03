@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Employee Master"
-    id="id-4111eab08e634871bbfb051f828a9987"/>
+    id="id-4111eab08e634871bbfb051f828a9987"
+    documentation="Employee Master Key Components:&#xD;&#xA;&#xD;&#xA;Components: Unique Employee ID, Employment Status, Hire/Termination Date"/>

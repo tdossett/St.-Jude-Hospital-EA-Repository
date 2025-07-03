@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sample Registration"
+    id="id-84fe68b7d815490c8b33a0c63ceadbd0"
+    documentation="User interface and business logic for sample intake, validation rules, and automated ID assignment."/>

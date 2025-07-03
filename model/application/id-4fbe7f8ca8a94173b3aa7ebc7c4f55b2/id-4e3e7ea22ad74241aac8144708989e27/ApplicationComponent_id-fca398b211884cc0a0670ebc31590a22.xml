@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ETL Processes"
+    id="id-fca398b211884cc0a0670ebc31590a22"
+    documentation="Handles data movement and transformation between different systems, ensuring data is properly formatted and validated before storage or processing."/>

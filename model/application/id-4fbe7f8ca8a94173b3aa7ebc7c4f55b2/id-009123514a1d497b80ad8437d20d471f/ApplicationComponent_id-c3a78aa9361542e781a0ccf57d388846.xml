@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Active Directory"
-    id="id-c3a78aa9361542e781a0ccf57d388846"/>
+    id="id-c3a78aa9361542e781a0ccf57d388846"
+    documentation="Identity management and authentication services"/>

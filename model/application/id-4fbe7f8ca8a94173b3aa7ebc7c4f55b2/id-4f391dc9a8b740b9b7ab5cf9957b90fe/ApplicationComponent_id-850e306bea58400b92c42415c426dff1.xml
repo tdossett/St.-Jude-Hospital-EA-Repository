@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DICOM Manager"
+    id="id-850e306bea58400b92c42415c426dff1"
+    documentation="Software controlling DICOM protocol operations"/>

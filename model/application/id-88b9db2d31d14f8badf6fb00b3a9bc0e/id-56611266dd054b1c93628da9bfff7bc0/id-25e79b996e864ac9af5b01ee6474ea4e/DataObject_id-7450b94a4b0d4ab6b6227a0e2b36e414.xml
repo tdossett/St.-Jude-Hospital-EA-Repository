@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Clinical Decision Support Engine"
-    id="id-7450b94a4b0d4ab6b6227a0e2b36e414"/>
+    id="id-7450b94a4b0d4ab6b6227a0e2b36e414"
+    documentation="Executes rule-based or algorithmic logic against patient data in real time"/>

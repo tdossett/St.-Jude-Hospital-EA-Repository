@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Order Validation"
+    id="id-562f8a00b54f409f9d4571005c27948b"
+    documentation="Business logic for verifying order completeness, test availability, and compliance checking."/>

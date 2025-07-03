@@ -1,5 +1,0 @@
-<archimate:ArchimateDiagramModel
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Logical Application Components"
-    id="id-d527ee4fb8ae47299d1495f01ee9f354"
-    documentation="An encapsulation of application functionality that is definable by services offered and data maintained, independently of implementation and technology."/>

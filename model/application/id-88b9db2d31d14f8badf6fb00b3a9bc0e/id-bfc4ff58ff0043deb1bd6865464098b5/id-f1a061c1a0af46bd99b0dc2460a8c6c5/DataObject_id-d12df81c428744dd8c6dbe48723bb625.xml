@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Order Details"
-    id="id-d12df81c428744dd8c6dbe48723bb625"/>
+    id="id-d12df81c428744dd8c6dbe48723bb625"
+    documentation="Specifics such as exam type, laterality, contrast requirements."/>

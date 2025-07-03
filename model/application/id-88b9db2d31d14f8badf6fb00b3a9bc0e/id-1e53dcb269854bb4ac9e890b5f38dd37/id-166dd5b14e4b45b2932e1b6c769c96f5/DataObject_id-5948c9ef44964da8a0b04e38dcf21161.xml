@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Employee Licenses"
-    id="id-5948c9ef44964da8a0b04e38dcf21161"/>
+    id="id-5948c9ef44964da8a0b04e38dcf21161"
+    documentation="Professional licenses, certifications, renewal dates, and regulatory compliance status"/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Reporting"
+    id="id-fc808fe3df884a0ab8652493d4a6ceb3"
+    documentation="Automated generation of financial statements, regulatory reports, and management reports with drill-down capabilities to transaction-level detail."/>

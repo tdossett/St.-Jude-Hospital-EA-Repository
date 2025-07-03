@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="HIS Data Architecture"
-    id="id-13f0d8ed864a44c3aeb6fc31341cce6c">
+    id="id-13f0d8ed864a44c3aeb6fc31341cce6c"
+    documentation="HIS Data Architecture&#xD;&#xA;&#xD;&#xA;Integration Layer&#xD;&#xA;&#xD;&#xA;The foundational layer that enables communication and data exchange across all system components:&#xD;&#xA;•&#x9;HL7 Message Store: Repository for Healthcare Level 7 (HL7) standard messages, ensuring interoperability between different healthcare systems and applications&#xD;&#xA;•&#x9;API Gateway: Central entry point for all API calls, providing security, routing, rate limiting, and protocol translation services&#xD;&#xA;•&#x9;Data ETL: Extract, Transform, Load processes that handle data movement and transformation between different systems and databases&#xD;&#xA;•&#x9;Staging Area: Temporary storage space for data processing, validation, and transformation before final storage&#xD;&#xA;•&#x9;Master Data Management (MDM): Centralized management of critical business data entities to ensure data consistency and quality across the enterprise&#xD;&#xA;&#xD;&#xA;Administrative Domain&#xD;&#xA;&#xD;&#xA;Handles non-clinical administrative functions and supporting services:&#xD;&#xA;User Management &amp; Security&#xD;&#xA;•&#x9;User Directory: Central repository of user accounts, roles, and permissions&#xD;&#xA;•&#x9;Security Data: Authentication credentials, access control lists, and security policies&#xD;&#xA;Configuration &amp; Audit&#xD;&#xA;•&#x9;Configuration Data: System settings, parameters, and customization data&#xD;&#xA;•&#x9;Audit Logs: Comprehensive logging of all system activities for compliance and security monitoring&#xD;&#xA;Financial Management&#xD;&#xA;•&#x9;Billing Data: Patient billing information, charges, payments, and financial transactions&#xD;&#xA;•&#x9;Insurance Data: Insurance provider information, coverage details, and claims processing data&#xD;&#xA;Operations Management&#xD;&#xA;•&#x9;Scheduling Data: Appointment scheduling, resource booking, and calendar management&#xD;&#xA;•&#x9;Resource Management: Hospital resources including rooms, equipment, and staff allocation&#xD;&#xA;•&#x9;Quality Metrics: Performance indicators, quality measures, and compliance reporting data&#xD;&#xA;&#xD;&#xA;Clinical Domain&#xD;&#xA;&#xD;&#xA;Core clinical operations and medical data management:&#xD;&#xA;Clinical Information Systems&#xD;&#xA;•&#x9;Clinical Data Repository: Centralized storage for all clinical information including patient records, medical history, and clinical observations&#xD;&#xA;•&#x9;Orders Management: Management of medical orders including lab tests, medications, procedures, and diagnostic imaging&#xD;&#xA;•&#x9;Results Data: Laboratory results, diagnostic test outcomes, and clinical findings&#xD;&#xA;•&#x9;Medication Data: Drug information, prescriptions, medication administration records, and pharmacy data&#xD;&#xA;•&#x9;Nursing Documentation: Nursing notes, care plans, vital signs, and patient assessments&#xD;&#xA;&#xD;&#xA;Patient Management Domain&#xD;&#xA;&#xD;&#xA;Comprehensive patient information and identity management:&#xD;&#xA;Patient Identity &amp; Demographics&#xD;&#xA;•&#x9;Patient Master Index (PMI): Unique patient identifier system that links patient records across different systems and departments&#xD;&#xA;•&#x9;Patient Demographics: Basic patient information including name, address, contact details, emergency contacts, and demographic data&#xD;&#xA;Patient Care Coordination&#xD;&#xA;•&#x9;Patient Registration: Initial patient enrollment and registration processes&#xD;&#xA;•&#x9;Patient Admissions: Inpatient admission processes, bed assignments, and admission documentation&#xD;&#xA;•&#x9;Patient Visits: Outpatient visits, encounter records, and visit documentation&#xD;&#xA;&#xD;&#xA;Operational Domain&#xD;&#xA;&#xD;&#xA;System operations and workflow management:&#xD;&#xA;•&#x9;Workflow Engine: Automated business process management, task routing, and workflow orchestration across different departments and systems&#xD;&#xA;&#xD;&#xA;Key Architectural Principles&#xD;&#xA;&#xD;&#xA;Data Integration&#xD;&#xA;The architecture emphasizes seamless data integration through standardized messaging (HL7), API management, and ETL processes, ensuring data flows efficiently between all domains.&#xD;&#xA;&#xD;&#xA;Master Data Management&#xD;&#xA;Centralized management of critical data entities ensures consistency, accuracy, and single source of truth across the entire hospital information system.&#xD;&#xA;&#xD;&#xA;Domain Separation&#xD;&#xA;Clear separation of concerns with distinct domains for administrative, clinical, patient management, and operational functions, promoting modularity and maintainability.&#xD;&#xA;&#xD;&#xA;Audit and Compliance&#xD;&#xA;Built-in audit logging and quality metrics support regulatory compliance requirements such as HIPAA, Joint Commission standards, and other healthcare regulations.&#xD;&#xA;Scalability and Flexibility&#xD;&#xA;&#xD;&#xA;The layered architecture with API gateway and staging areas supports scalability and allows for future system expansions and integrations.&#xD;&#xA;This comprehensive data architecture supports the complex information needs of modern healthcare organizations while maintaining data integrity, security, and interoperability across all hospital operations.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-9a4b24214c9e450ebdd0395ffc943621"
@@ -29,8 +30,7 @@
           height="192"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-2fcc2fa61d7d4ae6a52330ec7ffa1a7a"
-          type="1">
+          id="id-2fcc2fa61d7d4ae6a52330ec7ffa1a7a">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-7ab3c0fddca545f6ad0b780de00fe86e"
@@ -52,8 +52,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6b1f023fa4f446759352c9d832a6cee3"
-          targetConnections="id-7ab3c0fddca545f6ad0b780de00fe86e"
-          type="1">
+          targetConnections="id-7ab3c0fddca545f6ad0b780de00fe86e">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-c0749642963b4a5fa7761aeb497e5744"
@@ -74,8 +73,7 @@
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-d66f8c6a040440bf994f6cf3ec540474"
-          type="1">
+          id="id-d66f8c6a040440bf994f6cf3ec540474">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-af663a04d0f24519a6c6411b63e90b0a"
@@ -97,8 +95,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7e8e4044c19a4a33b77afb989f5d48ae"
-          targetConnections="id-af663a04d0f24519a6c6411b63e90b0a"
-          type="1">
+          targetConnections="id-af663a04d0f24519a6c6411b63e90b0a">
         <bounds
             x="210"
             y="111"
@@ -111,8 +108,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-4d96ad84e7ff48a6a69e132f45b4360c"
-          targetConnections="id-c0749642963b4a5fa7761aeb497e5744"
-          type="1">
+          targetConnections="id-c0749642963b4a5fa7761aeb497e5744">
         <bounds
             x="378"
             y="33"
@@ -138,8 +134,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7ee8459ce19942e2860d0382d16942c2"
-          targetConnections="id-c44ba807e4a44eabaf0df4541d104f5f"
-          type="1">
+          targetConnections="id-c44ba807e4a44eabaf0df4541d104f5f">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-a90f9353e5114e3d8d9100e65a125b5e"
@@ -170,8 +165,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7098f6656b624a0d8f684233a210cf18"
-          targetConnections="id-51f08901b72b4700b3b25fe2989daf13"
-          type="1">
+          targetConnections="id-51f08901b72b4700b3b25fe2989daf13">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-b6a1b9da19144318894e310a07bf1e5b"
@@ -229,8 +223,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ece92f51bf234a219ef9df2d0133a119"
-          targetConnections="id-e571ac8807744184be819a0c3b89a0c3"
-          type="1">
+          targetConnections="id-e571ac8807744184be819a0c3b89a0c3">
         <bounds
             x="234"
             y="122"
@@ -243,8 +236,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-f06aa4c7038d4e00befaab3d9cfee4b6"
-          targetConnections="id-c3452761f89c482a861bb078a732da5d"
-          type="1">
+          targetConnections="id-c3452761f89c482a861bb078a732da5d">
         <bounds
             x="42"
             y="218"
@@ -257,8 +249,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-9143f69aa03a4327a32b35bb509d9a5a"
-          targetConnections="id-e634708235c6431887e9139e9f1991ea"
-          type="1">
+          targetConnections="id-e634708235c6431887e9139e9f1991ea">
         <bounds
             x="401"
             y="122"
@@ -283,8 +274,7 @@
           height="424"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-eea88e5985954e4492b290beeda3c2e4"
-          type="1">
+          id="id-eea88e5985954e4492b290beeda3c2e4">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-e156a80d7d1a476b8ea70f945ece1ef8"
@@ -324,8 +314,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-9b520fabf4114c9d8ef3723fb405d549"
-          targetConnections="id-565e4844761d49299f761c9d83df87de"
-          type="1">
+          targetConnections="id-565e4844761d49299f761c9d83df87de">
         <bounds
             x="28"
             y="138"
@@ -338,8 +327,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-bb66bd4710a74e5d88b8475fe85ff89d"
-          targetConnections="id-7ee314128e464c0cb45a7ae42f61d18b"
-          type="1">
+          targetConnections="id-7ee314128e464c0cb45a7ae42f61d18b">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-905dbb82fc18491ba1f935b743bc8638"
@@ -361,8 +349,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-f54f6d5e8d2844d28bee23a58809adc2"
-          targetConnections="id-905dbb82fc18491ba1f935b743bc8638"
-          type="1">
+          targetConnections="id-905dbb82fc18491ba1f935b743bc8638">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-b4ecccc9d2524ac8b20cbdd7f8f10af1"
@@ -393,8 +380,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-1c0baf2a38df4d4bb736856e01e39cab"
-          targetConnections="id-850e561302c741d0b4197e97eb1cdf1b"
-          type="1">
+          targetConnections="id-850e561302c741d0b4197e97eb1cdf1b">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-51a06d332e5e404cb8e4484598b11a6d"
@@ -438,8 +424,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6efd08190d004a499d9673abbf167b95"
-          targetConnections="id-51a06d332e5e404cb8e4484598b11a6d"
-          type="1">
+          targetConnections="id-51a06d332e5e404cb8e4484598b11a6d">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-9c0f7f9f165d44cabf4604559c0fbd92"
@@ -461,8 +446,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6f8917c550ce457d9c81f0ff89212172"
-          targetConnections="id-b4ecccc9d2524ac8b20cbdd7f8f10af1"
-          type="1">
+          targetConnections="id-b4ecccc9d2524ac8b20cbdd7f8f10af1">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-006097eaaa7e42d29c1711c29fe449be"
@@ -493,8 +477,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b5db0dbc83014bd3b738cef21de3a7ef"
-          targetConnections="id-6cd04763367f43a0a9d8020bdc9ebf1c"
-          type="1">
+          targetConnections="id-6cd04763367f43a0a9d8020bdc9ebf1c">
         <bounds
             x="336"
             y="136"
@@ -507,8 +490,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-3c84637e74dc4cb4a30663cb2facc128"
-          targetConnections="id-9c0f7f9f165d44cabf4604559c0fbd92"
-          type="1">
+          targetConnections="id-9c0f7f9f165d44cabf4604559c0fbd92">
         <bounds
             x="193"
             y="136"
@@ -521,8 +503,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-c2ed6562e5a24b5385998f73b07bcab1"
-          targetConnections="id-fc69989a77864a7b930054f0f8f3e9c3"
-          type="1">
+          targetConnections="id-fc69989a77864a7b930054f0f8f3e9c3">
         <bounds
             x="39"
             y="136"

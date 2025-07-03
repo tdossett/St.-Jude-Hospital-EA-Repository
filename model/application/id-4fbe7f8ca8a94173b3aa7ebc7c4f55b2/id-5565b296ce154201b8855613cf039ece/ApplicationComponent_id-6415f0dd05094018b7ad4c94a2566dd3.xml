@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="HL7 Gateway"
+    id="id-6415f0dd05094018b7ad4c94a2566dd3"
+    documentation="Software for healthcare data exchange"/>

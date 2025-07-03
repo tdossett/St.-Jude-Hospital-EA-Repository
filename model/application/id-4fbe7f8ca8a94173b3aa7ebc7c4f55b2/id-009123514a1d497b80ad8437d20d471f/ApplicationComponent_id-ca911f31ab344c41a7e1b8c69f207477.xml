@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Background Check Services"
-    id="id-ca911f31ab344c41a7e1b8c69f207477"/>
+    id="id-ca911f31ab344c41a7e1b8c69f207477"
+    documentation="Employee screening and verification processes"/>

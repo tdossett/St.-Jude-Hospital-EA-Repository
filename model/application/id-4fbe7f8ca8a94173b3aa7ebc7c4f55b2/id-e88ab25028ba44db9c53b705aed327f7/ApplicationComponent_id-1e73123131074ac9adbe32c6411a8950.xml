@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Insurance Claims"
+    id="id-1e73123131074ac9adbe32c6411a8950"
+    documentation="Processes and tracks insurance claim submissions."/>

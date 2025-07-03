@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Result Mapping"
+    id="id-1b40fdded45444f1b5e1bac5c0360e94"
+    documentation="Data transformation engines for converting raw data into standardized formats."/>

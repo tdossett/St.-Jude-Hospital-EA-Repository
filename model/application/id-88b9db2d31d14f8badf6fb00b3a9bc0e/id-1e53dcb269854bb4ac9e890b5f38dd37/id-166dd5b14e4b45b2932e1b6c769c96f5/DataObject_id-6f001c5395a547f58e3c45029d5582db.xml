@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Department Codes"
-    id="id-6f001c5395a547f58e3c45029d5582db"/>
+    id="id-6f001c5395a547f58e3c45029d5582db"
+    documentation="Organizational unit identifiers and departmental classifications"/>

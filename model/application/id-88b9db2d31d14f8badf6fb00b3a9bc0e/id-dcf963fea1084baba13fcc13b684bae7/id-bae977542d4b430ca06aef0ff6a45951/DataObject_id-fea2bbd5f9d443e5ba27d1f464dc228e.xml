@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Warehouse"
+    id="id-fea2bbd5f9d443e5ba27d1f464dc228e"
+    documentation="The central repository that stores historical and current data from all ERP modules, providing a single source of truth for enterprise-wide reporting and analytics."/>

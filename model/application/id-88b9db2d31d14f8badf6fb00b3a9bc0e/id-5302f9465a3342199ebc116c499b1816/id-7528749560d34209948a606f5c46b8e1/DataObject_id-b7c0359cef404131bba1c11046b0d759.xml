@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Patient Master Index"
-    id="id-b7c0359cef404131bba1c11046b0d759"/>
+    name="Patient Master Index (PMI)"
+    id="id-b7c0359cef404131bba1c11046b0d759"
+    documentation="Unique patient identifier system that links patient records across different systems and departments"/>

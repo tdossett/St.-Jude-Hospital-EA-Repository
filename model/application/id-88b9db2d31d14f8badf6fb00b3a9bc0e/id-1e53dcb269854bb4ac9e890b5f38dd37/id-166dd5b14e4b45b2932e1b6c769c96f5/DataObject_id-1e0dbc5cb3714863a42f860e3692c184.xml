@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="License Compliance"
-    id="id-1e0dbc5cb3714863a42f860e3692c184"/>
+    id="id-1e0dbc5cb3714863a42f860e3692c184"
+    documentation="Renewal tracking, expiration monitoring, and compliance status"/>

@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Alert Rules"
-    id="id-6dc1753df3204c5a8ab4fb7c4e053a12"/>
+    id="id-6dc1753df3204c5a8ab4fb7c4e053a12"
+    documentation="Drug–drug interaction warnings, critical lab value alerts"/>

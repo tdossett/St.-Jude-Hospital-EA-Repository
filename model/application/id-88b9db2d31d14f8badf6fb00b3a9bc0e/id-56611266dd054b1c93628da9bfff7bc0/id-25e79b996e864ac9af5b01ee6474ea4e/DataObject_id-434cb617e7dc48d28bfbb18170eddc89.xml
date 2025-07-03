@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Care Plans"
-    id="id-434cb617e7dc48d28bfbb18170eddc89"/>
+    id="id-434cb617e7dc48d28bfbb18170eddc89"
+    documentation="Goals, planned interventions, and timelines."/>

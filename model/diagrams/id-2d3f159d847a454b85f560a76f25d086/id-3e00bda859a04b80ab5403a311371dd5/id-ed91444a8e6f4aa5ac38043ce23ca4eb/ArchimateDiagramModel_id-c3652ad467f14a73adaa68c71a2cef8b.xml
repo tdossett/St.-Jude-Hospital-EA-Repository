@@ -2,11 +2,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="RIS Data Architecture"
-    id="id-c3652ad467f14a73adaa68c71a2cef8b">
+    id="id-c3652ad467f14a73adaa68c71a2cef8b"
+    documentation="RIS Data Architecture&#xD;&#xA;&#xD;&#xA;This comprehensive architecture ensures seamless data flow between all components of the radiology workflow, from initial order entry through final report delivery, while maintaining quality assurance and performance monitoring throughout the process.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-d9b16c62a13d4d1286c3bc73622367db"
-      name="RIS Data Architecture"
+      name="RIS Data Architecture (Logical)"
       textAlignment="1"
       fillColor="#ffffff"
       borderType="1">

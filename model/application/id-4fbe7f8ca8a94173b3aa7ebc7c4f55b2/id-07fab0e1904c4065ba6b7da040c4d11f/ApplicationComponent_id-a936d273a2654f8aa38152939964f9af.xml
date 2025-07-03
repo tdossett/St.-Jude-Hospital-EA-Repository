@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Image Acquisition Gateway"
+    id="id-a936d273a2654f8aa38152939964f9af"
+    documentation="Software interface for imaging equipment"/>

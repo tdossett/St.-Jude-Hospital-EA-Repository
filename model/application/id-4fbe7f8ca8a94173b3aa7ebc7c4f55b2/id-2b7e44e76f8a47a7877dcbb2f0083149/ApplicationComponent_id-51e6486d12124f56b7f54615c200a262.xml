@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Image Compression"
+    id="id-51e6486d12124f56b7f54615c200a262"
+    documentation="Algorithms for reducing file sizes"/>

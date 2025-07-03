@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Access Control"
+    id="id-e9c7ca590ffd4175832e89b397508710"
+    documentation="Software managing user permissions and authentication"/>

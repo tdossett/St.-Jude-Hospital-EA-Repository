@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Inventory Management"
+    id="id-a5bee0361285444bb83967d1e2ceac74"
+    documentation="Manages stock levels and inventory movements.&#xD;&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Depreciation Calculation"
+    id="id-33d988efd4484e9b90cc5da203a9b8ce"
+    documentation="Automates asset depreciation across multiple methods"/>

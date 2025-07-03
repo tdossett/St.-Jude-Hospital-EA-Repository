@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="HL7 Interface"
-    id="id-f56908fd2e7348a9a64c29378f481df9"/>
+    id="id-f56908fd2e7348a9a64c29378f481df9"
+    documentation="Bi-directional messaging with HIS for ADT updates, order feeds, and results."/>

@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EHR Data Architecture"
-    id="id-0cc7c21de8f240a09f2356089da31a69">
+    id="id-0cc7c21de8f240a09f2356089da31a69"
+    documentation="EHR Data Architecture&#xD;&#xA;&#xD;&#xA;1.&#x9;Data capture occurs at the Specialty, Documentation, Core, and Orders &amp; Results domains.&#xD;&#xA;2.&#x9;Interoperability interfaces share data externally via FHIR, CDA, HIE, and APIs.&#xD;&#xA;3.&#x9;CDS engines consume real-time clinical data to generate alerts and reminders.&#xD;&#xA;4.&#x9;All data feeds into the Clinical Data Repository, which serves both operational queries (e.g. “show me today’s labs”) and downstream analytics (population health dashboards, quality reporting).&#xD;&#xA;This modular, layered approach ensures that each domain can evolve independently (e.g. adding a new specialty module), while the interoperability layer provides a consistent façade for external systems and the CDR remains the single source of truth for reporting and longitudinal care.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-48476f57fe2f4c63bae8afa8cdf052e4"

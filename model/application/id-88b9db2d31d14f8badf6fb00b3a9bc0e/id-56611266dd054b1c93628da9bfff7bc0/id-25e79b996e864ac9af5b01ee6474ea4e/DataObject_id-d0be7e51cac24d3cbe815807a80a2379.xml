@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="C-CDA Documents"
-    id="id-d0be7e51cac24d3cbe815807a80a2379"/>
+    id="id-d0be7e51cac24d3cbe815807a80a2379"
+    documentation="Consolidated Clinical Document Architecture (C-CDA) bundles grouping multiple data points into a single XML document (e.g. discharge summary, referral note)."/>

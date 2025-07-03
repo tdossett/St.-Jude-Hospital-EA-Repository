@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DICOM Header Processing"
+    id="id-b7bcbbc2a0f84358a01088d651ab1fd7"
+    documentation="Software for processing standardized metadata"/>

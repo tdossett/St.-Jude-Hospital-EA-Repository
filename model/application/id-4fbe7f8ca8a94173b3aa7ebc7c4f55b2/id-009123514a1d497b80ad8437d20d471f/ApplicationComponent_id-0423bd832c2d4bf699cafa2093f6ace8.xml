@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Learning Management System"
-    id="id-0423bd832c2d4bf699cafa2093f6ace8"/>
+    id="id-0423bd832c2d4bf699cafa2093f6ace8"
+    documentation="Training delivery and educational content management"/>

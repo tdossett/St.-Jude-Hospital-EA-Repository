@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EHR APIs"
-    id="id-b5f19f01194548eaad8474eed00249d5"/>
+    id="id-b5f19f01194548eaad8474eed00249d5"
+    documentation="Network or hub facilitating patient-centric record sharing among disparate organizations."/>

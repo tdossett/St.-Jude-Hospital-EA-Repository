@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Patient Billing"
+    id="id-a8be91ca28b64267ac52be056d3073f3"
+    documentation="Manages patient billing and payment processing."/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EMR Integration"
-    id="id-10f58dc05c2844dcafe5d67013c4b43c"/>
+    id="id-10f58dc05c2844dcafe5d67013c4b43c"
+    documentation="Embedding of report results and key data into the enterprise EMR."/>

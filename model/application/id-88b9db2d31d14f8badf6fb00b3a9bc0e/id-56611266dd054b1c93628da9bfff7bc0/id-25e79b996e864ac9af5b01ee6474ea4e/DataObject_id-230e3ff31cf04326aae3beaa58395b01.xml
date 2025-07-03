@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Operating Room Data"
-    id="id-230e3ff31cf04326aae3beaa58395b01"/>
+    id="id-230e3ff31cf04326aae3beaa58395b01"
+    documentation="Key Data: Procedure codes, surgical team roles, anesthesia records, instrument counts."/>

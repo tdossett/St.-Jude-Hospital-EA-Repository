@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Payroll System"
-    id="id-8bfe3033f275476cbcdfaa592a537a25"/>
+    id="id-8bfe3033f275476cbcdfaa592a537a25"
+    documentation="Financial compensation processing and tax calculations"/>

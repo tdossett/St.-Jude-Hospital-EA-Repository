@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Reporting Chain"
-    id="id-3b206cb5be464c22931679f26648b6d3"/>
+    id="id-3b206cb5be464c22931679f26648b6d3"
+    documentation="Direct and indirect supervisor relationships and approval workflows"/>

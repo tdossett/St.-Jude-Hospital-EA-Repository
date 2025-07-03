@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Workflow Engine"
-    id="id-bc4321de8385446286c75621af4765e5"/>
+    id="id-bc4321de8385446286c75621af4765e5"
+    documentation="Automated business process management, task routing, and workflow orchestration across different departments and systems"/>

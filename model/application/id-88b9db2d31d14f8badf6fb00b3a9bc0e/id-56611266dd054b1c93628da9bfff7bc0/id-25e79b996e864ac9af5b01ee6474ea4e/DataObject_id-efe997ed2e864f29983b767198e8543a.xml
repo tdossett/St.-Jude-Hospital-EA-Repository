@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Lab Results"
-    id="id-efe997ed2e864f29983b767198e8543a"/>
+    id="id-efe997ed2e864f29983b767198e8543a"
+    documentation="Lab Results Key Components:&#xD;&#xA; &#xD;&#xA;Components: result values, reference range, result status, result date"/>

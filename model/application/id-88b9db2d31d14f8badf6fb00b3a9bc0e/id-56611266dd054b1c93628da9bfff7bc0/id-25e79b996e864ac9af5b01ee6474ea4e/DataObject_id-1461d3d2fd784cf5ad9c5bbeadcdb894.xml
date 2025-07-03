@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Chief Complaints"
-    id="id-1461d3d2fd784cf5ad9c5bbeadcdb894"/>
+    id="id-1461d3d2fd784cf5ad9c5bbeadcdb894"
+    documentation="Reason for the encounter in patient’s own words."/>

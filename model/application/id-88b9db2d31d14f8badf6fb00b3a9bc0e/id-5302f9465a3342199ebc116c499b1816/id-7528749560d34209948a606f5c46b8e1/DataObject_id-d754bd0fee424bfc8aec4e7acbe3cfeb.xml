@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Configuration Data"
-    id="id-d754bd0fee424bfc8aec4e7acbe3cfeb"/>
+    id="id-d754bd0fee424bfc8aec4e7acbe3cfeb"
+    documentation="System settings, parameters, and customization data"/>

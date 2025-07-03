@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Supply Management"
+    id="id-3e06be8dd2d5424ca9a86c892f6c331f"
+    documentation="Stock levels, reorder points, vendor information, cost data"/>

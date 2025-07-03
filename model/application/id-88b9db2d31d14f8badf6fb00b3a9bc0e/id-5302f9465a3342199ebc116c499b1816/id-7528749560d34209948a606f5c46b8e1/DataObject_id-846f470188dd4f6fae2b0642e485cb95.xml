@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Resource Management"
-    id="id-846f470188dd4f6fae2b0642e485cb95"/>
+    id="id-846f470188dd4f6fae2b0642e485cb95"
+    documentation="Hospital resources including rooms, equipment, and staff allocation"/>

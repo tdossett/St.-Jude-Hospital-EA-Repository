@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="HIS Integration"
-    id="id-3348a5e0b1324b7b956884492b0f8006"/>
+    id="id-3348a5e0b1324b7b956884492b0f8006"
+    documentation="Patient and order synchronization with the Hospital Information System."/>

@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Work Queues"
-    id="id-5699d6fcc13d40dcafc4acae5d12bd8c"/>
+    id="id-5699d6fcc13d40dcafc4acae5d12bd8c"
+    documentation="Dynamic lists of exams awaiting scheduling, dictation, or review."/>
