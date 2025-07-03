@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Quality Metrics"
-    id="id-9514dd51dcc3486d91e82b45e3034664"/>
+    id="id-9514dd51dcc3486d91e82b45e3034664"
+    documentation="Performance indicators, quality measures, and compliance reporting data"/>

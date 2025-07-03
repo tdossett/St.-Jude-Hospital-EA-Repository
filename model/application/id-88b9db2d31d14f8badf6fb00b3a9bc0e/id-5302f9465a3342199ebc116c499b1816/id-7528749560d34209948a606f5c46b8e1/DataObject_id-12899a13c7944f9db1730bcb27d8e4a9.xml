@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Billing Data"
-    id="id-12899a13c7944f9db1730bcb27d8e4a9"/>
+    id="id-12899a13c7944f9db1730bcb27d8e4a9"
+    documentation="Patient billing information, charges, payments, and financial transactions"/>

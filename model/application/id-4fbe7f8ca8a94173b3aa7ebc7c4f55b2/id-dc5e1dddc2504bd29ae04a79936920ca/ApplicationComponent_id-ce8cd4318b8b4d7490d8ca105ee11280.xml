@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Work Orders"
+    id="id-ce8cd4318b8b4d7490d8ca105ee11280"
+    documentation="Workflow engine generating detailed work instructions and resource allocation."/>

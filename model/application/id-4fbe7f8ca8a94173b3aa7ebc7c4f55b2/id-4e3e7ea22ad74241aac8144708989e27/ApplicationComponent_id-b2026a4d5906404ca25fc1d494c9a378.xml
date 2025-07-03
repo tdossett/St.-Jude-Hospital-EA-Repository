@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="API Gateway"
+    id="id-b2026a4d5906404ca25fc1d494c9a378"
+    documentation="Provides secure, managed access to ERP services and data through standardized APIs, enabling integration with third-party applications and services."/>

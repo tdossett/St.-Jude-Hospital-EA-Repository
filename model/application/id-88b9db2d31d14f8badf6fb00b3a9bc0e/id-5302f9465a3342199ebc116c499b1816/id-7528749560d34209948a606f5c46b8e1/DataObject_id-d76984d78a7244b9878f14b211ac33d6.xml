@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Patient Demorgraphics"
-    id="id-d76984d78a7244b9878f14b211ac33d6"/>
+    id="id-d76984d78a7244b9878f14b211ac33d6"
+    documentation="Basic patient information including name, address, contact details, emergency contacts, and demographic data"/>

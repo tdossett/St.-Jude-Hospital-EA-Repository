@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="FHIR Resources"
-    id="id-fefe957f612f42d0abc9e472c5da5fe0"/>
+    id="id-fefe957f612f42d0abc9e472c5da5fe0"
+    documentation="Fine-grained JSON/XML representations of clinical entities (e.g. Patient, Observation, Condition).&#xD;&#xA;&#xD;&#xA;Enables RESTful CRUD operations on individual data elements, supporting real-time data exchange and mobile/portal apps."/>

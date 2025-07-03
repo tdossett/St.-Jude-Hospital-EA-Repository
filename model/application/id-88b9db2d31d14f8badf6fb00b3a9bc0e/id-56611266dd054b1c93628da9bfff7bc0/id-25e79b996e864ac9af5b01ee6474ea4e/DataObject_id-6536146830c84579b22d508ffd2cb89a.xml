@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Progress Notes"
-    id="id-6536146830c84579b22d508ffd2cb89a"/>
+    id="id-6536146830c84579b22d508ffd2cb89a"
+    documentation="Daily SOAP (Subjective, Objective, Assessment, Plan) entries."/>

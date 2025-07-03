@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Organizational Chart"
-    id="id-c518652795b34fc5a3adf9f97a738599"/>
+    id="id-c518652795b34fc5a3adf9f97a738599"
+    documentation="Hierarchical structure and reporting relationships"/>

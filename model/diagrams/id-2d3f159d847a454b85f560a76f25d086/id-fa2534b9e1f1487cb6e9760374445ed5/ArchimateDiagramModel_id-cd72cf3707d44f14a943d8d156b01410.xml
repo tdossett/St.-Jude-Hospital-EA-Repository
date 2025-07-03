@@ -14,8 +14,8 @@
     <bounds
         x="24"
         y="19"
-        width="1006"
-        height="510"/>
+        width="206"
+        height="123"/>
     <children
         xsi:type="archimate:DiagramModelReference"
         id="id-dcfbbf54e2bb4e85a46fb1ca9b547a68"

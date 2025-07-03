@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Storage Service"
+    id="id-c80ab365e2d34449b571c306f83091c5"
+    documentation="Software managing data storage operations"/>

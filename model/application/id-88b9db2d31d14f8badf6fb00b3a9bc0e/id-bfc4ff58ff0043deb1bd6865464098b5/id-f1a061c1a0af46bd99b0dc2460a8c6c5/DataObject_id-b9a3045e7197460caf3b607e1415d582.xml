@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Scheduling Constraints"
-    id="id-b9a3045e7197460caf3b607e1415d582"/>
+    id="id-b9a3045e7197460caf3b607e1415d582"
+    documentation="Patient and resource availability windows, prep time, special requirements."/>

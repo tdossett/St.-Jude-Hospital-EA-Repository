@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Staffing Metrics"
-    id="id-4d404b13c76644bb898e279b67c072a1"/>
+    id="id-4d404b13c76644bb898e279b67c072a1"
+    documentation="Headcount analysis, vacancy rates, time-to-fill positions, and recruitment effectiveness"/>

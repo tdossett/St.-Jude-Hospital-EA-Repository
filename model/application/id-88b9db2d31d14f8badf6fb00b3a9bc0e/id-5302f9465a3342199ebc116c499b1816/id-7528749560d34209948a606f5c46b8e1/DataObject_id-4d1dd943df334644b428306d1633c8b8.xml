@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ETL Staging Area"
-    id="id-4d1dd943df334644b428306d1633c8b8"/>
+    id="id-4d1dd943df334644b428306d1633c8b8"
+    documentation="ETL Staging Area key components:&#xD;&#xA;&#xD;&#xA;•&#x9;Data ETL: Extract, Transform, Load processes that handle data movement and transformation between different systems and databases&#xD;&#xA;&#xD;&#xA;•&#x9;Staging Area: Temporary storage space for data processing, validation, and transformation before final storage&#xD;&#xA;"/>

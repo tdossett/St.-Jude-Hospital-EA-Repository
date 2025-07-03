@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Time Data"
-    id="id-127c66f8288045948bc08f0cb9a73d92"/>
+    id="id-127c66f8288045948bc08f0cb9a73d92"
+    documentation="Time Data: Clock-in/out records, overtime tracking, break periods, and schedule adherence&#xD;&#xA;&#xD;&#xA;Integration with attendance policies and leave management systems"/>

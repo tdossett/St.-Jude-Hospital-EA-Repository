@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Compliance Metrics"
-    id="id-f971067b24b945948b5012a79b501dc1"/>
+    id="id-f971067b24b945948b5012a79b501dc1"
+    documentation="Tracking of regulatory and accreditation requirements (e.g., turnaround SLAs)."/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sample Collection"
+    id="id-0a57f1ca0b214845af9f598d5dfbb853"
+    documentation="Software modules for collection workflow management, barcode generation, and chain of custody documentation."/>

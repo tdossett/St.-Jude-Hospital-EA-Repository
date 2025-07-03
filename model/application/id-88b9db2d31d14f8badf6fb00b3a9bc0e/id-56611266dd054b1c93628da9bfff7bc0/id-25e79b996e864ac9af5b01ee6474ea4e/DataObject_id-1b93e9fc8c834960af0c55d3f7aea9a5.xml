@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Health Information Exchange"
-    id="id-1b93e9fc8c834960af0c55d3f7aea9a5"/>
+    id="id-1b93e9fc8c834960af0c55d3f7aea9a5"
+    documentation="Network or hub facilitating patient-centric record sharing among disparate organizations."/>

@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Reminder Rules"
-    id="id-a6b12e62b61941c0a4e002b32e7c34e8"/>
+    id="id-a6b12e62b61941c0a4e002b32e7c34e8"
+    documentation="Reminder Rules Key Components:&#xD;&#xA;&#xD;&#xA;Examples: Preventive care reminders (e.g. “Pap smear due”), chronic disease monitoring prompts.&#xD;&#xA;&#xD;&#xA;Data Dependencies: Encounter history, problem list, age, gender."/>

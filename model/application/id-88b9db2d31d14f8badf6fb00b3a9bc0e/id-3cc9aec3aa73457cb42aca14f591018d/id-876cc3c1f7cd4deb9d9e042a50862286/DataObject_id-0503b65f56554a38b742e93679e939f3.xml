@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sample Master"
+    id="id-0503b65f56554a38b742e93679e939f3"
+    documentation="Database tables containing sample metadata, specifications, and reference information."/>

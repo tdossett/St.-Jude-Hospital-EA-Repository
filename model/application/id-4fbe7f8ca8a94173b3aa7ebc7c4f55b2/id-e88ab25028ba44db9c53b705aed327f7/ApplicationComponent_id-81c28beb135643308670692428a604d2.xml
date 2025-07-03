@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Management"
+    id="id-81c28beb135643308670692428a604d2"
+    documentation="Handles all payment processing and reconciliation."/>

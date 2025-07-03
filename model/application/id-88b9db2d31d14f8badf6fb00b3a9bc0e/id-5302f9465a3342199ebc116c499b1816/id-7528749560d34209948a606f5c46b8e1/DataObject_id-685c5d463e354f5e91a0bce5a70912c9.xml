@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API Gateway Data"
-    id="id-685c5d463e354f5e91a0bce5a70912c9"/>
+    id="id-685c5d463e354f5e91a0bce5a70912c9"
+    documentation="Central entry point for all API calls, providing security, routing, rate limiting, and protocol translation services"/>

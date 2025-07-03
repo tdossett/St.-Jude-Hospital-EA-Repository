@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Maintenance Tracking"
+    id="id-db6b1cce02464809b9a15257389338aa"
+    documentation="Manages preventive and corrective maintenance activities."/>

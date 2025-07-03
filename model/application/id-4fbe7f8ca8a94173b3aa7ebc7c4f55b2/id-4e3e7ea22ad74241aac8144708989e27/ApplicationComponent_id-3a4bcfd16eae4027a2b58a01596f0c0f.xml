@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Quality"
+    id="id-3a4bcfd16eae4027a2b58a01596f0c0f"
+    documentation="Implements data validation rules, cleansing processes, and monitoring to maintain high-quality data standards across the entire ERP ecosystem."/>

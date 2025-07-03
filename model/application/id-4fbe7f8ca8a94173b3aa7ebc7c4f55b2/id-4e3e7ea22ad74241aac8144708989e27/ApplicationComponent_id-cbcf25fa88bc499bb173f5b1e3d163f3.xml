@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Master Data Management"
+    id="id-cbcf25fa88bc499bb173f5b1e3d163f3"
+    documentation="Ensures data consistency and accuracy across all modules by maintaining authoritative, reliable master data for customers, vendors, products, employees, and other key business entities."/>

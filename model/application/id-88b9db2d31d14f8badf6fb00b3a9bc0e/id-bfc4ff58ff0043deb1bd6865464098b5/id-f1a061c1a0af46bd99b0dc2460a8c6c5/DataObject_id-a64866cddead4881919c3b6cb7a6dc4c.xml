@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Dictation System"
-    id="id-a64866cddead4881919c3b6cb7a6dc4c"/>
+    id="id-a64866cddead4881919c3b6cb7a6dc4c"
+    documentation="Raw audio files or voice-to-text transcripts awaiting editing."/>

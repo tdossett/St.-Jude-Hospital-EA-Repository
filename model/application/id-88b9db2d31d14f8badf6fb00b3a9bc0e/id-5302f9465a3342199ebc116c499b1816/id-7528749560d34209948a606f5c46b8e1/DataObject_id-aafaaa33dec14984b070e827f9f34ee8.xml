@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Insurance Data"
-    id="id-aafaaa33dec14984b070e827f9f34ee8"/>
+    id="id-aafaaa33dec14984b070e827f9f34ee8"
+    documentation="Insurance provider information, coverage details, and claims processing data"/>

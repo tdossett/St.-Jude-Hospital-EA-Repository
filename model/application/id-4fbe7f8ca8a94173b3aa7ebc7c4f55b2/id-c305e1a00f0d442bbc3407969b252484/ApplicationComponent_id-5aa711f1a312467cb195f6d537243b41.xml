@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Report Generation"
+    id="id-5aa711f1a312467cb195f6d537243b41"
+    documentation="Report creation engines and data aggregation software."/>

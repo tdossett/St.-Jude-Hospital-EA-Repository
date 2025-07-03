@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Capture"
+    id="id-bac96ed63b814ce7aa6edc4cea04dc2b"
+    documentation="Raw instrument measurements, analytical curves, chromatograms, and instrument outputs."/>

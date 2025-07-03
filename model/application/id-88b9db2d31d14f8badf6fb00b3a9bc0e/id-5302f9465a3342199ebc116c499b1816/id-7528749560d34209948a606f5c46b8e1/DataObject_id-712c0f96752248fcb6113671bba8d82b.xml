@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Medication Data"
-    id="id-712c0f96752248fcb6113671bba8d82b"/>
+    id="id-712c0f96752248fcb6113671bba8d82b"
+    documentation="Drug information, prescriptions, medication administration records, and pharmacy data"/>

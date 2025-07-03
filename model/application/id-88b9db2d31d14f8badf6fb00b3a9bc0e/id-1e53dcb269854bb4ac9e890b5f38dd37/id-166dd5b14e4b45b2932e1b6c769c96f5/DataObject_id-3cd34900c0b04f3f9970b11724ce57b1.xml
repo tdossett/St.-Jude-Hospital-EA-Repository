@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Cost Metrics"
-    id="id-3cd34900c0b04f3f9970b11724ce57b1"/>
+    id="id-3cd34900c0b04f3f9970b11724ce57b1"
+    documentation="Labor cost analysis, benefits utilization, and total compensation reporting"/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Time &amp; Attendance"
-    id="id-73e9b751522f4333a9eb9679d5ac5245"/>
+    id="id-73e9b751522f4333a9eb9679d5ac5245"
+    documentation="Work hour tracking and scheduling management"/>

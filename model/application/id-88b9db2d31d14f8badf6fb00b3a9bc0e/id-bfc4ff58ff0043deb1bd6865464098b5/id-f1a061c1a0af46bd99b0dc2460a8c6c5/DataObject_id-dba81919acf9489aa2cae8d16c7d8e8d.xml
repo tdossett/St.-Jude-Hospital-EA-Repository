@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Radiology Orders"
-    id="id-dba81919acf9489aa2cae8d16c7d8e8d"/>
+    id="id-dba81919acf9489aa2cae8d16c7d8e8d"
+    documentation="High-level order records (order ID, ordering provider, order status)."/>

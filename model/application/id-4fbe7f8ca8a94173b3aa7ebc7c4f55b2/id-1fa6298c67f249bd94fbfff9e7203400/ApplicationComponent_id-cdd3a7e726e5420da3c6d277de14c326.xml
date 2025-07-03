@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cache Mangement"
+    id="id-cdd3a7e726e5420da3c6d277de14c326"
+    documentation="Software optimizing data access and storage"/>

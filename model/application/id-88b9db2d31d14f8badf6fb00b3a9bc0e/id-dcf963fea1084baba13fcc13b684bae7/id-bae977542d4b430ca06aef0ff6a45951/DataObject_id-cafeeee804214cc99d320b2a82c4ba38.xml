@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Charge Description"
+    id="id-cafeeee804214cc99d320b2a82c4ba38"
+    documentation="Maintains billing codes and charge descriptions."/>

@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Clinical Context"
-    id="id-97d4bca45dfe406191ec9087a5397a05"/>
+    id="id-97d4bca45dfe406191ec9087a5397a05"
+    documentation="ertinent clinical notes or indications driving the radiology order."/>

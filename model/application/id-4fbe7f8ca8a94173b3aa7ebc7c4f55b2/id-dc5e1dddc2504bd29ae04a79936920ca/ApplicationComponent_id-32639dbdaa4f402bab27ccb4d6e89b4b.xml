@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Priority Rules"
+    id="id-32639dbdaa4f402bab27ccb4d6e89b4b"
+    documentation="Rule engine for automated prioritization based on business logic.&#xD;&#xA;"/>

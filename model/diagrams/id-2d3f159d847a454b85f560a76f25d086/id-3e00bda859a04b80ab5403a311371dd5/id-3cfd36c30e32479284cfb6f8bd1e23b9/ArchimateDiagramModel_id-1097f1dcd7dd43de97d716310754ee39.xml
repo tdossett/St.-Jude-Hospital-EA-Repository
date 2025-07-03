@@ -2,17 +2,18 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="HRIS Data Architecture"
-    id="id-1097f1dcd7dd43de97d716310754ee39">
+    id="id-1097f1dcd7dd43de97d716310754ee39"
+    documentation="HRIS Data Architecture&#xD;&#xA;&#xD;&#xA;The Employee Core Domain serves as the foundational data layer&#xD;&#xA;Functional domains build upon the core employee and position data&#xD;&#xA;External systems integrate through a dedicated integration layer&#xD;&#xA;Workforce Analytics provides reporting and insights across all domains&#xD;&#xA;&#xD;&#xA;This architecture enables comprehensive HR data management while maintaining clear separation of concerns and supporting integration with specialized external systems for payroll, learning, and compliance functions.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-4ac195cd4e76404aad18e156a0e1adf2"
-      name="HRIS Data Architecture"
+      name="HRIS Data Architecture (Logical)"
       textAlignment="1"
       fillColor="#ffffff"
       borderType="1">
     <bounds
-        x="29"
-        y="20"
+        x="17"
+        y="17"
         width="2684"
         height="990"/>
     <children

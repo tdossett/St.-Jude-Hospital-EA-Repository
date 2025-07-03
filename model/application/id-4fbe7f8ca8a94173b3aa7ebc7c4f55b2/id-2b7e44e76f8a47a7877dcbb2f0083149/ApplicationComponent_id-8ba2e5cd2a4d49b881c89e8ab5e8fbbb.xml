@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Image Reconstruction"
+    id="id-8ba2e5cd2a4d49b881c89e8ab5e8fbbb"
+    documentation="Software for rebuilding images from raw data"/>

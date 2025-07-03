@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Laboratory Orders"
-    id="id-da587c06cf394239940c72037acfdf3b"/>
+    id="id-da587c06cf394239940c72037acfdf3b"
+    documentation="Laboratory Orders Key Components:&#xD;&#xA;&#xD;&#xA;Components: test codes, prioirty, specimen type"/>
