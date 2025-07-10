@@ -1,5 +1,53 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ERP System"
     id="id-24f85327bb2b4eeb835966874b0f8694"
-    documentation="ERP (Enterprise Resource Planning)&#xD;&#xA;&#xD;&#xA;Purpose: Manages hospital-wide financials, procurement, supply chain, HR and analytics in one platform.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Finance &amp; Accounting: General ledger, accounts payable/receivable, fixed asset management, cost accounting&#xD;&#xA;•&#x9;Supply Chain &amp; Procurement: Vendor management, purchase orders, inventory control, contract management&#xD;&#xA;•&#x9;HR &amp; Payroll: Workforce administration, time &amp; attendance, benefits, talent management (overlap with HRIS)&#xD;&#xA;•&#x9;Analytics &amp; Planning: Financial planning, budgeting tools, operational KPIs, executive dashboards&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;Service-based modules that integrate via middleware (e.g., enterprise service bus) into clinical systems for costing and charge reconciliation&#xD;&#xA;•&#x9;May leverage embedded analytics or integrate with separate BI platforms&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;SAP S/4HANA: Real-time finance in-memory database, integrated procurement, Fiori UX for mobile access&#xD;&#xA;•&#x9;Oracle ERP Cloud: Modular, cloud-native suite, integrated risk management, embedded AI for forecasting&#xD;&#xA;"/>
+    documentation="ERP (Enterprise Resource Planning)&#xD;&#xA;&#xD;&#xA;Purpose: Manages hospital-wide financials, procurement, supply chain, HR and analytics in one platform.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Finance &amp; Accounting: General ledger, accounts payable/receivable, fixed asset management, cost accounting&#xD;&#xA;•&#x9;Supply Chain &amp; Procurement: Vendor management, purchase orders, inventory control, contract management&#xD;&#xA;•&#x9;HR &amp; Payroll: Workforce administration, time &amp; attendance, benefits, talent management (overlap with HRIS)&#xD;&#xA;•&#x9;Analytics &amp; Planning: Financial planning, budgeting tools, operational KPIs, executive dashboards&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;Service-based modules that integrate via middleware (e.g., enterprise service bus) into clinical systems for costing and charge reconciliation&#xD;&#xA;•&#x9;May leverage embedded analytics or integrate with separate BI platforms&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;SAP S/4HANA: Real-time finance in-memory database, integrated procurement, Fiori UX for mobile access&#xD;&#xA;•&#x9;Oracle ERP Cloud: Modular, cloud-native suite, integrated risk management, embedded AI for forecasting&#xD;&#xA;">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-108e8f298d0d4666aa6a5727a424dda6">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-bddaf7e0f8ec43b081efbd5cbc1fcc02"
+        source="id-108e8f298d0d4666aa6a5727a424dda6"
+        target="id-d68f6555f44044e18ade29ce07a176d3">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-135f2f1711fc45c2a3674105a28c91c3.xml#id-135f2f1711fc45c2a3674105a28c91c3"/>
+    </sourceConnections>
+    <bounds
+        x="35"
+        y="63"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-d143c72f11d9403fa858e2fb35509a1d.xml#id-d143c72f11d9403fa858e2fb35509a1d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d68f6555f44044e18ade29ce07a176d3"
+      targetConnections="id-bddaf7e0f8ec43b081efbd5cbc1fcc02">
+    <bounds
+        x="231"
+        y="63"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-14d5ce3530204b0e886f1444d9832c3e.xml#id-14d5ce3530204b0e886f1444d9832c3e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0b55a33dbc1c4ab5b67631a6cc83062d">
+    <bounds
+        x="231"
+        y="178"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-478bf2d8f8ce47059c3620aef9a2832d.xml#id-478bf2d8f8ce47059c3620aef9a2832d"/>
+  </children>
+</archimate:ArchimateDiagramModel>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="LIMS System"
+    id="id-13acac886b074a609f18fa4442323b56"
+    documentation="A system used to manage laboratory workflows, including sample tracking and test result reporting.&#xD;&#xA;Core Functionalities:&#xD;&#xA;•&#x9;Sample lifecycle management&#xD;&#xA;•&#x9;Lab test ordering and result entry&#xD;&#xA;•&#x9;Automated instrument integration&#xD;&#xA;•&#x9;Quality control and auditing&#xD;&#xA;•&#x9;Reporting and analytics&#xD;&#xA;&#xD;&#xA;Workflows:&#xD;&#xA;•&#x9;Test order → Sample collection → Test execution → Result verification → Result dispatch&#xD;&#xA;&#xD;&#xA;Data Types:&#xD;&#xA;•&#x9;Lab tests, specimens, control charts, test results, normal ranges&#xD;&#xA;&#xD;&#xA;Integration Points:&#xD;&#xA;•&#x9;EHR: To send and receive lab orders/results&#xD;&#xA;•&#x9;HIS: For test billing&#xD;&#xA;•&#x9;ERP: For reagent and supply management&#xD;&#xA;&#xD;&#xA;Example Software:&#xD;&#xA;•&#x9;Sunquest LIMS&#xD;&#xA;•&#x9;Orchard Harvest&#xD;&#xA;•&#x9;LabWare&#xD;&#xA;•&#x9;STARLIMS (Abbott)&#xD;&#xA;"/>
