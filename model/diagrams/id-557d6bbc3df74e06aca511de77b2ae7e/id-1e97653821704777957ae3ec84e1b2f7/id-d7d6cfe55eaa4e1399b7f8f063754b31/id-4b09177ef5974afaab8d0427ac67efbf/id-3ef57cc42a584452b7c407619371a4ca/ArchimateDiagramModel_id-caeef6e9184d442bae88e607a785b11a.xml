@@ -1,5 +1,19 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="PACS System"
     id="id-caeef6e9184d442bae88e607a785b11a"
-    documentation="PACS (Picture Archiving &amp; Communication System)&#xD;&#xA;&#xD;&#xA;Purpose: Enterprise imaging archive and delivery platform for diagnostic images.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Image Storage &amp; Retrieval: Vendor-neutral archive (VNA), de-duplication, compression options&#xD;&#xA;•&#x9;Viewing &amp; Distribution: Web-based viewers, zero-footprint viewer, mobile access&#xD;&#xA;•&#x9;Workflow Management: Hanging protocols, worklists, peer review and annotation tools&#xD;&#xA;•&#x9;Integration &amp; Analytics: DICOM routing, modality worklist, integration with RIS and EHR; 3D post-processing&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;DICOM-compliant storage with scalable object stores; FHIR ImagingStudy resources for EHR links&#xD;&#xA;•&#x9;Integrates with advanced visualization suites (e.g., 3D reconstructions, AI-driven triage)&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;Sectra PACS: High-speed streaming, multi-modality support, integrated clinical collaboration platform&#xD;&#xA;•&#x9;GE Centricity PACS: Automated hanging protocols, advanced breast imaging, Mammo scripting&#xD;&#xA;"/>
+    documentation="PACS (Picture Archiving &amp; Communication System)&#xD;&#xA;&#xD;&#xA;Purpose: Enterprise imaging archive and delivery platform for diagnostic images.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Image Storage &amp; Retrieval: Vendor-neutral archive (VNA), de-duplication, compression options&#xD;&#xA;•&#x9;Viewing &amp; Distribution: Web-based viewers, zero-footprint viewer, mobile access&#xD;&#xA;•&#x9;Workflow Management: Hanging protocols, worklists, peer review and annotation tools&#xD;&#xA;•&#x9;Integration &amp; Analytics: DICOM routing, modality worklist, integration with RIS and EHR; 3D post-processing&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;DICOM-compliant storage with scalable object stores; FHIR ImagingStudy resources for EHR links&#xD;&#xA;•&#x9;Integrates with advanced visualization suites (e.g., 3D reconstructions, AI-driven triage)&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;Sectra PACS: High-speed streaming, multi-modality support, integrated clinical collaboration platform&#xD;&#xA;•&#x9;GE Centricity PACS: Automated hanging protocols, advanced breast imaging, Mammo scripting&#xD;&#xA;">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-9dcdd15b4baa44b2acd3ce0c9e9ff4e7">
+    <bounds
+        x="21"
+        y="15"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-d7865e6bd771436fae2c4ac2bb84fe4b.xml#id-d7865e6bd771436fae2c4ac2bb84fe4b"/>
+  </children>
+</archimate:ArchimateDiagramModel>

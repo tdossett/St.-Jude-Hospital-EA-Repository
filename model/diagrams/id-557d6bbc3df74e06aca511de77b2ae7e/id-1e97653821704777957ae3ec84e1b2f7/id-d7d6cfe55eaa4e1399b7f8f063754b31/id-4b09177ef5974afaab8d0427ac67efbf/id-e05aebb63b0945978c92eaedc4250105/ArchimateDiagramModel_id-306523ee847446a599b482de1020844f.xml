@@ -1,5 +1,19 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="HRIS System"
     id="id-306523ee847446a599b482de1020844f"
-    documentation="HRIS (Human Resource Information System)&#xD;&#xA;&#xD;&#xA;Purpose: Centralizes all aspects of the employee lifecycle and workforce management.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Recruitment &amp; Onboarding: Job requisitions, applicant tracking, offer letters, orientation workflows&#xD;&#xA;•&#x9;Core HR: Employee records, organizational charts, time &amp; attendance, leave management&#xD;&#xA;•&#x9;Payroll &amp; Benefits: Payroll processing, tax compliance, benefits enrollment and administration&#xD;&#xA;•&#x9;Performance &amp; Development: Goal setting, performance reviews, learning management, succession planning&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;Often overlaps or integrates with ERP’s finance/payroll modules; exposes APIs for single sign-on (SSO) and workforce analytics&#xD;&#xA;•&#x9;Integrates with time-clock systems and compliance modules (e.g., credentialing, licensure tracking)&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;Workday HCM: Unified core HR with talent management, intuitive self-service, real-time reporting&#xD;&#xA;•&#x9;Oracle PeopleSoft HCM: Deep global payroll capabilities, flexible benefits administration, role-based dashboard&#xD;&#xA;"/>
+    documentation="HRIS (Human Resource Information System)&#xD;&#xA;&#xD;&#xA;Purpose: Centralizes all aspects of the employee lifecycle and workforce management.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Recruitment &amp; Onboarding: Job requisitions, applicant tracking, offer letters, orientation workflows&#xD;&#xA;•&#x9;Core HR: Employee records, organizational charts, time &amp; attendance, leave management&#xD;&#xA;•&#x9;Payroll &amp; Benefits: Payroll processing, tax compliance, benefits enrollment and administration&#xD;&#xA;•&#x9;Performance &amp; Development: Goal setting, performance reviews, learning management, succession planning&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;Often overlaps or integrates with ERP’s finance/payroll modules; exposes APIs for single sign-on (SSO) and workforce analytics&#xD;&#xA;•&#x9;Integrates with time-clock systems and compliance modules (e.g., credentialing, licensure tracking)&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;Workday HCM: Unified core HR with talent management, intuitive self-service, real-time reporting&#xD;&#xA;•&#x9;Oracle PeopleSoft HCM: Deep global payroll capabilities, flexible benefits administration, role-based dashboard&#xD;&#xA;">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-979db03c07704df38b9365a1bc7e8425">
+    <bounds
+        x="21"
+        y="14"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-1b7ba0166bbe45c381922016afcd7d47.xml#id-1b7ba0166bbe45c381922016afcd7d47"/>
+  </children>
+</archimate:ArchimateDiagramModel>

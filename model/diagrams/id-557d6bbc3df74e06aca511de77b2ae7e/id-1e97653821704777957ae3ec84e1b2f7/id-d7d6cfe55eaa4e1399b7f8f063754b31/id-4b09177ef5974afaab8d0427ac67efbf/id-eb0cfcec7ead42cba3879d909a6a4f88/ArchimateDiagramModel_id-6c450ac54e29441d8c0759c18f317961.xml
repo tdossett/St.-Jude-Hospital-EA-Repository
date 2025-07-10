@@ -1,5 +1,19 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="RIS System"
     id="id-6c450ac54e29441d8c0759c18f317961"
-    documentation="RIS (Radiology Information System)&#xD;&#xA;&#xD;&#xA;Purpose: Manages the radiology department’s workflow from order to report.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Scheduling &amp; Registration: Exam booking, modality scheduling, patient prep instructions&#xD;&#xA;•&#x9;Worklist Management: Prioritization, assignment rules (e.g., STAT vs. routine), modality-specific queues&#xD;&#xA;•&#x9;Reporting &amp; Templates: Structured reporting, voice dictation integration, peer-review workflows&#xD;&#xA;•&#x9;Billing &amp; Coding: Automated exam coding (CPT, ICD), charge capture, insurance pre-authorization&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;Connects tightly with PACS for image availability and with EHR for order validation (HL7 ORM/OUL transactions)&#xD;&#xA;•&#x9;May integrate with dose-tracking systems and radiation safety monitoring&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;GE Centricity RIS: Customizable worklists, embedded speech recognition, radiation dose analytics&#xD;&#xA;•&#x9;Philips RIS: Multi-site workflow orchestration, AI-driven exam assignment, business intelligence dashboards&#xD;&#xA;"/>
+    documentation="RIS (Radiology Information System)&#xD;&#xA;&#xD;&#xA;Purpose: Manages the radiology department’s workflow from order to report.&#xD;&#xA;&#xD;&#xA;Core Modules &amp; Functions:&#xD;&#xA;&#xD;&#xA;•&#x9;Scheduling &amp; Registration: Exam booking, modality scheduling, patient prep instructions&#xD;&#xA;•&#x9;Worklist Management: Prioritization, assignment rules (e.g., STAT vs. routine), modality-specific queues&#xD;&#xA;•&#x9;Reporting &amp; Templates: Structured reporting, voice dictation integration, peer-review workflows&#xD;&#xA;•&#x9;Billing &amp; Coding: Automated exam coding (CPT, ICD), charge capture, insurance pre-authorization&#xD;&#xA;&#xD;&#xA;Architecture &amp; Integration:&#xD;&#xA;&#xD;&#xA;•&#x9;Connects tightly with PACS for image availability and with EHR for order validation (HL7 ORM/OUL transactions)&#xD;&#xA;•&#x9;May integrate with dose-tracking systems and radiation safety monitoring&#xD;&#xA;&#xD;&#xA;Example Software Highlights:&#xD;&#xA;&#xD;&#xA;•&#x9;GE Centricity RIS: Customizable worklists, embedded speech recognition, radiation dose analytics&#xD;&#xA;•&#x9;Philips RIS: Multi-site workflow orchestration, AI-driven exam assignment, business intelligence dashboards&#xD;&#xA;">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0e29c80d8c984705826e91b92bda03bb">
+    <bounds
+        x="17"
+        y="17"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-efe6acea8fef43e99c69ef0aa34533aa.xml#id-efe6acea8fef43e99c69ef0aa34533aa"/>
+  </children>
+</archimate:ArchimateDiagramModel>
