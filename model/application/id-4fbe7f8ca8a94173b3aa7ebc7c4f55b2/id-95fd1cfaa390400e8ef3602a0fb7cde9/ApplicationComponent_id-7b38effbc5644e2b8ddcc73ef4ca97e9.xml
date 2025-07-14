@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Azure SQL Database"
+    id="id-7b38effbc5644e2b8ddcc73ef4ca97e9"
+    documentation="A database platform service that supports application functionality.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Database&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Azure SQL: vCore-based or DTU model;&#xD;&#xA;&#xD;&#xA;"/>

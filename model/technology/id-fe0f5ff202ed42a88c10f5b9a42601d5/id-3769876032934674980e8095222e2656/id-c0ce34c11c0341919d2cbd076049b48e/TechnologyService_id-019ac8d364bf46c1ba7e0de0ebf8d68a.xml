@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco SD-WAN (Viptela)"
+    id="id-019ac8d364bf46c1ba7e0de0ebf8d68a"
+    documentation="WAN networking infrastructure service.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;WAN-edge / SD-WAN platform&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Device-based SD-WAN subscription license"/>

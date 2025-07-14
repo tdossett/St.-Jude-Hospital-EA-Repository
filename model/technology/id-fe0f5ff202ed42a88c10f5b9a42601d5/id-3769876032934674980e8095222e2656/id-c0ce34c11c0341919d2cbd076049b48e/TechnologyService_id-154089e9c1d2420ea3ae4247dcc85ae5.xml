@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Intune"
+    id="id-154089e9c1d2420ea3ae4247dcc85ae5"
+    documentation="Acts as both an infrastructure service (policy enforcement) and a deployment interface (application component).&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Mobile Device Management (MDM)&#xD;&#xA;PC management (policies, apps, patching)&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Intune Plan 1 (included in Business Premium/E3)&#xD;&#xA;Intune Plan 1&#xD;&#xA;&#xD;&#xA;"/>

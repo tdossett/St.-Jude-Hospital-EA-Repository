@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Entra Conditional Access (Policy Engine)"
+    id="id-df67ab458b6c4912a7fda1ea5ebad163"
+    documentation="Application logic layer built on Entra ID identity foundation.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Domain controller / directory service&#xD;&#xA;Single Sign-On (SSO) portal&#xD;&#xA;Multi-factor authentication (MFA)&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Entra ID P1 (included in Business Premium/E3 &#xD;&#xA;Entra ID P1&#xD;&#xA;"/>

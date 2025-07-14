@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Sentinel"
+    id="id-09c3e467b5fe47c0a51d65489be4fceb"
+    documentation="Cloud-native SIEM; part of security infrastructure.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;SIEM / Security-analytics platform&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;E5 Security add-on or Microsoft 365 E5&#xD;&#xA;"/>

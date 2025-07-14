@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Defender for Endpoint (EDR)"
+    id="id-7823af055ed14d64adf0c0fd0a4710fb"
+    documentation="Infrastructure-level endpoint protection.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Endpoint detection &amp; response (EDR)&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Included in Business Premium/E3"/>

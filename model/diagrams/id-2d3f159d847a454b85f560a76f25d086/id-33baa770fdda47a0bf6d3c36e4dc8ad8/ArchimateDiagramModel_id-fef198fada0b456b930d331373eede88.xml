@@ -11,7 +11,8 @@
       fontColor="#ffffff"
       textAlignment="1"
       fillColor="#008040"
-      documentation="Technology Architecture (Technology Layer)&#xD;&#xA;&#xD;&#xA;Components:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure (Node)&#xD;&#xA;•&#x9;Platform (System Software)&#xD;&#xA;•&#x9;Network (Communication Path)&#xD;&#xA;•&#x9;Technology Service (Technology Service)&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure: Cloud VM hosting EHR&#xD;&#xA;•&#x9;Platform: AWS Lambda&#xD;&#xA;•&#x9;Network: Secure VPN&#xD;&#xA;•&#x9;Technology Service: Storage as a Service">
+      documentation="Technology Architecture (Technology Layer)&#xD;&#xA;&#xD;&#xA;Components:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure (Node)&#xD;&#xA;•&#x9;Platform (System Software)&#xD;&#xA;•&#x9;Network (Communication Path)&#xD;&#xA;•&#x9;Technology Service (Technology Service)&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;•&#x9;Infrastructure: Cloud VM hosting EHR&#xD;&#xA;•&#x9;Platform: AWS Lambda&#xD;&#xA;•&#x9;Network: Secure VPN&#xD;&#xA;•&#x9;Technology Service: Storage as a Service"
+      borderType="1">
     <bounds
         x="36"
         y="12"

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PaperCut MF"
+    id="id-32c6d622ee5f452fbe4e49a9d5a8c07f"
+    documentation="Application managing printer usage and quotas.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Printer management&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Per-printer or per-user license&#xD;&#xA;"/>

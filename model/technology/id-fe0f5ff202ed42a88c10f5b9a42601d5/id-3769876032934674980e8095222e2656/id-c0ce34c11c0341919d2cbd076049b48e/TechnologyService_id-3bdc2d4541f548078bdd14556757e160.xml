@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco ASA + AnyConnect"
+    id="id-3bdc2d4541f548078bdd14556757e160"
+    documentation="Remote access VPN infrastructure.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Remote-access VPN gateway&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;ASA device license + AnyConnect endpoint license"/>

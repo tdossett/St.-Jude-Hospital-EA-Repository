@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Defender ASR / Patch + Intune"
+    id="id-89d420fa1b604cfca914e4c2639dd6f0"
+    documentation="App-level behavior enforcement over infrastructure – sits at the boundary.&#xD;&#xA;&#xD;&#xA;Feature: &#xD;&#xA;&#xD;&#xA;Application whitelisting / restriction&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Included in Business Premium/E3"/>
