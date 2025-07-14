@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco DNA Spaces (Act module)"
+    id="id-9ef5c6284fcd40d5b82606f410be2675"
+    documentation="Application for real-time location analytics.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;RTLS / Asset-tracking platform&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;DNA Spaces subscription add-on&#xD;&#xA;"/>

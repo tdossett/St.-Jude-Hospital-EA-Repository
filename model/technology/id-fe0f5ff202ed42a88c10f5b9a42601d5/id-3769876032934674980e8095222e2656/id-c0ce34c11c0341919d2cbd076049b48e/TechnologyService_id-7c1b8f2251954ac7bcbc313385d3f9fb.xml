@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Entra ID (SSO, MFA, Directory)"
+    id="id-7c1b8f2251954ac7bcbc313385d3f9fb"
+    documentation="Identity-as-a-Service (IDaaS), a foundational platform identity service.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;NAC / Zero-trust security suite&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Entra ID P1 (included in Business Premium/E3 )"/>

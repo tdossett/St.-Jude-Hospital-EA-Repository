@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco DNA Center (Mgmt, Automation, Patch)"
+    id="id-a662ae9dcdcf4eac9dd46a8ac770b3c6"
+    documentation="Core infrastructure management, configuration, telemetry.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;WLAN-management platform&#xD;&#xA;Network-automation / Configuration-manager&#xD;&#xA;Patch &amp; firmware manager for network gear&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Essentials subscription per AP/switch&#xD;&#xA;Essentials subscription per device&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>

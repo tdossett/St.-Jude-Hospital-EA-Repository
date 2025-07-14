@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco Network Registrar"
+    id="id-568619b753704018892d8cef464504ad"
+    documentation="DNS, DHCP, IPAM – infrastructure-level services.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;IPAM / DNS-DHCP integrated platform&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Device-based licensing via Smart Licensing"/>

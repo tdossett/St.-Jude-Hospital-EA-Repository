@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Microsoft Defender Vulnerability Management"
+    id="id-7ce5d4fc7814458cb1641e8c7319ac6e"
+    documentation="Application layer that works on top of infrastructure.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Vulnerability-management suite&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;E5 Security add-on or Microsoft 365 E5"/>

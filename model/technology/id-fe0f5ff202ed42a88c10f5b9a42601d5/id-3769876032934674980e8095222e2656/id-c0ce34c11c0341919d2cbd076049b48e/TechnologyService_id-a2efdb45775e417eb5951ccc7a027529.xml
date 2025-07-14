@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco Prime Infrastructure"
+    id="id-a2efdb45775e417eb5951ccc7a027529"
+    documentation="Provides network infrastructure monitoring and management.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Unified NMS / Network-monitoring suite&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Enterprise Management license (per device, Base + Lifecycle/Assurance)"/>

@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Azure Key Vault Cloud PKI"
+    id="id-7ca7cfe25dfb42ff95815867f5d8872c"
+    documentation="Certificate and secrets management – infrastructure.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Certificate Authority (CA)&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Included in Business Premium/E3"/>

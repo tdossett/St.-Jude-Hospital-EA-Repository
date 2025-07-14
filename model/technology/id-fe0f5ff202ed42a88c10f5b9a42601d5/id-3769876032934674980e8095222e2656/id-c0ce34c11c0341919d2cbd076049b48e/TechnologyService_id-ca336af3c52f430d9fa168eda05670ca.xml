@@ -1,0 +1,5 @@
+<archimate:TechnologyService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cisco Secure Firewall"
+    id="id-ca336af3c52f430d9fa168eda05670ca"
+    documentation="Network edge security service.&#xD;&#xA;&#xD;&#xA;Feature:&#xD;&#xA;&#xD;&#xA;Edge-security platform&#xD;&#xA;&#xD;&#xA;Minimum License that includes:&#xD;&#xA;&#xD;&#xA;Device-based Threat Defense subscription"/>
